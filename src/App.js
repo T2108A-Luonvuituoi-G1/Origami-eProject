@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './App.css'
 import ProductList from './OrigamiPage/Products/Components/ProductList';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AboutUs from './OrigamiPage/AboutUs/Components/AboutUs';
