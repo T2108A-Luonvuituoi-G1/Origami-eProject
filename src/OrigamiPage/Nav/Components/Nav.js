@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import '../Assets/Css/Nav.css'
-import Logo from '../Assets/Images/Logo.png'
+import Logo from '../Assets/Images/user-logo.jpg'
 import { BiSearchAlt } from 'react-icons/bi'
 
 export default class Nav extends Component {
@@ -20,8 +20,8 @@ export default class Nav extends Component {
         return (
             <div>
                 <div className="top-nav">
-                    {/* <img className='nav-logo' src={Logo} /> */}
                     <BiSearchAlt className='icon-search' />
+                    <Link className='nav-logo' to='/'>LUONVUITUOI</Link>
                     <input type="text" className='input-search' placeholder='Search' value={this.state.value} onChange={this.handleChange} />
                     <div className='nav-link-page'>
                         <Link className='nav-link' to="/">Home</Link>
@@ -29,6 +29,9 @@ export default class Nav extends Component {
                         <Link className='nav-link' to="/aboutus">AboutUs</Link>
                         <Link className='nav-link' to="/contact">Contact</Link>
                         <Link className='nav-link' to="/more">More</Link>
+                    </div>
+                    <div>
+                        <Link to='/profile'><img className='nav-user-logo' src={Logo}/></Link>
                     </div>
                 </div>
             </div>
