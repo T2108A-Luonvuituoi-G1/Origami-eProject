@@ -26,9 +26,8 @@ export default class Nav extends Component {
                     <div className='nav-link-page'>
                         <Link className='nav-link' to="/">Home</Link>
                         <Link className='nav-link' to="/products">Products</Link>
-                        <Link className='nav-link' to="/aboutus">AboutUs</Link>
+                        <Link className='nav-link' to="/aboutus">About Us</Link>
                         <Link className='nav-link' to="/contact">Contact</Link>
-                        <Link className='nav-link' to="/more">More</Link>
                     </div>
                     <div>
                         <Link to='/profile'><img className='nav-user-logo' src={Logo}/></Link>
