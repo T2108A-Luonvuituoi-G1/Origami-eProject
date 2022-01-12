@@ -12,16 +12,19 @@ export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
-          <Nav />
-          <Routes>
-            <Route exact path="/" element={ <Home />} />
-            <Route exact path="/products" element={ <ProductList />} />
-            <Route exact path="/aboutus" element={ <AboutUs />} />
-            <Route exact path="/contact" element={ <Contact />} />
-            <Route exact path="/profile" element={ <UserProfile /> } />
-          </Routes>
-          
+        <div className='Origami-page'>
+          <div className='Nav'>
+            <Nav />
+          </div>
+          <div className='Content'>
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/products" element={<ProductList />} />
+              <Route exact path="/aboutus" element={<AboutUs />} />
+              <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/profile" element={<UserProfile />} />
+            </Routes>
+          </div>
         </div>
       </BrowserRouter>
     )
