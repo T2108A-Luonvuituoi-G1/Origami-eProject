@@ -7,6 +7,7 @@ import Contact from './OrigamiPage/Contact/Components/Contact';
 import Home from './OrigamiPage/Home/Components/Home';
 import Nav from './OrigamiPage/Nav/Components/Nav';
 import UserProfile from './OrigamiPage/UserProfile/Components/UserProfile'
+import ProductPlant from './OrigamiPage/Products/Components/ProductPlant';
 
 export default class App extends Component {
   render() {
@@ -23,6 +24,7 @@ export default class App extends Component {
               <Route exact path="/aboutus" element={<AboutUs />} />
               <Route exact path="/contact" element={<Contact />} />
               <Route exact path="/profile" element={<UserProfile />} />
+              <Route exact path="/products/plant" element={<ProductPlant />} />
             </Routes>
           </div>
         </div>
