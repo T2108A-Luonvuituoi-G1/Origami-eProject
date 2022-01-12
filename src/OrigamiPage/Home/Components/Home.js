@@ -8,6 +8,7 @@ export default class Home extends Component {
             <>
                 <div className='home-page'>
                     <img src={HomeBackgroundHeader} className='home-bg-header' />
+                    
                 </div>
             </>
         )
