@@ -7,7 +7,8 @@ import React, { Component } from 'react'
 export default class CactusMaking extends Component {
     render() {
         return (
-            <div>
+            <div className='Product-item'>
+
                 <img className='Product-making' src={Cactus} />
                 <Link to="/products" className='p-item-btn'>Return to Products</Link> 
             </div>
