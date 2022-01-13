@@ -1,14 +1,22 @@
-
-
-
-.p-category-btn{
-    border: 2px solid rgb(240, 55, 240);
-    border-radius: 15px;
-    text-decoration: none;
-    
-    
+.ProductList {
+    margin-top: 90px;
+}
+.p-category{
+    text-align: center;
 }
 
+.p-category-btn{
+    text-decoration: none;
+    margin: 0 30px;
+    border: 2px solid #000;
+    padding:  15px;
+    border-radius: 25px;
+ 
+   
+}
+.p-category-btn:hover{
+    background-color: #bfbaba
+}
 
 .product-item{
     margin: 15px;

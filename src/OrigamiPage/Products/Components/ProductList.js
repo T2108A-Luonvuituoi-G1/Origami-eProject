@@ -20,14 +20,15 @@ export default class ProductList extends Component {
     
     render() {
         return (
-           <>   
+           <div className='ProductList'>   
            <div className='p-category'>
-
+            <br/>
                 <Link to="/products/animal" className='p-category-btn' >Animal</Link>
                 <Link to="/products/plant" className='p-category-btn' >Plant</Link>
                 <Link to="/products/human" className='p-category-btn' >Human</Link>
                 <Link to="/products/vehicle" className='p-category-btn' >Vehicle</Link>
            </div>
+           <br/>
                 {/* Dino */}
                 <div className='product-item'>
                     
@@ -152,7 +153,7 @@ export default class ProductList extends Component {
                     </div>
                 </div>  
 
-           </>
+           </div>
 
         )
     }
