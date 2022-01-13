@@ -1,0 +1,15 @@
+.Product-item{
+    display: flex;
+}
+.Product-making{
+    width: 700px;
+    height: 550px;
+}
+.p-item-btn{
+    width: 200px;
+    height: 25px;
+    text-decoration: none;
+    border: 1px solid #999;
+    border-radius: 25px;
+    text-align: center;
+}

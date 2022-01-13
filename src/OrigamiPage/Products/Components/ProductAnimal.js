@@ -1,50 +1,48 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import '../Assets/Css/ProductItem.css'
+import '../Assets/Css/product.css'
 import ImageDino from '../Assets/Images/represent/khung-long.gif'
-import DinoDetails from '../Assets/Images/making/dino-making.jpg'
-import CatDetails from '../Assets/Images/making/cat.jpg'
-import Cat from '../Assets/Images/represent/cat-represent.jpg'
-import Dog from '../Assets/Images/represent/dog-represent.jpg'
-import DogDetails from '../Assets/Images/making/dog-making.png'
+import ImgCat from '../Assets/Images/represent/cat-represent.jpg'
+import ImgDog from '../Assets/Images/represent/dogrepresent.jpg'
+import ImgBird from '../Assets/Images/represent/bird-represent.gif'
+import ImgPig from '../Assets/Images/represent/pig-represent.jpg'
+import ImgFish from '../Assets/Images/represent/fish-represent.jpg'
 
 export default class ProductAnimal extends Component {
     render() {
         return (
             <>
-            {/* Making A Dino */}
-            <div className='product-item'>
-                    
-                <img className='product-item-represent'  src={ImageDino}  />
-                <div className='product-item-des'>
-                    <p><h1>Make Dino</h1>
-                        Categories:Children
-
-                    </p>
-                    <br/><br/>
-
-                    <a href={DinoDetails} className='product-btn-item-making' >Making</a>
-                </div>
-            </div>   
-            
-                {/* Making A Cat */}
+            {/* Dino */}
                 <div className='product-item'>
-                    
+                        
+                    <img className='product-item-represent'  src={ImageDino} alt='Dino' />
+                        <Link to="/products/dinomaking" className='p-item-making'>Making Now</Link>
+                    <div className='product-item-des'>
+                        <p><h1>Make Dino</h1>
+                            Categories:Children
+
+                        </p>
+                    </div>
+                </div>   
+            
+               {/* Cat */}
+                <div className='product-item'>
                         <div className='product-item-des'>
                             <p><h1>Make A Cat</h1>
                                 Categories:Children
 
                             </p>
-                            <br/><br/>
 
-                            <a href={CatDetails} className='product-btn-item-making' >Making</a>
                         </div>
-                        <img className='product-item-represent'  src={Cat}  />
+                    <Link to="/products/catmaking" className='p-item-making'>Making Now</Link>
+                        <img className='product-item-represent'  src={ImgCat}  alt='Cat'/>
                 </div>      
             
-            
-                {/* Making A Dog */}     
+                {/* Making A Dog      */}
                 <div className='product-item'>
-                    
-                    <img className='product-item-represent'  src={Dog}  />
+                    <img className='product-item-represent'  src={ImgDog} alt='Dog' />
+                    <Link to="/products/dogmaking" className='p-item-making'>Making Now</Link>  
                     <div className='product-item-des'>
                         <p><h1>Make A Cat</h1>
                             Categories:Children
@@ -52,13 +50,42 @@ export default class ProductAnimal extends Component {
                         </p>
                         <br/><br/>
 
-                        <a href={DogDetails} className='product-btn-item-making' >Making</a>
+                       
                     </div>
-            </div>  
+                </div>  
+                {/* Making Pig      */}
+                <div className='product-item'>
+                    <div className='product-item-des'>
+                        <p><h1>Make A Cat</h1>
+                            Categories:Children
 
+                        </p>
+                    </div>
+                    <Link to="/products/pig" className='p-item-making'>Making Now</Link>  
+                    <img className='product-item-represent'  src={ImgPig} alt='Pig' />
+                </div>  
+                {/* Making Bird      */}
+                <div className='product-item'>
+                    <div className='product-item-des'>
+                        <p><h1>Make A Cat</h1>
+                            Categories:Children
 
-            
-            
+                        </p>
+                    </div>
+                    <Link to="/products/bird" className='p-item-making'>Making Now</Link>  
+                    <img className='product-item-represent'  src={ImgBird} alt='Bird' />
+                </div>                  
+                {/* Making Fish      */}
+                <div className='product-item'>
+                    <div className='product-item-des'>
+                        <p><h1>Make A Cat</h1>
+                            Categories:Children
+
+                        </p>
+                    </div>
+                    <Link to="/products/fish" className='p-item-making'>Making Now</Link>  
+                    <img className='product-item-represent'  src={ImgFish} alt='Fish' />
+                </div>
             </>
 
         )
