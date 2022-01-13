@@ -12,7 +12,7 @@ export default class ProductHuman extends Component {
             {/* Making Sumo      */}
             <div className='product-item'>
                     <div className='product-item-des'>
-                        <p><h1>Make A Cat</h1>
+                        <p><h1>Make A Sumo</h1>
                             Categories:Children
 
                         </p>

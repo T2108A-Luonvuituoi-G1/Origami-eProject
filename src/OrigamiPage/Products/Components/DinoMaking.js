@@ -2,6 +2,7 @@ import DinoDetails from '../Assets/Images/making/dino-making.jpg'
 import { Link } from 'react-router-dom'
 import React, { Component } from 'react'
 import '../Assets/Css/ProductItem.css'
+import '../Assets/Css/product.css'
 
 
 export default class DinoMaking extends Component {

@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import '../Assets/Css/ProductItem.css'
 import Sumomaking from '../Assets/Images/making/sumo-making.jpg'
 import React from 'react'
+import '../Assets/Css/product.css'
 
 export default function SumoMaking() {
     return (

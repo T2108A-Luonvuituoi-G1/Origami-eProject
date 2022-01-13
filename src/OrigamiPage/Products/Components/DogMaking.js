@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import '../Assets/Css/ProductItem.css'
 import React, { Component } from 'react'
 import Dogmaking from '../Assets/Images/making/dog-making.png'
-
+import '../Assets/Css/product.css'
 
 export default class DogMaking extends Component {
     render() {

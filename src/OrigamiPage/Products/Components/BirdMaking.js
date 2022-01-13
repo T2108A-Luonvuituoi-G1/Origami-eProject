@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import '../Assets/Css/ProductItem.css'
+import '../Assets/Css/product.css'
 import Bird from '../Assets/Images/making/birdmaking.jpg'
 import React, { Component } from 'react'
 
