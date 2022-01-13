@@ -1,5 +1,6 @@
 .Product-item{
     display: flex;
+    text-align: center;
 }
 .Product-making{
     width: 700px;
