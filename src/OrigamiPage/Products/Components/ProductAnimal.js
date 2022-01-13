@@ -19,7 +19,7 @@ export default class ProductAnimal extends Component {
                     <img className='product-item-represent'  src={ImageDino} alt='Dino' />
                         <Link to="/products/dinomaking" className='p-item-making'>Making Now</Link>
                     <div className='product-item-des'>
-                        <p><h1>Make Dino</h1>
+                        <p className='p-prag'><h1>Make Dino</h1>
                         A cute dinosaur with a long neck will make you fall in love with Origami
 
                         </p>
@@ -29,7 +29,7 @@ export default class ProductAnimal extends Component {
                {/* Cat */}
                 <div className='product-item'>
                         <div className='product-item-des'>
-                            <p><h1>Make A Cat</h1>
+                            <p className='p-prag'><h1>Make A Cat</h1>
                             An extremely cute cat head for anyone who loves cats
 
                             </p>
@@ -44,7 +44,7 @@ export default class ProductAnimal extends Component {
                     <img className='product-item-represent'  src={ImgDog} alt='Dog' />
                     <Link to="/products/dogmaking" className='p-item-making'>Making Now</Link>  
                     <div className='product-item-des'>
-                        <p><h1>Make A Dog</h1>
+                        <p className='p-prag'><h1>Make A Dog</h1>
                         Surely everyone likes dogs like this to unleash their creativity
                         </p>
                         <br/><br/>
@@ -55,7 +55,7 @@ export default class ProductAnimal extends Component {
                 {/* Making Pig      */}
                 <div className='product-item'>
                     <div className='product-item-des'>
-                        <p><h1>Make A Pig Head</h1>
+                        <p className='p-prag'><h1>Make A Pig Head</h1>
                             Categories:Children
 
                         </p>
@@ -66,7 +66,7 @@ export default class ProductAnimal extends Component {
                 {/* Making Bird      */}
                 <div className='product-item'>
                     <div className='product-item-des'>
-                        <p><h1>Make A Bird</h1>
+                        <p className='p-prag'><h1>Make A Bird</h1>
                             Categories:Children
 
                         </p>
@@ -77,7 +77,7 @@ export default class ProductAnimal extends Component {
                 {/* Making Fish      */}
                 <div className='product-item'>
                     <div className='product-item-des'>
-                        <p><h1>Make A Fish</h1>
+                        <p className='p-prag'><h1>Make A Fish</h1>
                             Categories:Children
 
                         </p>
