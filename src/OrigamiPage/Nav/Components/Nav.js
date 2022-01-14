@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../Assets/Css/Nav.css'
 import Logo from '../Assets/Images/user-logo.jpg'
 import { BiSearchAlt } from 'react-icons/bi'
+import NavClock from './NavClock';
 
 export default class Nav extends Component {
     constructor(props) {
@@ -30,7 +31,7 @@ export default class Nav extends Component {
                         <Link className='nav-link' to="/contact">Contact</Link>
                     </div>
                     <div className='home-clock'>
-                        {new Date().toLocaleString() + ''}
+                        <NavClock />
                     </div>
                     <div>
                         <Link to='/profile'><img className='nav-user-logo' src={Logo} /></Link>
