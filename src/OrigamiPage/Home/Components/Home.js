@@ -3,6 +3,7 @@ import '../Assets/Css/Home.css'
 import HomeHeader from './HomeHeader';
 import HomeContent from './HomeContent';
 import HomeHistory from './HomeHistory';
+import HomeBlog from './HomeBlog';
 
 export default class Home extends Component {
     render() {
@@ -18,6 +19,9 @@ export default class Home extends Component {
 
                     {/* HISTORY */}
                     <HomeHistory />
+
+                    {/* BLOG */}
+                    <HomeBlog />
                 </div>
             </>
         )
