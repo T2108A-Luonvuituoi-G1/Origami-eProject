@@ -41,10 +41,19 @@
 .home-event {
     width: 680px;
     height: 340px;
+    margin: -2px -47.5%;
     border-radius: 25px;
     transition: 0.25s;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    position: absolute;
     cursor: pointer;
+}
+
+.home-event:hover {
+    height: 350px;
+    width: 690px;
+    transition: 0.25s;
+    margin: -8px -48.3%;
 }
 
 .home-event-checkbox {
@@ -53,7 +62,7 @@
 }
 
 .home-event-checkbox-btn {
-    margin: 0 5px;
+    margin: 52% 5px;
     appearance: none;
     width: 12px;
     height: 12px;
@@ -164,4 +173,16 @@
     font-size: 14px;
     margin: 0 105px;
     padding: 8px 0;
+    color: #ccc;
+}
+
+.home-new-a {
+    text-decoration: none;
+}
+
+.home-new-p-sub {
+    width: 300px;
+    font-size: 9px;
+    margin: -8px 105px;
+    color: #000;
 }
