@@ -29,8 +29,11 @@ export default class Nav extends Component {
                         <Link className='nav-link' to="/aboutus">About Us</Link>
                         <Link className='nav-link' to="/contact">Contact</Link>
                     </div>
+                    <div className='home-clock'>
+                        {new Date().toLocaleString() + ''}
+                    </div>
                     <div>
-                        <Link to='/profile'><img className='nav-user-logo' src={Logo}/></Link>
+                        <Link to='/profile'><img className='nav-user-logo' src={Logo} /></Link>
                     </div>
                 </div>
             </div>
