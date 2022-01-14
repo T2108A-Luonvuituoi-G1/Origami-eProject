@@ -1,0 +1,161 @@
+/* HOME PAGE CONTENT */
+.home-page-content {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    top: 137.7%;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2)
+}
+
+/* HOME PAGE EVENT */
+.home-page-content-event {
+    background-color: rgb(216, 213, 213);
+    width: 713px;
+    border-radius: 25px;
+    height: 450px;
+    margin: 25px;
+    position: absolute;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2)
+}
+
+.home-event-header {
+    text-align: center;
+    align-items: center;
+    margin: 20px 15px ;
+    background-color: rgb(160, 159, 159);
+    width: 680px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2)
+}
+
+.home-event-header-p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.home-event-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-event {
+    width: 680px;
+    height: 340px;
+    border-radius: 25px;
+    transition: 0.25s;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.home-event-checkbox {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.home-event-checkbox-btn {
+    margin: 0 5px;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(129, 129, 129);
+    border-radius: 50%;
+    transition: 0.25s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2)
+}
+
+.home-event-checkbox-btn:focus {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+/* HOME NEW */
+
+.home-page-content-new {
+    background-color: rgb(216, 213, 213);
+    width: 450px;
+    height: 450px;
+    margin: 25px;
+    border-radius: 25px;
+    position: absolute;
+    margin: 25px 0 0 785px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2)
+}
+
+.home-new-header {
+    text-align: center;
+    margin: 20px 15px;
+    background-color: rgb(160, 159, 159);
+    width: 420px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+}
+
+.home-new-header-p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.home-new {
+    background-color: rgb(141, 140, 140);
+    width: 420px;
+    height: 100px;
+    margin: 20px 15px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.home-new:hover {
+    width: 430px;
+    height: 110px;
+    transition: 0.25s;
+    margin: 20px 10px;
+    padding: 5px
+}
+
+.home-new-content {
+    background-color: rgb(207, 207, 207);
+    box-shadow: inset 0px 0px 10px 2px rgba(0,0,0,0.2);
+    border-radius: 0 0 0 25px;
+    height: 380px;
+    overflow-x:hidden;
+    overflow-y: auto;
+}
+
+.home-new-content::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+
+.home-new-content::-webkit-scrollbar-thumb {
+    background-color: rgb(104, 104, 104);
+    border-radius: 25px;
+}
+
+.home-new-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+
+.home-img-new {
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    margin: 5px;
+    position: absolute;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2)
+}
+
+.home-new-p {
+    width: 300px;
+    font-size: 14px;
+    margin: 0 105px;
+    padding: 8px 0;
+}
