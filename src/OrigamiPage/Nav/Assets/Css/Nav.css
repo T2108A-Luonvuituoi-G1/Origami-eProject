@@ -63,6 +63,15 @@
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
 }
 
+/* CLOCK */
+.home-clock {
+    position: absolute;
+    margin: -27px 65.7%;
+    width: 170px;
+    user-select: none;
+}
+
+
 /* USER LOGO */
 .nav-user-logo {
     position: absolute;
