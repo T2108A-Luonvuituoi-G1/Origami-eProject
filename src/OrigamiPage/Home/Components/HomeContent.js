@@ -68,6 +68,26 @@ export default class HomeContent extends Component {
                                 <img src={New1} className='home-img-new' />
                                 <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
                             </div>
+                            <div className='home-new home-new4'>
+                                <img src={New1} className='home-img-new' />
+                                <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
+                            </div>
+                            <div className='home-new home-new4'>
+                                <img src={New1} className='home-img-new' />
+                                <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
+                            </div>
+                            <div className='home-new home-new4'>
+                                <img src={New1} className='home-img-new' />
+                                <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
+                            </div>
+                            <div className='home-new home-new4'>
+                                <img src={New1} className='home-img-new' />
+                                <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
+                            </div>
+                            <div className='home-new home-new4'>
+                                <img src={New1} className='home-img-new' />
+                                <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
+                            </div>
                         </div>
                     </div>
                 </div>
