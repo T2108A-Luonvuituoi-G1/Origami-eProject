@@ -95,20 +95,6 @@ export default class HomeContent extends Component {
                                     <p className='home-new-p-sub'>warning !! Be careful when you go out at night !</p>
                                 </div>
                             </a>
-
-                            {/* <a className='home-new-a' href=''>
-                                <div className='home-new home-new4'>
-                                    <img src={New1} className='home-img-new' />
-                                    <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
-                                </div>
-                            </a>
-
-                            <a className='home-new-a' href=''>
-                                <div className='home-new home-new4'>
-                                    <img src={New1} className='home-img-new' />
-                                    <p className='home-new-p'>The Math Whiz Behind the Hoberman Sphere Takes up Origami</p>
-                                </div>
-                            </a> */}
                         </div>
                     </div>
                 </div>
