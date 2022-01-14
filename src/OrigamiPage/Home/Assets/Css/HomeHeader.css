@@ -1,0 +1,56 @@
+/* HOME PAGE HEADER */
+
+/* BACKGROUND */
+.home-bg-header {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* IMAGE IN BACKGROUND */
+.home-image-header-sub {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(231, 231, 231, 0.479);
+    position: absolute;
+    z-index: -1;
+    margin: 20% 62%;
+    border-radius: 50%;
+}
+
+.home-image-header {
+    width: 450px;
+    position: absolute;
+    margin: 13% 56.5%;
+    z-index: -1;
+}
+
+/* HOME TEXT HEADER */
+.home-text-header {
+    color: #000;
+    width: 500px;
+    margin: 25% 10%;
+    position: absolute;
+    z-index: -1;
+    line-height: 61px;
+}
+
+.home-text-h1 {
+    font-size: 50px;
+}
+
+.home-header-btn {
+    border-radius:20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    transition: 0.25s;
+    background-color: #fff;
+}
+
+.home-header-btn:hover {
+    background-color: rgb(216, 213, 213);
+    transition: 0.25s;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+}
