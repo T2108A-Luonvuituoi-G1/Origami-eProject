@@ -20,7 +20,7 @@ export default class HomeHistory extends Component {
                         Arthur: Nick Robinson
                         </div>
                     </div>
-                    <img src={His1} className='home-history-pic' />
+                    <a href='https://en.wikipedia.org/wiki/History_of_origami#Modern_designs_and_innovations'><img src={His1} className='home-history-pic' /></a> 
                 </div>
             </>
         )
