@@ -19,18 +19,45 @@ export default class HomeContent extends Component {
         this.setState({
             img: this.state.img = Event1
         })
+        return false;
     }
 
     img2 = () => {
         this.setState({
             img: this.state.img = Event2
         })
+        return false;
     }
 
     img3 = () => {
         this.setState({
             img: this.state.img = Event3
         })
+        return false;
+    }
+
+    // componentDidMount() {
+    //     setInterval(() => {
+    //         var index = 1;
+    //         if (index < 3) {
+    //             index++;
+    //         }else{
+    //             index = 0;
+    //         }
+    //     }, 1000);
+    //     return
+    // }
+
+    changeImg() {
+        setInterval(() => {
+            var index = 1;
+            if (index < 3) {
+                index++;
+            } else {
+                index = 0;
+            }
+        }, 1000);
+        return this.index;
     }
 
     render() {
@@ -42,12 +69,12 @@ export default class HomeContent extends Component {
                             <p className='home-event-header-p'>ORIGAMI EVENT</p>
                         </div>
                         <div className='home-event-content'>
-                            <img className='home-event1 home-event' src={this.state.img} />
+                            <img onClick={() => {alert(this.index)}} className='home-event1 home-event' src={this.state.img} />
                         </div>
                         <div className='home-event-checkbox'>
-                            <input onClick={this.img1} className='home-event-checkbox-btn' name='home-checkbox' type='checkbox' />
-                            <input onClick={this.img2} className='home-event-checkbox-btn' name='home-checkbox' type='checkbox' />
-                            <input onClick={this.img3} className='home-event-checkbox-btn' name='home-checkbox' type='checkbox' />
+                            <input onClick={this.img1} className='home-event-checkbox-btn' name='home-checkbox1' type='checkbox' />
+                            <input onClick={this.img2} className='home-event-checkbox-btn' name='home-checkbox2' type='checkbox' />
+                            <input onClick={this.img3} className='home-event-checkbox-btn' name='home-checkbox3' type='checkbox' />
                         </div>
                     </div>
 
@@ -91,7 +118,7 @@ export default class HomeContent extends Component {
                             <a className='home-new-a' href='https://www.facebook.com/thanhnam092'>
                                 <div className='home-new home-new4'>
                                     <img src={New5} className='home-img-new' />
-                                    <p className='home-new-p'>Dracula is coming is coming for you !!</p>
+                                    <p className='home-new-p'>Dracula is coming for you !!</p>
                                     <p className='home-new-p-sub'>warning !! Be careful when you go out at night !</p>
                                 </div>
                             </a>
