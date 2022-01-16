@@ -36,30 +36,6 @@ export default class HomeContent extends Component {
         return false;
     }
 
-    // componentDidMount() {
-    //     setInterval(() => {
-    //         var index = 1;
-    //         if (index < 3) {
-    //             index++;
-    //         }else{
-    //             index = 0;
-    //         }
-    //     }, 1000);
-    //     return
-    // }
-
-    changeImg() {
-        setInterval(() => {
-            var index = 1;
-            if (index < 3) {
-                index++;
-            } else {
-                index = 0;
-            }
-        }, 1000);
-        return this.index;
-    }
-
     render() {
         return (
             <>
