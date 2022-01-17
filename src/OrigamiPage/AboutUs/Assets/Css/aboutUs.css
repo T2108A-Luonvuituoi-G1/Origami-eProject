@@ -1,5 +1,4 @@
-h1{
-
+.Title{
   text-align: center;
   margin: 40px 0px;
 } 
@@ -10,16 +9,14 @@ h1{
 
 .about_us{
   padding: 50px 15px;
-  background-color: wheat;
+  background-color: white;
 }
 
 .about_us--top,
 .about_us--bottom{
   width: 100%;
   display: flex;
-  /* căn theo chiều ngang */
   justify-content: space-around;
-  /* căn dọc */
   align-items: center;
   margin-bottom: 80px;
 }
