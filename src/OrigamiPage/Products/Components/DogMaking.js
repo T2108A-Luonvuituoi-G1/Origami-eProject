@@ -7,7 +7,7 @@ import '../Assets/Css/product.css'
 export default class DogMaking extends Component {
     render() {
         return (
-            <div>
+            <div className='Product-making-item'>
                 <img className='Product-making' src={Dogmaking} />
                 <Link to="/products" className='p-item-btn'>Return to Products</Link> 
             </div>
