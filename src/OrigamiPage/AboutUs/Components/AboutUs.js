@@ -6,9 +6,6 @@ import Viet from '../Assets/Images/Vietavt.jpg'
 import Duc from '../Assets/Images/Ducavt.jpg'
 import Vanh from '../Assets/Images/vanhavt.jpg'
 import MrT from '../Assets/Images/Mr.T.jpg'
-import React, { Component } from 'react'
-import { BiAlarmExclamation } from "react-icons/bi";
-import '../Assets/Css/aboutUs.css'
 
 export default class AboutUs extends Component {
   render() {
