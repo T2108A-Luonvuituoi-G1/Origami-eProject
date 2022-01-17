@@ -8,21 +8,23 @@
 .p-category-btn{
     text-decoration: none;
     margin: 0 30px;
-    border: 2px solid #000;
+    border: none;
     padding:  15px;
     border-radius: 25px;
+    color: rgb(35, 35, 35);
+    
 }
 
 .p-category-btn:hover{
-    background-color: #bfbaba
+    background-color: #f7f7f7;
+    color: rgb(47, 46, 46);
+    box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.1);
 }
-
 .product-item{
     margin: 15px;
-    border: 1px solid #000;
+    border: none;
     display: flex;
     padding: 30px;
-    
     border-radius: 15px;
     
 }
@@ -44,7 +46,7 @@
     border-radius: 15px;
     width: 40%;
     height: 400px;
-    background-image: url('../Images/bg-des.jpg');
+    background-color: #f7f7f7;
     
 }
 .p-item-making{
