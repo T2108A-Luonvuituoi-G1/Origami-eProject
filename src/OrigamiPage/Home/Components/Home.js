@@ -4,6 +4,7 @@ import HomeHeader from './HomeHeader';
 import HomeContent from './HomeContent';
 import HomeHistory from './HomeHistory';
 import HomeBlog from './HomeBlog';
+import HomeFooter from './HomeFooter';
 
 export default class Home extends Component {
     render() {
@@ -22,6 +23,9 @@ export default class Home extends Component {
 
                     {/* BLOG */}
                     <HomeBlog />
+
+                    {/* FOOTER */}
+                    <HomeFooter />
                 </div>
             </>
         )
