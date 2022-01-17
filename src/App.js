@@ -24,6 +24,7 @@ import FishMaking from './OrigamiPage/Products/Components/FishMaking';
 import LoveMaking from './OrigamiPage/Products/Components/LoveMaking';
 
 
+
 export default class App extends Component {
   render() {
     return (
@@ -54,6 +55,7 @@ export default class App extends Component {
               <Route exact path="/products/bloomson" element={<BloomsonMaking />} />
               <Route exact path="/products/fish" element={<FishMaking />} />
               <Route exact path="/products/love" element={<LoveMaking />} />
+              
 
 
 

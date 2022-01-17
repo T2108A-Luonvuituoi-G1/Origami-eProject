@@ -3,12 +3,17 @@ import '../Assets/Css/ProductItem.css'
 import '../Assets/Css/product.css'
 import React, { Component } from 'react'
 import ImgSumo from '../Assets/Images/represent/sumo-represent.jpg'
+import NavProduct from '../Assets/ProductNav/nav'
 
 export default class ProductHuman extends Component {
     render() {
         return (
         <>
-        
+         <br/>  
+                    <div >
+                        <NavProduct/>
+                    </div>
+                    <br/>          
             {/* Making Sumo      */}
             <div className='product-item'>
                     <div className='product-item-des'>

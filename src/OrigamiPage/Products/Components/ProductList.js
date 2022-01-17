@@ -12,6 +12,7 @@ import ImgTownship from '../Assets/Images/represent/township-represent.jpg'
 import ImgCactus from '../Assets/Images/represent/cactus-represent.gif'
 import ImgBL from '../Assets/Images/represent/bloomson-represent.jpg'
 import ImgLove from '../Assets/Images/represent/love-represent.jpg'
+import NavProduct from '../Assets/ProductNav/nav'
 
 
 
@@ -21,17 +22,13 @@ export default class ProductList extends Component {
     render() {
         return (
            <div className='ProductList'>   
-           <div className='p-category'>
-            <br/>
-                <Link to="/products/animal" className='p-category-btn' >Animal</Link>
-                <Link to="/products/plant" className='p-category-btn' >Plant</Link>
-                <Link to="/products/human" className='p-category-btn' >Human</Link>
-                <Link to="/products/vehicle" className='p-category-btn' >Vehicle</Link>
-           </div>
+                    <div >
+                        <NavProduct/>
+                    </div>
+
            <br/>
                 {/* Dino */}
                 <div className='product-item'>
-                    
                     <img className='product-item-represent'  src={ImageDino} alt='Dino' />
                         <Link to="/products/dinomaking" className='p-item-making'>Making Now</Link>
                     <div className='product-item-des'>

@@ -1,11 +1,17 @@
 import {  Link } from 'react-router-dom';
 import ImgCactus from '../Assets/Images/represent/cactus-represent.gif'
 import ImgBL from '../Assets/Images/represent/bloomson-represent.jpg'
+import NavProduct from '../Assets/ProductNav/nav'
 import React from 'react'
 
 export default function ProductPlant() {
     return (
         <>
+         <br/>  
+                    <div >
+                        <NavProduct/>
+                    </div>
+                    <br/>  
            {/* Making Cactus      */}
            <div className='product-item'>
                     <img className='product-item-represent'  src={ImgCactus} alt='Cactus' />
