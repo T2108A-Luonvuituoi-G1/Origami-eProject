@@ -6,7 +6,7 @@ import '../Assets/Css/product.css'
 
 export default function SumoMaking() {
     return (
-        <div>
+        <div className='Product-making-item'>
             <img className ='Product-making' src={Sumomaking} />
             <Link to="/products" className='p-item-btn'>Return to Products</Link> 
         </div>
