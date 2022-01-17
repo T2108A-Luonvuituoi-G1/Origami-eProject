@@ -11,11 +11,11 @@ export default class AboutUs extends Component {
   render() {
     return (
       <>
-        <div class="about_us">
-          <div class="container">
-            <h1> LuonVuiTuoi Team </h1>
-            <section class="about_us--top">
-              <div class="card">
+        <div className="about_us">
+          <div className="container">
+            <h1 className="Title"> LuonVuiTuoi Team </h1>
+            <section className="about_us--top">
+              <div className="card">
                 <img src={Minh} alt="avatar" />
                 <div>
                   <p>Tạ Quang Minh</p>
@@ -29,7 +29,7 @@ export default class AboutUs extends Component {
                 </div>
               </div>
 
-              <div class="card">
+              <div className="card">
                 <img src={Nam} alt="avatar" />
                 <div>
                   <p>Đào Thành Nam</p>
@@ -43,8 +43,8 @@ export default class AboutUs extends Component {
                 </div>
               </div>
             </section>
-            <section class="about_us--bottom">
-              <div class="card">
+            <section className="about_us--bottom">
+              <div className="card">
                 <img src={Duc} alt="avatar" />
                 <div>
                   <p>Trần Minh Đức</p>
@@ -58,7 +58,7 @@ export default class AboutUs extends Component {
                 </div>
               </div>
 
-              <div class="card">
+              <div className="card">
                 <img src={Vanh} alt="avatar" />
                 <div>
                   <p>Lê Như Việt Anh</p>
@@ -72,7 +72,7 @@ export default class AboutUs extends Component {
                 </div>
               </div>
 
-              <div class="card">
+              <div className="card">
                 <img src={Viet} alt="avatar" />
                 <div>
                   <p>Võ Văn Việt</p>
@@ -88,10 +88,10 @@ export default class AboutUs extends Component {
             </section>
           </div>
         </div>
-        <div class="about_teacher">
-          <div class="container">
+        <div className="about_teacher">
+          <div className="container">
             <h1>Special Advisors</h1>
-            <div class="card">
+            <div className="card">
               <img src={MrT}    alt="avatar" />
               <div>
                 <p>Mr.Tuân Nguyễn</p>
