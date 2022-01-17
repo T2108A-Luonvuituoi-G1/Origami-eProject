@@ -15,7 +15,49 @@ export default class HomeBlog extends Component {
                             <BiChevronRight className='home-blog-icon' />
                         </Link>
                     </div>
-                    <div className='home-blog-content'></div>
+                    <div className='home-blog-content'>
+                        <div className='home-blog-content-news'>
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+
+                            <div className='home-blog-news home-blog-1'>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
