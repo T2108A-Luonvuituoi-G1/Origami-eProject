@@ -8,11 +8,17 @@ import ImgDog from '../Assets/Images/represent/dogrepresent.jpg'
 import ImgBird from '../Assets/Images/represent/bird-represent.gif'
 import ImgPig from '../Assets/Images/represent/pig-represent.jpg'
 import ImgFish from '../Assets/Images/represent/fish-represent.jpg'
+import NavProduct from '../Assets/ProductNav/nav'
 
 export default class ProductAnimal extends Component {
     render() {
         return (
             <>
+             <br/>  
+                    <div >
+                        <NavProduct/>
+                    </div>
+                    <br/>  
             {/* Dino */}
                 <div className='product-item'>
                         

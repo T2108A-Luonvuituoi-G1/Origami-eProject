@@ -3,11 +3,16 @@ import '../Assets/Css/ProductItem.css'
 import '../Assets/Css/product.css'
 import React from 'react'
 import ImgTownship from '../Assets/Images/represent/township-represent.jpg'
+import NavProduct from '../Assets/ProductNav/nav'
 
 export default function ProductVehicle() {
     return (
         <>
-            
+         <br/>  
+                    <div >
+                        <NavProduct/>
+                    </div>
+                    <br/>            
             {/* Making TownShip      */}
             <div className='product-item'>
                     <img className='product-item-represent'  src={ImgTownship} alt='Township' />
