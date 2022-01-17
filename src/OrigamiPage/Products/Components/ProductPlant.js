@@ -12,8 +12,10 @@ export default function ProductPlant() {
                         <NavProduct/>
                     </div>
                     <br/>  
-           {/* Making Cactus      */}
-           <div className='product-item'>
+            <div className='ProductList'>
+
+                {/* Making Cactus      */}
+                <div className='product-item'>
                     <img className='product-item-represent'  src={ImgCactus} alt='Cactus' />
                     <Link to="/products/cactus" className='p-item-making'>Making Now</Link>  
                     <div className='product-item-des'>
@@ -23,8 +25,8 @@ export default function ProductPlant() {
                         </p>
                     </div>
                 </div> 
-            {/* Making Bloomson      */}
-            <div className='product-item'>
+                {/* Making Bloomson      */}
+                <div className='product-item'>
                     <img className='product-item-represent'  src={ImgBL} alt='Bloomson' />
                     <Link to="/products/bloomson" className='p-item-making'>Making Now</Link>  
                     <div className='product-item-des'>
@@ -34,6 +36,7 @@ export default function ProductPlant() {
                         </p>
                     </div>
                 </div>       
+            </div>
         </>
     )
 }

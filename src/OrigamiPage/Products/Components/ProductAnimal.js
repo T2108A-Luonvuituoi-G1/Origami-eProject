@@ -18,79 +18,81 @@ export default class ProductAnimal extends Component {
                     <div >
                         <NavProduct/>
                     </div>
-                    <br/>  
-            {/* Dino */}
-                <div className='product-item'>
-                        
-                    <img className='product-item-represent'  src={ImageDino} alt='Dino' />
-                        <Link to="/products/dinomaking" className='p-item-making'>Making Now</Link>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make Dino</h1>
-                        A cute dinosaur with a long neck will make you fall in love with Origami
-
-                        </p>
-                    </div>
-                </div>   
-            
-               {/* Cat */}
-                <div className='product-item'>
+                    <br/> 
+                <div className='ProductList'>
+                    {/* Dino */}
+                    <div className='product-item'>
+                            
+                        <img className='product-item-represent'  src={ImageDino} alt='Dino' />
+                            <Link to="/products/dinomaking" className='p-item-making'>Making Now</Link>
                         <div className='product-item-des'>
-                            <p className='p-prag'><h1>Make A Cat</h1>
-                            An extremely cute cat head for anyone who loves cats
+                            <p className='p-prag'><h1>Make Dino</h1>
+                            A cute dinosaur with a long neck will make you fall in love with Origami
 
                             </p>
-
                         </div>
-                    <Link to="/products/catmaking" className='p-item-making'>Making Now</Link>
-                        <img className='product-item-represent'  src={ImgCat}  alt='Cat'/>
-                </div>      
-            
-                {/* Making A Dog      */}
-                <div className='product-item'>
-                    <img className='product-item-represent'  src={ImgDog} alt='Dog' />
-                    <Link to="/products/dogmaking" className='p-item-making'>Making Now</Link>  
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Dog</h1>
-                        Surely everyone likes dogs like this to unleash their creativity
-                        </p>
-                        <br/><br/>
+                    </div>   
+                
+                    {/* Cat */}
+                    <div className='product-item'>
+                            <div className='product-item-des'>
+                                <p className='p-prag'><h1>Make A Cat</h1>
+                                An extremely cute cat head for anyone who loves cats
 
-                       
-                    </div>
-                </div>  
-                {/* Making Pig      */}
-                <div className='product-item'>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Pig Head</h1>
-                            Categories:Children
+                                </p>
 
-                        </p>
-                    </div>
-                    <Link to="/products/pig" className='p-item-making'>Making Now</Link>  
-                    <img className='product-item-represent'  src={ImgPig} alt='Pig' />
-                </div>  
-                {/* Making Bird      */}
-                <div className='product-item'>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Bird</h1>
-                            Categories:Children
+                            </div>
+                        <Link to="/products/catmaking" className='p-item-making'>Making Now</Link>
+                            <img className='product-item-represent'  src={ImgCat}  alt='Cat'/>
+                    </div>      
+                
+                    {/* Making A Dog      */}
+                    <div className='product-item'>
+                        <img className='product-item-represent'  src={ImgDog} alt='Dog' />
+                        <Link to="/products/dogmaking" className='p-item-making'>Making Now</Link>  
+                        <div className='product-item-des'>
+                            <p className='p-prag'><h1>Make A Dog</h1>
+                            Surely everyone likes dogs like this to unleash their creativity
+                            </p>
+                            <br/><br/>
 
-                        </p>
-                    </div>
-                    <Link to="/products/bird" className='p-item-making'>Making Now</Link>  
-                    <img className='product-item-represent'  src={ImgBird} alt='Bird' />
-                </div>                  
-                {/* Making Fish      */}
-                <div className='product-item'>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Fish</h1>
-                            Categories:Children
+                        
+                        </div>
+                    </div>  
+                    {/* Making Pig      */}
+                    <div className='product-item'>
+                        <div className='product-item-des'>
+                            <p className='p-prag'><h1>Make A Pig Head</h1>
+                                Categories:Children
 
-                        </p>
+                            </p>
+                        </div>
+                        <Link to="/products/pig" className='p-item-making'>Making Now</Link>  
+                        <img className='product-item-represent'  src={ImgPig} alt='Pig' />
+                    </div>  
+                    {/* Making Bird      */}
+                    <div className='product-item'>
+                        <img className='product-item-represent'  src={ImgBird} alt='Bird' />
+                        <Link to="/products/bird" className='p-item-making'>Making Now</Link>  
+                        <div className='product-item-des'>
+                            <p className='p-prag'><h1>Make A Bird</h1>
+                                Categories:Children
+
+                            </p>
+                        </div>
+                    </div>                  
+                    {/* Making Fish      */}
+                    <div className='product-item'>
+                        <div className='product-item-des'>
+                            <p className='p-prag'><h1>Make A Fish</h1>
+                                Categories:Children
+
+                            </p>
+                        </div>
+                        <Link to="/products/fish" className='p-item-making'>Making Now</Link>  
+                        <img className='product-item-represent'  src={ImgFish} alt='Fish' />
                     </div>
-                    <Link to="/products/fish" className='p-item-making'>Making Now</Link>  
-                    <img className='product-item-represent'  src={ImgFish} alt='Fish' />
-                </div>
+                </div> 
             </>
 
         )
