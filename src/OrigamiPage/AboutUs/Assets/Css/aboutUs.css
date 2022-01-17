@@ -1,9 +1,7 @@
-
-.Title{
+.title{
   text-align: center;
   margin: 40px 0px;
 } 
-
 .container{
   width: 80%;
   margin: 0px auto;
@@ -36,40 +34,10 @@
   display: flex;
   justify-content: center;
 }
-
 .card > img{
   width: 200px;
   height: 200px;
-}
 
-.about_us{
-  padding: 50px 15px;
-  background-color: white;
-}
-
-.about_us--top,
-.about_us--bottom{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 80px;
-}
-.about_us--bottom{
-  justify-content: space-between;
-  margin-bottom: 0px;
-}
-
-.card{
-  width: 400px;
-  height: 200px;
-
-  display: flex;
-  justify-content: center;
-}
-.card > img{
-  width: 200px;
-  height: 200px;
   border: 1px solid transparent;
   border-radius: 100%;
   margin-right: 25px;
