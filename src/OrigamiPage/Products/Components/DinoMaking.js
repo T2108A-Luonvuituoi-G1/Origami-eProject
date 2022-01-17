@@ -8,7 +8,7 @@ import '../Assets/Css/product.css'
 export default class DinoMaking extends Component {
     render() {
         return (
-            <div className='Product-item'>
+            <div className='Product-making-item'>
                 <img className='Product-making' src={DinoDetails}/>
                 <Link to="/products" className='p-item-btn'>Return to Products</Link> 
             </div>
