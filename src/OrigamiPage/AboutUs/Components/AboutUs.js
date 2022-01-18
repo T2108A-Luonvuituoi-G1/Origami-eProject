@@ -90,7 +90,7 @@ export default class AboutUs extends Component {
         </div>
         <div className="about_teacher">
           <div className="container">
-            <h1>Special Advisors</h1>
+            <h1 className="Title">Special Advisors</h1>
             <div className="card">
               <img src={MrT}    alt="avatar" />
               <div>
