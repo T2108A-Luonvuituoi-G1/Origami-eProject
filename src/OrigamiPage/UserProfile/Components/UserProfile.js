@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../Assets/Css/UserProfile.css'
-import img1 from '../Assets/Images/Gap-giay-origami.jpg'
+import img1 from '../Assets/Images/Anh-chim-hac.jpg'
+
 
 export default class UserProfile extends Component {
     render() {
@@ -11,6 +12,7 @@ export default class UserProfile extends Component {
                         <img src={img1} alt="cover" />
 
                     </div>
+
                     <div>
                         <p><b>Trần Minh Đức</b></p>
                     </div>
@@ -18,14 +20,13 @@ export default class UserProfile extends Component {
                 </div>
                 <div class="Product-bottom_left">
                     <div class="text">
-                        <p>day la 1 doan text</p>
-                        <br />
-                        <p>day cung la 1 doan text</p>
+                        <p>Phan hoi voi chung toi</p>
+                    
                     </div>
                 </div>
                 <div class="Product-bottom_right">
                     <div class="text">
-                        <p>day la 1 doan text khac </p>
+                        <p>Thong tin nguoi dang ky </p>
                     </div>
                 </div>
             </div>
