@@ -9,7 +9,7 @@
 
 .about_us{
   padding: 50px 15px;
-  background-color: whitesmoke;
+  background-color:white;
 }
 
 .about_us--top,
@@ -62,7 +62,7 @@
 .about_teacher{
   height: 400px;
   padding: 50px 15px;
-  background-color: rgb(197,197,197);
+  background-color: rgb(197, 197, 197);
   width: 100%;
 }
 .about_teacher > div > div{ 
