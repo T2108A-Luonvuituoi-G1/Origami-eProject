@@ -4,13 +4,13 @@
     /* background-image: url(); */
     background-size: cover;
 }
-.card{
+.card one{
     width: 400px;
   height: 200px;
   display: flex;
   justify-content: center;
 }
-.card > img {
+.card one > img {
     height: 400px;
     width: 400px;
     border: 0px solid transparent;
