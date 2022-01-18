@@ -18,7 +18,7 @@ export default class AboutUs extends Component {
               <div className="card">
                 <img src={Minh} alt="avatar" />
                 <div>
-                  <p>Tạ Quang Minh</p>
+                  <p>Ta Quang Minh</p>
                   <a
                     href="https://www.facebook.com/minh8699"
                     target="_blank"
@@ -32,7 +32,7 @@ export default class AboutUs extends Component {
               <div className="card">
                 <img src={Nam} alt="avatar" />
                 <div>
-                  <p>Đào Thành Nam</p>
+                  <p>Dao Thanh Nam</p>
                   <a
                     href="https://www.facebook.com/thanhnam092/"
                     target="_blank"
@@ -47,7 +47,7 @@ export default class AboutUs extends Component {
               <div className="card">
                 <img src={Duc} alt="avatar" />
                 <div>
-                  <p>Trần Minh Đức</p>
+                  <p>Tran Minh Duc</p>
                   <a
                     href="https://www.facebook.com/bac.soi.1297"
                     target="_blank"
@@ -61,7 +61,7 @@ export default class AboutUs extends Component {
               <div className="card">
                 <img src={Vanh} alt="avatar" />
                 <div>
-                  <p>Lê Như Việt Anh</p>
+                  <p>Le Nhu Viet Anh</p>
                   <a
                     href="https://www.facebook.com/profile.php?id=100059104665311"
                     target="_blank"
@@ -75,7 +75,7 @@ export default class AboutUs extends Component {
               <div className="card">
                 <img src={Viet} alt="avatar" />
                 <div>
-                  <p>Võ Văn Việt</p>
+                  <p>Vo Van Viet</p>
                   <a
                     href="https://www.facebook.com/VoVanViet.2003"
                     target="_blank"
@@ -94,7 +94,7 @@ export default class AboutUs extends Component {
             <div className="card">
               <img src={MrT}    alt="avatar" />
               <div>
-                <p>Mr.Tuân Nguyễn</p>
+                <p>Mr.Tuan Nguyen</p>
               </div>
             </div>
           </div>
