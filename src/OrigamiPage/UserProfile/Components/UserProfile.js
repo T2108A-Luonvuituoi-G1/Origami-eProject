@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import '../Assets/Css/UserProfile.css'
-import img1 from '../Assets/Images/Gap-giay-origami.jpg'
+import img1 from '../Assets/Images/chim1.jpg'
 
 export default class UserProfile extends Component {
     render() {
