@@ -1,0 +1,44 @@
+.body{ 
+    /* background-image: url("img/paper-plane.png"); */
+    background-size: cover;
+    position: absolute;
+    color: floralwhite;
+}
+.Contact{
+    width: 100%;
+    padding: auto;
+    outline: none;
+    display: 100%;
+    color: floralwhite;
+    background-attachment: fixed;
+    background-color: black;
+    margin-top: auto;
+}
+.Full-Name {
+    width: 100%;
+    padding: auto;
+    outline: none;
+    display: 100%;
+    color: floralwhite;
+    background-color: black;
+    margin-bottom: auto;
+}
+.Email-adress {
+    width: 100%;
+    display: 100%;
+    padding: auto;
+    outline: none;
+    color: floralwhite;
+    background-color: black;
+}
+.Message{
+    width: 100%;
+    display: 100%;
+    color: floralwhite; 
+    background-color: black;
+}
+.submit{
+    width: 100%;
+    display: 100%;
+    color: floralwhite;
+}
