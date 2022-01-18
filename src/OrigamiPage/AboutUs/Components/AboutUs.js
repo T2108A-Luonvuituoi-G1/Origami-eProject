@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import '../Assets/Css/aboutUs.css'
 import Minh from '../Assets/Images/Minhavt.jpg'
-import Nam from '../Assets/Images/Namavt.jpg'
 import Viet from '../Assets/Images/Vietavt.jpg'
 import Duc from '../Assets/Images/Ducavt.jpg'
 import Vanh from '../Assets/Images/vanhavt.jpg'
 import MrT from '../Assets/Images/Mr.T.jpg'
+import Nam from '../Assets/Images/Namavt.jpg'
 
 export default class AboutUs extends Component {
   render() {
@@ -24,7 +24,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Leader
                   </a>
                 </div>
               </div>
@@ -38,7 +38,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default class AboutUs extends Component {
         </div>
         <div className="about_teacher">
           <div className="container">
-            <h1>Special Advisors</h1>
+            <h1 className="Title">Special Advisors</h1>
             <div className="card">
               <img src={MrT}    alt="avatar" />
               <div>
