@@ -9,16 +9,14 @@
 
 .about_us{
   padding: 50px 15px;
-  background-color: wheat;
+  background-color: whitesmoke;
 }
 
 .about_us--top,
 .about_us--bottom{
   width: 100%;
   display: flex;
-  /* căn theo chiều ngang */
   justify-content: space-around;
-  /* căn dọc */
   align-items: center;
   margin-bottom: 80px;
 }
@@ -64,7 +62,7 @@
 .about_teacher{
   height: 400px;
   padding: 50px 15px;
-  background-color:cornsilk;
+  background-color: rgb(197,197,197);
   width: 100%;
 }
 .about_teacher > div > div{ 
