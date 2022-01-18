@@ -5,7 +5,7 @@ import Viet from '../Assets/Images/Vietavt.jpg'
 import Duc from '../Assets/Images/Ducavt.jpg'
 import Vanh from '../Assets/Images/vanhavt.jpg'
 import MrT from '../Assets/Images/Mr.T.jpg'
-import Nam from '../Assets/Images/Namavt.jpg'
+import Nam from '../Assets/Images/LD.jps'
 
 export default class AboutUs extends Component {
   render() {
