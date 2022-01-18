@@ -24,7 +24,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Leader
                   </a>
                 </div>
               </div>
@@ -38,7 +38,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default class AboutUs extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Facebook
+                    Member
                   </a>
                 </div>
               </div>
