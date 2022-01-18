@@ -13,9 +13,10 @@ export default class ProductHuman extends Component {
                     <div >
                         <NavProduct/>
                     </div>
-                    <br/>          
-            {/* Making Sumo      */}
-            <div className='product-item'>
+                    <br/>       
+            <div className='ProductList'>
+                {/* Making Sumo      */}
+                <div className='product-item'>
                     <div className='product-item-des'>
                         <p className='p-prag'><h1>Make A Sumo</h1>
                             Categories:Children
@@ -25,6 +26,7 @@ export default class ProductHuman extends Component {
                     <Link to="/products/sumomaking" className='p-item-making'>Making Now</Link>  
                     <img className='product-item-represent'  src={ImgSumo} alt='Sumo' />
                 </div>  
+            </div>   
         
         </>
         )

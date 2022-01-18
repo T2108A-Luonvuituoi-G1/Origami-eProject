@@ -7,7 +7,7 @@ import React, { Component } from 'react'
 export default class BloomsonMaking extends Component {
     render() {
         return (
-            <div>
+            <div className='Product-making-item'>
                 <img className='Product-making' src={BL} />
                 <Link to="/products" className='p-item-btn'>Return to Products</Link> 
             </div>
