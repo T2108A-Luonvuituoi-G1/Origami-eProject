@@ -5,7 +5,7 @@
     border-radius: 25px;
     padding:80px;
     position: absolute;
-    left:630px;
+    left:590px;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
 .entry_title{
@@ -22,9 +22,15 @@
    font-size: 20px;
 }
 
-.entry-content > img {
+
+.image {
    border-radius: 50px;
-   margin-left: -55px;
+   margin-left: -75px;
+   padding: 15px;  
+}
+.image > span {
+   display: block;
+   text-align: center;
 }
 .tradition_base > p {
 font-size: 20px;

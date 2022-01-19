@@ -1,0 +1,43 @@
+
+.fov{
+    width: 650px;
+    border-radius: 25px;
+    padding:40px;
+    position: absolute;
+    left:680px;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+.fov_top .title {
+    font-size: 35px;
+    font-weight: bold;
+    display:block;
+    padding-bottom: 5px;
+}
+.title_author{
+    color: #999;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    padding-bottom: 30px;
+}
+.fov_content p {
+    font-size:20px;
+}
+.flag img{
+    display:flex;
+    justify-content: flex-end;
+}
+.flag span {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fov-bottom{
+    font-size: 20px;
+    display:block;
+    text-align: center ;
+    padding-top:10px;
+    color: #999;
+}
