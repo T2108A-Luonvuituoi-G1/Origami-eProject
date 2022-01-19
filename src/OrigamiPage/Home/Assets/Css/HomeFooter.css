@@ -1,8 +1,7 @@
 .home-footer {
     width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 359.5%;
+    height: 31vw;
+    position: relative;
     background-color: rgb(197, 197, 197);
 }
 
@@ -11,19 +10,20 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    font-size: 1.3vw;
 }
 
 .home-footer-li {
-    width: 300px;
-    margin: 50px 50px;
+    width: 24vw;
+    margin: 4vw;
     list-style: none;
     text-align: center;
 }
 
 .home-footer-li p {
-    margin: 0 29.4px;
+    margin: 0 2vw;
     text-align: start;
-    line-height: 30px;
+    line-height: 2.4vw;
 }
 
 .home-footer-sp p{
@@ -31,29 +31,30 @@
 }
 
 .home-footer-us p {
-    width: 230px;
-    margin: 0 60px;
+    width: 20vw;
+    margin: 0 5vw;
 }
 
 .home-footer-logo {
     position: absolute;
-    width: 230px;
-    margin: 0 -120px;
+    width: 17vw;
+    margin: 0 -9vw;
 }
 
 .home-footer-footer {
     position: absolute;
-    margin: 350px 110px;
+    margin: 27vw 7vw;
     list-style: none;
+    font-size: 1.3vw;
 }
 
 .home-footer-icon {
     position: absolute;
-    margin: 27% 87%;
+    margin: 26.5vw 88.5vw;
     display: flex;
 }
 
 .home-footer-icon i {
-    font-size: 20px;
-    padding: 0 5px;
+    font-size: 1.7vw;
+    padding: 0 0.6vw;
 }
