@@ -22,9 +22,15 @@
    font-size: 20px;
 }
 
-.entry-content > img {
+
+.image {
    border-radius: 50px;
-   margin-left: -55px;
+   margin-left: -75px;
+   padding: 15px;  
+}
+.image > span {
+   display: block;
+   text-align: center;
 }
 .tradition_base > p {
 font-size: 20px;
