@@ -55,12 +55,6 @@ export default class App extends Component {
               <Route exact path="/products/bloomson" element={<BloomsonMaking />} />
               <Route exact path="/products/fish" element={<FishMaking />} />
               <Route exact path="/products/love" element={<LoveMaking />} />
-              
-
-
-
-
-
             </Routes>
           </div>
         </div>
