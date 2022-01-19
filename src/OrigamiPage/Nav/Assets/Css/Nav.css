@@ -1,7 +1,7 @@
 .top-nav {
     height: 5.7vw;
     width: 100%;
-    padding: 1.7vw 10vw;
+    padding: 1.3vw 10vw;
     top: 0;
     box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.1);
     position: fixed;
@@ -56,7 +56,7 @@
     font-size: 1.33vw;
     border-radius: 1.8vw;
     margin: 0 0.2vw;
-    padding: 0.1vw 1.6vw;
+    padding: 1vw 1.6vw;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;
@@ -76,7 +76,6 @@
     width: 14vw;
     user-select: none;
 }
-
 
 /* USER LOGO */
 .nav-user-logo {
