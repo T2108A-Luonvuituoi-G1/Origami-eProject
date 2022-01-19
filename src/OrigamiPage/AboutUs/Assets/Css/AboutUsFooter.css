@@ -1,0 +1,9 @@
+.about_teacher{
+    height: 400px;
+    padding: 50px 15px;
+    background-color:  #f5f0ed;
+    width: 100%;
+}
+.about_teacher > div > div{ 
+    margin: 0px auto;
+}
