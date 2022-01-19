@@ -1,16 +1,16 @@
 .Product-top{
     padding: 50px 15px;
     background-color: wheat;
-    /* background-image: url(); */
+     /* background-image: url(/Images/Gap-giay-origami.jpg);  */
     background-size: cover;
 }
-.card{
+.card one{
     width: 400px;
   height: 200px;
   display: flex;
   justify-content: center;
 }
-.card > img {
+.card one > img {
     height: 400px;
     width: 400px;
     border: 0px solid transparent;

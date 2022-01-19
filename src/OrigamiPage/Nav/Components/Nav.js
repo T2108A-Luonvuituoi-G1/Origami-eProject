@@ -26,7 +26,7 @@ export default class Nav extends Component {
                     <input type="text" className='input-search' placeholder='Search' value={this.state.value} onChange={this.handleChange} />
                     <div className='nav-link-page'>
                         <Link className='nav-link' to="/">Home</Link>
-                        <Link className='nav-link' to="/products">Products</Link>
+                        <Link className='nav-link' to="/products">Origami</Link>
                         <Link className='nav-link' to="/aboutus">About Us</Link>
                         <Link className='nav-link' to="/contact">Contact</Link>
                     </div>
