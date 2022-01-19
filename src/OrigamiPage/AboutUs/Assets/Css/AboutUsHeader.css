@@ -1,17 +1,9 @@
 .aboutus-header {
     width: 100%;
-    height: 500px;
+    height: 40vw;
     display: flex;
     justify-content: center;
-    /* background-size: 100px; */
 }
-
-/* .au-header-bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-} */
 
 .au-text-header {
     width: 1000px;
