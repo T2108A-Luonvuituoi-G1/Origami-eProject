@@ -1,6 +1,6 @@
 .Title{
   text-align: center;
-  margin: 0.5vw 0 2vw 0;
+  margin: 0.5vw 0 3vw 0;
   font-size: 2vw;
 }
 
@@ -24,11 +24,11 @@
 .about_us--bottom{
   display: flex;
   justify-content: space-around;
-  margin: 10vw -10vw;
+  margin: 10vw 0vw;
 }
   
 .card{
-  width: 34vw;
+  width: 32vw;
   height: 14vw;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@
   padding: 0.5vw 1vw;
   border-radius: 1.8vw;
   font-size: 1.5vw;
-  line-height: 0.1vw;
+  line-height: 5vw;
   color: black;
   transition: 0.25s;
   text-decoration: none;
