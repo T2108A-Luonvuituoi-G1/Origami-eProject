@@ -1,9 +1,8 @@
 .Profile-top{
-    padding: 50px 15px;
+    padding: 50px 15px  ;
     background-color: wheat;
     background-image: url(); 
     background-size: 100px; 
-
      /* background-image: url(/Images/Gap-giay-origami.jpg);  */
     background-size: cover;
 
@@ -28,17 +27,18 @@
     font-weight: 200px;
     line-height: 30px;
     position: absolute;
-    left:420px;
+    left:320px;
     top: 290px;
 }
 .Profile-bottom_left{
     background-color: rgb(216, 213, 213);
-    width: 560px;
+    width: 460px;
     border-radius: 25px;
-    height: 450px;
+    height: 500px;
     margin: 25px;
     position: absolute;
-    top:455px;
+    top:-25px;
+    right:800px;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
 .Profile-bottom_left > div > p {
@@ -61,3 +61,13 @@
     font-weight: 200px;
     line-height: 35px;
 }
+.Profile-bottom_hight{
+    background-color: rgb(216, 213, 213);   
+    width: 400px;
+    border-radius: 25px;
+    height:400px;
+    position: absolute;
+    top:550px;
+    right: 850px;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+   }
