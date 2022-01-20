@@ -9,15 +9,21 @@ export default class HomeHeader extends Component {
         return (
             <>
                 {/* HEADER */}
-                <div className='home-page-header'>
-                    <img src={HomeBackgroundHeader} className='home-bg-header' />
-                    <div className='home-image-header-sub'></div>
-                    <img src={HomeImgHeader} className='home-image-header' />
+                <div className='home-page-header'
+                    style={{
+                        background: `url(${HomeBackgroundHeader})`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                    }}
+                >
                     <div className='home-text-header'>
                         <h1 className='home-text-h1'>You can make all of origami</h1>
                         <p className='home-text-p'>Make Your Favorite Origami now!</p>
                         <Link className='home-header-btn' to="/products">Try now</Link>
                     </div>
+                    <div className='home-image-header-sub'></div>
+                    <img src={HomeImgHeader} className='home-image-header' />
                 </div>
             </>
         )

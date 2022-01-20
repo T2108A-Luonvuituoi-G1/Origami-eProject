@@ -1,5 +1,5 @@
 import {  Link } from 'react-router-dom';
-import ImgCactus from '../Assets/Images/represent/cactus-represent.gif'
+import ImgCactus from '../Assets/Images/represent/cactus-represent.jpg'
 import ImgBL from '../Assets/Images/represent/bloomson-represent.jpg'
 import NavProduct from '../Assets/ProductNav/nav'
 import React from 'react'
