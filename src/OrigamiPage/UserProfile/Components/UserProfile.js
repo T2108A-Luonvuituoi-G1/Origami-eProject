@@ -27,9 +27,17 @@ export default class UserProfile extends Component {
                         <p>Mot cai gi do  </p>
 
                 <div className="Profile-bottom_left">
-                    <div className="text">
-                        <p>Thong tin nguoi dang ky</p>
-                        
+                    <div className="up-text">
+                        <p>My information</p>
+                        <p>Ho va ten: Tran Minh Duc</p>
+                        <p>Ngay sinh: 05/01/2003</p>
+                        <p>Que Quan: Phu tho</p>
+                        <p>So thich: Da bong va choi game</p>
+                        <p>Tieu su: Da tung hoc 3 nam o truong man non, 
+                            5 nam o truong cap 1 (xuat sac nhan 5 bang giay khen hoc sinh gioi),
+                            va 3 nam cap 3 o truong thpt Tam Nong , Cuoi cung la dang hoc dai hoc 
+                            o truong dai hoc FPT aptech Ha Noi.
+                        </p>
                     
                     </div>
                 </div>

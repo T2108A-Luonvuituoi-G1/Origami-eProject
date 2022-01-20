@@ -37,6 +37,15 @@
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
 .Profile-bottom_left > div > p {
+    font-size: 30px;
+    color: black;
+    font-weight: 200px;
+    line-height: 30px;
+    left:70px;
+    top: 10px;
+}
+
+.Profile-bottom_left > div > p {
    font-size: 25px;
    font-weight: 200px;
    line-height: 35px;
