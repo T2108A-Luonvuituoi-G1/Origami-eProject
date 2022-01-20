@@ -1,17 +1,15 @@
 .au-slider {
     width: 100%;
-    height: 400px;
-    /* background-color: #ccc; */
+    height: 30vw;
     display: flex;
     justify-content: space-around;
 }
 
 .au-slider-content {
-    margin-top: 50px;
-    width: 350px;
-    height: 350px;
+    margin-top: 4vw;
+    width: 35vw;
+    height: 35vw;
     background-color: #fff;
-    border-radius: 25px;
 }
 
 .au-slider-content-header {
@@ -20,8 +18,8 @@
 }
 
 .au-slider-location-icon {
-    font-size: 70px;
-    margin-top: 15px;
+    font-size: 7vw;
+    margin-top: 1vw;
 }
 
 .au-slider-content-footer h4 {
@@ -30,7 +28,7 @@
 
 .au-slider-content-footer p {
     text-align: center;
-    padding: 15px;
-    margin: 10px 0;
-    font-size: 17px;
+    padding: 1.2vw;
+    margin: 1vw 0;
+    font-size: 1.4vw;
 }
