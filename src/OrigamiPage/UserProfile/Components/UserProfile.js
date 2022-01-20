@@ -1,22 +1,26 @@
 import React, { Component } from 'react'
 import '../Assets/Css/UserProfile.css'
-import img1 from '../Assets/Images/Anh-chim-hac.jpg'
+import Img1 from '../Assets/Images/Anh-chim-hac.jpg'
+import Usimgtop from '../Assets/Images/chim1.jpg'
 
 export default class UserProfile extends Component {
     render() {
         return (
             <div>
-                <div className="Profile-top">
+                <div className="Profile-top"
+                    style={{
+                        background: `url(${ Usimgtop })`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                    }}
+                >
                     <div className="card">
-                        <img src={img1} alt="cover" />
-
+                        <img src={Img1} alt="cover" />
                     </div>
-
                     <div>
-                        <p><b>Trần Minh Đức</b></p>
+                        <p><b>Tran Minh Duc</b></p>
                     </div>
-
-               
                 </div>
                 <div className="Profile-bottom_right">
                     <div class="text">
