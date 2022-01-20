@@ -15,12 +15,15 @@ body{
     display:block;
     padding-bottom: 10px;
 }
-.foj_title-author{
+.foj_title-author {
     color: #999;
     font-size: 20px;
     cursor: pointer;
     display:block;
     padding-bottom: 5px;
+}
+.foj_title-author a{
+    text-decoration: none;
 }
 .foj_content{
     font-size: 20px;
