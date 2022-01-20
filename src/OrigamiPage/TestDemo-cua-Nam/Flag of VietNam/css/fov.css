@@ -23,6 +23,9 @@ body{
     display: block;
     padding-bottom: 30px;
 }
+.fov_title-author a {
+    text-decoration: none;
+}
 .fov_content p {
     font-size:20px;
 }
