@@ -23,6 +23,9 @@ body {
     display:block;
     padding-bottom: 5px;
 }
+.frame_title-author a{
+    text-decoration: none;
+}
 .frame_content{
     font-size: 20px;
 }
