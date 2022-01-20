@@ -11,14 +11,14 @@ export default class AboutUs extends Component {
         {/* HEADER */}
         <AboutUsHeader />
 
-        {/* SLIDER */}
-        <AboutUsSlider />
-
         {/* CONTAINER */}
         <AboutUsContainer />
 
         {/* FOOTER */}
         <AboutUsFooter />
+
+        {/* SLIDER */}
+        <AboutUsSlider />
       </>
     );
   }
