@@ -22,12 +22,14 @@ body{
     cursor: pointer;
     display:block;
     padding-bottom: 5px;
-    
+}
+.lt_title-author a{
+    text-decoration: none;
 }
 .lotus_content p {
     font-size:20px;
 }
-.lotus_origami .images {
+.lotus_origami .imagess {
     display:block;
     margin: 0px auto;
 }
@@ -51,7 +53,6 @@ body{
     flex-wrap: wrap;
     gap: 15px;
 }
-p
 
 
 
