@@ -4,16 +4,19 @@ import MrT from '../Assets/Images/Mr.T.jpg'
 
 function AboutUsFooter() {
     return (
-        <div>
-            <div className="about_teacher">
-                <div className="container">
-                    <h1 className="Title">Special Advisors</h1>
-                    <div className="card">
-                        <img src={MrT} alt="avatar" />
-                        <div>
-                            <p>Mr.Tuan Nguyen</p>
-                        </div>
-                    </div>
+        <div className="about_teacher">
+            <div className='about-teacher-right'>
+                <div className="about-teacher-content">
+                    <img className='au-ava-teacher' src={MrT} alt="avatar" />
+                </div>
+            </div>
+            <div className='about-teacher-left'>
+                <div className="about-teacher-header">
+                    <h1>Special Advisors</h1>
+                    <p>Mr.Tuan Nguyen</p>
+                </div>
+                <div className='about-teacher-information'>
+                    <p>"Code bug is teacher !"</p>
                 </div>
             </div>
         </div>
