@@ -1,12 +1,13 @@
-
-
-.lotus{
+body{
     background-image: url(/Lotus/images/background.jpg);
-    width: 650px;
+}
+ 
+.lotus{
+    background-color: white;
+    width: 62%;
     border-radius: 25px;
     padding:40px;
-    position: absolute;
-    left:680px;
+    margin: 0px auto;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
 .lotus_top .lt_title{
@@ -15,7 +16,7 @@
     display:block;
     padding-bottom: 10px;
 }
-.lt_title_author {
+.lt_title-author {
     color: #999;
     font-size: 20px;
     cursor: pointer;
@@ -27,8 +28,8 @@
     font-size:20px;
 }
 .lotus_origami .images {
-    position: relative;
-    left: 175px;
+    display:block;
+    margin: 0px auto;
 }
 .lotus_origami span {
     font-size: 16px;
@@ -37,36 +38,7 @@
     padding-top: 20px;
     padding: 10px;
 }
-.tutorial1{
-    font-size: 20px;
-    padding-top: 20px;
-    display: block;
-    padding-bottom: 10px;
-}
-.tutorial2{
-    font-size: 20px;
-    padding-top: 20px;
-    display: block;
-    padding-bottom: 10px;
-}
-.tutorial3 {
-    font-size: 20px;
-    padding-top: 20px;
-    display: block;
-    padding-bottom: 10px;
-}
-.tutorial4{
-    font-size: 20px;
-    padding-top: 20px;
-    display: block;
-    padding-bottom: 10px;
-}
-.tutorial5{
-    font-size: 20px;
-    padding-top: 20px;
-    display: block;
-    padding-bottom: 10px;
-}
+
 .lotus_bottom{
     font-size: 20px;
     display:block;
@@ -74,6 +46,13 @@
     padding-top:10px;
     color: #999;
 }
+.imagess{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+p
+
 
 
 
