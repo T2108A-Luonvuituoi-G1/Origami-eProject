@@ -1,59 +1,73 @@
-  .Title{
-    text-align: center;
-    margin: 40px 0px;
-  } 
-  .container{
-    width: 80%;
-    margin: 0px auto;
-  }
+.Title{
+  text-align: center;
+  margin: 0.5vw 0 2vw 0;
+  font-size: 2vw;
+}
+
+.container{
+  width: 80vw;
+  margin: 0px auto;
+}
   
-  .about_us{
-    padding: 50px 15px;
-    background-color:white;
-  }
+.about_us{
+  padding: 5vw 1.4vw;
+  background-color:white;
+}
   
-  .about_us--top,
-  .about_us--bottom{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 80px;
-  }
-  .about_us--bottom{
-    justify-content: space-between;
-    margin-bottom: 0px;
-  }
+.about_us--top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 10vw 0;
+}
+
+.about_us--bottom{
+  display: flex;
+  justify-content: space-around;
+  margin: 10vw -10vw;
+}
   
-  .card{
-    width: 400px;
-    height: 200px;
-  
-    display: flex;
-    justify-content: center;
-  }
-  .card > img{
-    width: 200px;
-    height: 200px;
-  
-    border: 1px solid transparent;
-    border-radius: 100%;
-    margin-right: 25px;
-  }
-  .card > div > p {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    color: rgb(43, 26, 120);
-    margin: 20px 0px;
-  }
-  .card > div > a {
-    font-size: 20px;
-    font-weight: 100px;
-    line-height: 10px;
-    color: black;
-    text-decoration: none;
-  }
-  .card > div > p:hover {
-    color: red;
-  }
+.card{
+  width: 34vw;
+  height: 14vw;
+  display: flex;
+  justify-content: center;
+}
+
+.card div {
+  margin: 15vw;
+  left: 12.8vw;
+  text-align: center;
+}
+
+.card > img{
+  position: absolute;
+  width: 16vw;
+  border-radius: 50%;
+}
+
+.card > div > p {
+  width: 20vw;
+  font-size: 1.7vw;
+  line-height: 2.1vw;
+  color: #000;
+  margin: 2.1vw 0 0 0;
+}
+
+.card > div > a {
+  width: 2vw;
+  padding: 0.5vw 1vw;
+  border-radius: 1.8vw;
+  font-size: 1.5vw;
+  line-height: 0.1vw;
+  color: black;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.card > div > a:hover {
+  background-color: rgb(247, 247, 247);
+    transition: 0.25s;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
