@@ -25,6 +25,9 @@ body {
     display:block;
     padding-bottom: 5px;
 }
+.boar_title-author a{
+    text-decoration: none;
+}
 .boar_origami .b_images{
     display:block;
     margin:0px auto;
