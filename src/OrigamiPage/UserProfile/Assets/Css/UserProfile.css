@@ -3,18 +3,18 @@
     height: 20vw;
 }
 
-.card one{
+.card-one{
   width: 400px;
   height: 200px;
   display: flex;
   justify-content: center;
 }
-.card one > img {
-    height: 400px;
-    width: 400px;
+.card-one img {
+    height: 300px;
+    width: 300px;
     border: 0px solid transparent;
     border-radius: 50%;
-    margin-right:75px;
+    margin: 60px 0px;
 }
 .Profile-top >  div > p {
     font-size: 30px;
@@ -23,7 +23,7 @@
     line-height: 30px;
     position: absolute;
     left:320px;
-    top: 290px;
+    top: 390px;
 }
 .Profile-bottom_left{
     background-color: rgb(216, 213, 213);
@@ -32,8 +32,8 @@
     height: 500px;
     margin: 25px;
     position: absolute;
-    top:-25px;
-    right:800px;
+    top: -20px;
+    right:750px;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
 .Profile-bottom_left > div > p {
@@ -47,7 +47,7 @@
  border-radius: 25px;
  height:500px;
  position: absolute;
- top:430px;
+ top: 500px;
  right: 200px;
  box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
@@ -63,6 +63,6 @@
     height:400px;
     position: absolute;
     top:550px;
-    right: 850px;
+    right: 810px;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
    }
