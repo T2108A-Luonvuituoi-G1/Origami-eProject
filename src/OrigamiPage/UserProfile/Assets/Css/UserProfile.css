@@ -1,58 +1,77 @@
-.Product-top{
-    padding: 50px 15px;
-    background-color: wheat;
-     /* background-image: url(/Images/Gap-giay-origami.jpg);  */
-    background-size: cover;
+.Profile-top{
+    width: 100%;
+    height: 20vw;
 }
-.card one{
-    width: 400px;
+
+.card-one{
+  width: 400px;
   height: 200px;
   display: flex;
   justify-content: center;
 }
-.card one > img {
-    height: 400px;
-    width: 400px;
+.card-one img {
+    height: 300px;
+    width: 300px;
     border: 0px solid transparent;
-    border-radius: 100%;
-    margin-right:25px;
+    border-radius: 50%;
+    margin: 60px 0px;
 }
-.Product-top >  div > p {
+.Profile-top >  div > p {
     font-size: 30px;
     color: black;
     font-weight: 200px;
     line-height: 30px;
     position: absolute;
-    left:420px;
-    top: 290px;
+    left:320px;
+    top: 390px;
 }
-.Product-bottom_left{
+.Profile-bottom_left{
     background-color: rgb(216, 213, 213);
-    width: 560px;
+    width: 460px;
     border-radius: 25px;
-    height: 450px;
+    height: 500px;
     margin: 25px;
     position: absolute;
-    top:455px;
+    top: -20px;
+    right:750px;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
-.Product-bottom_left > div > p {
+.Profile-bottom_left > div > p {
+    font-size: 30px;
+    color: black;
+    font-weight: 200px;
+    line-height: 30px;
+    left:70px;
+    top: 10px;
+}
+
+.Profile-bottom_left > div > p {
    font-size: 25px;
    font-weight: 200px;
    line-height: 35px;
 }
-.Product-bottom_right{
+.Profile-bottom_right{
  background-color: rgb(216, 213, 213);   
  width: 500px;
  border-radius: 25px;
- height:450px;
+ height:500px;
  position: absolute;
- top:455px;
- right: 500px;
+ top: 500px;
+ right: 200px;
  box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
-.Product-bottom_right > div > p{
+.Profile-bottom_right > div > p{
     font-size: 25px;
-   font-weight: 200px;
-   line-height: 35px;
+    font-weight: 200px;
+    line-height: 35px;
 }
+.Profile-bottom_hight{
+    background-color: rgb(216, 213, 213);   
+    width: 400px;
+    border-radius: 25px;
+    height:400px;
+    position: absolute;
+    top:550px;
+    right: 810px;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+   }

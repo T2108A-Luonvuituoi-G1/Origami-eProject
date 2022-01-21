@@ -6,21 +6,21 @@
 }
 
 .au-text-header {
-    width: 1000px;
+    width: 90vw;
     position: absolute;
-    margin: 11% 0;
+    margin: 11vw 0;
     text-align: center;
 }
 
 .au-text-h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 6vw;
     color: #fff;
 }
 
 .au-header-btn {
-    border-radius:20px;
-    padding: 10px 20px;
+    border-radius:2vw;
+    padding: 1vw 2vw;
     text-transform: uppercase;
     text-decoration: none;
     color: #000;

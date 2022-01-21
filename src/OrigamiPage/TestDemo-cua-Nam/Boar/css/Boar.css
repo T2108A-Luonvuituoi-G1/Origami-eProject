@@ -1,57 +1,43 @@
-body{
-    background-image: url(/Lotus/images/background.jpg);
+body {
+    background-image: url(/Boar/images/background.jpg);
 }
- 
-.lotus{
+.boar{
     background-color: white;
-    width: 62%;
+    width: 40%;
     border-radius: 25px;
     padding:40px;
     margin: 0px auto;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
-.lotus_top .lt_title{
+.boar_top .boar_title{
     font-size: 35px;
     font-weight: bold;
     display:block;
     padding-bottom: 10px;
 }
-.lt_title-author {
+.boar_content{
+    font-size: 20px;
+}
+.boar_title-author{
     color: #999;
     font-size: 20px;
     cursor: pointer;
     display:block;
     padding-bottom: 5px;
 }
-.lt_title-author a{
+.boar_title-author a{
     text-decoration: none;
 }
-.lotus_content p {
-    font-size:20px;
-}
-.lotus_origami .imagess {
+.boar_origami .b_images{
     display:block;
-    margin: 0px auto;
+    margin:0px auto;
 }
-.lotus_origami span {
-    font-size: 16px;
-    display: block;
-    text-align: center;
-    padding-top: 20px;
-    padding: 10px;
-}
-
-.lotus_bottom{
+.boar_bottom{
     font-size: 20px;
     display:block;
     text-align: center ;
     padding-top:10px;
     color: #999;
-}
-.imagess{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 15px;
 }
 
 

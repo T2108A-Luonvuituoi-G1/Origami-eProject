@@ -11,7 +11,7 @@ function AboutUsContainer() {
         <div>
             <div className="about_us">
                 <div className="container">
-                    <h1 className="Title"> LUONVUITUOI Team </h1>
+                    <p className="Title">LUONVUITUOI TEAM</p>
                     <section className="about_us--top">
                         <div className="card">
                             <img src={Minh} alt="avatar" />
