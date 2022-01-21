@@ -1,70 +1,234 @@
-.ProductList {
-    margin-top: 90px;
-    margin-left: 150px;
-}
-.p-category{
-    text-align: center;
+.product-hightlight{
+    width: 60vw;
+    height: 54vw;
+    background-color: rgb(230, 230, 230);
+    margin-top: 6vw;
+    margin-left: 20vw;
+
 }
 
-.p-category-btn{
-    text-decoration: none;
-    margin: 0 30px;
-    border: none;
-    padding:  15px;
-    border-radius: 25px;
-    color: rgb(35, 35, 35);
-    
+.poster-hightlight{
+    padding-left: 2vw;
+}
+.hl-poster{
+    padding-left: 2vw;
+}
+.product-hightlight-img{
+    margin-left: 4vw;
+}
+.div-p{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+}
+.a-btn{
+    margin-left: 2vw;
 }
 
-.p-category-btn:hover{
-    background-color: #f7f7f7;
-    color: rgb(47, 46, 46);
-    box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.1);
-}
-.product-item{
-    margin: 15px;
-    border: none;
+.product-items{
     display: flex;
-    padding: 30px;
-    border-radius: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
-.product-item-represent{
-    width: 40%;
-    height: 400px;
+.p-item-little{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(140, 140, 140);
 }
-
-.p-prag{
-    margin: 40px;
+.tittle-item{
+    padding-left: 2vw;
+    padding-top: 1vw;
 }
-
-
-
-.product-item-des{
-    color: rgb(243, 187, 127);
-    border: 1px solid #000;
-    box-shadow:darkblue;
-    border-radius: 15px;
-    width: 40%;
-    height: 400px;
-    background-color: #f7f7f7;
-    
+/* Lotus */
+.p-lotus{
+    margin-top: 2vw;
+    width: 18vw;
+    height: 24vw;
+    margin-left: 20vw;
 }
-.p-item-making{
-    
-    text-decoration: none;
-    padding: 10px 0;
+.lotus-img{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+/* Parrot */
+.p-parrot{
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+    width: 19vw;
+    height: 31vw;
+}
+.parrot-img{
+    width: 17vw;
+    height: 20vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+/* Crab */
+.p-crab{
+    margin-top: 2vw;
+    margin-left: 1.5vw;
+    width: 20vw;
+    height: 32vw;
+    margin-right: 15vw;
+}
+.crab-img{
+    width: 19vw;
+    height: 15vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+}
+/* pig */
+.p-boar{
+   margin-top: -6.5vw;
+    margin-left: 20vw;
+    width: 18vw;
+    height: 26vw;
+}
+.boar-img{
+    width: 16vw;
+    height: 18vw;
+    padding-left: 1.5vw;
+    padding-top: 1vw;
+}
+/* Flag */
+.p-flag{
+    width: 19vw;
+    height: 30vw;
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+
+}
+.flag-img{
+    width: 17vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+/* Fox */
+.p-fox{
+    margin-left: 1.5vw;
+    margin-top: 1vw;
+    width: 20vw;
+    height: 25vw;
+    margin-right: 10vw;
+}
+.fox-img{
+    width: 19vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+/* frame */
+.p-frame{
+    margin-top: -10vw;
+    margin-left: 20vw;
+    width: 18vw;
+    height: 25vw;
+}
+.frame-img{
+    width: 17vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+/* Japan Flag */
+.p-japan{
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+    width: 19vw;
+    height: 25vw;
+}
+.japan-img{
+    width: 18vw;
+    height: 15vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+.footer-p{
+    margin-top: 2vw;
     text-align: center;
-    border: 1px solid #555;
-    border-radius: 25px;
-    width: 125px;
-    height: 50px;
-    margin-top: 340px;
-    margin-right: 15px;
-    margin-left: 15px;
-    background-color: greenyellow;
+}
+
+
+
+
+/* Details */
+.p-news{
+    width: 60vw;
+    height: 146vw;
+    margin-top: 9vw;
+    background-color: rgb(204, 204, 201);
+    margin-left: 20vw;
+}  
+.p-text {
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+.product-making{
+    background-color: rgb(245, 245, 245);
+    width: 53vw;
+    height: 73vw;
+    margin-left: 3.5vw;
+    margin-top: 2vw;
+}
+.p-text-making{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    color: rgb(86, 86, 85);
+}
+.poster{
+    padding-left: 2vw;
+}
+.p-img{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    width: 53vw;
+    height: 43vw;
+    margin-left: 3.5vw;
+    margin-top: 2vw;
+}
+.product-hightlight-img-details{
+    margin-left: 0.2vw;
+    margin-top: 1vw;
+}
+.p-text-img{
+    padding-top: .5vw;
+}
+.p-making{
+    margin-left: .5vw;
+   
+}
+.product-making-checkbox-btn{
+    margin-top: 2vw;
+    margin-left: 14vw;
+    appearance: none;
+    width: 1vw;
+    height: 1vw;
+    background-color: rgb(129, 129, 129);
+    border-radius: 50%;
+    transition: 0.25s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2)
+    
+}
+.product-making-checkbox-btn:hover{
+    width: 1.3vw;
+    height: 1.3vw;
+    background-color: #fff;
     transition: 0.25s;
 }
-.p-item-making:hover{
-    background-color: rgba(173,255,43, 0.6);
+.comment{
+    margin-bottom: 3vw;
+}
+.p-input-comment{
+    width: 30vw;
+    height: 3vw;
+    margin-left: 10vw;
+    margin-top: 1vw;
+    text-align: left;
+    padding-left: 2vw;
+    
+}
+.p-footer{
+    text-align: center;
+    margin-top: 2vw;
 }

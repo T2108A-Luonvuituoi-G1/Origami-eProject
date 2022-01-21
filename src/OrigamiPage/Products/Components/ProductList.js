@@ -1,157 +1,170 @@
 import React, { Component } from 'react'
-import {  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../Assets/Css/product.css'
-import ImageDino from '../Assets/Images/represent/khung-long.jpg'
-import ImgCat from '../Assets/Images/represent/cat-represent.jpg'
-import ImgDog from '../Assets/Images/represent/dogrepresent.jpg'
-import ImgBird from '../Assets/Images/represent/bird-represent.jpg'
-import ImgPig from '../Assets/Images/represent/pig-represent.jpg'
-import ImgFish from '../Assets/Images/represent/fish-represent.jpg'
-import ImgSumo from '../Assets/Images/represent/sumo-represent.jpg'
-import ImgTownship from '../Assets/Images/represent/township-represent.jpg'
-import ImgCactus from '../Assets/Images/represent/cactus-represent.jpg'
-import ImgBL from '../Assets/Images/represent/bloomson-represent.jpg'
-import ImgLove from '../Assets/Images/represent/love-represent.jpg'
-import NavProduct from '../Assets/ProductNav/nav'
-
-
-
+import VOG from '../Assets/Images/represent/vog_butterfly.jpg'
+import { GrLinkNext } from "react-icons/gr";
+import lotus from '../Assets/Images/represent/lotus.jpg'
+import bg from '../Assets/Images/background.jpg'
+import Boar from '../Assets/Images/represent/Boar.jpg'
+import VN from '../Assets/Images/represent/flagVN.jpg'
+import { IoPersonSharp } from "react-icons/io5";
+import parrot from '../Assets/Images/represent/parrot.jpg'
+import crab from '../Assets/Images/represent/crab.jpg'
+import fox from '../Assets/Images/represent/fox.jpg'
+import frame from '../Assets/Images/represent/frameimg.jpg'
+import japan from '../Assets/Images/represent/japanflag.jpg'
+import { MdCopyright } from "react-icons/md";
+import { BsSuitHeartFill } from "react-icons/bs";
+import { BsFillSuitHeartFill } from "react-icons/bs";
 
 export default class ProductList extends Component {
-    
+    state = {
+        poster1: 'Võ Văn Việt',
+        poster2: 'LVT-Butterfly - Michael Lafosse'
+
+    }
+    title = {
+        title1: 'Hoa Sen /Lotus',
+        title2: 'Heo Rừng /Boar',
+        title3: 'Quốc Kì Việt Nam /Flag VietNamese',
+        title4: 'Con Vẹt /Parrot',
+        title5: 'Con Cua /Crab',
+        title6: 'Con Cáo /Fox',
+        title7: 'Khung ảnh /Photo Frame',
+        title8: 'Cờ Nhật Bản /Japan Flag'
+
+    }
+
     render() {
         return (
-           <div className='ProductList'>   
-                    <div >
-                        <NavProduct/>
-                    </div>
+            <>
+                <div className='product-background'
+                    style={{
+                        background: `url(${bg})`
+                    }}
+                >
 
-           <br/>
-                {/* Dino */}
-                <div className='product-item'>
-                    <img className='product-item-represent'  src={ImageDino} alt='Dino' />
-                        <Link to="/products/dinomaking" className='p-item-making'>Making Now</Link>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make Dino</h1>
-                        A cute dinosaur with a long neck will make you fall in love with Origami
-    
+                    <div className='product-hightlight'>
+                      
+                        <h1 className='poster-hightlight'><b>Poster by {this.state.poster2}</b></h1>
+                        <div className='hl-poster'>
+                            < IoPersonSharp className='icon-human' /> Poster by {this.state.poster1}
+                        </div >
+                        <img src={VOG} className='product-hightlight-img' />
+                        <p className='div-p'>
+
+                            Năm 2015, nhân dịp kỷ niệm 10 năm thành lập Vietnam Origami Group, tác giả Michael LaFosse đã sáng tác riêng một mẫu bươm bướm tặng VOG.
+                            <br /><br />
+                            VOG chân thành cảm ơn tình cảm của Mr. Michael LaFosse.
                         </p>
+                        <Link to="/products/butter" className='a-btn'>Keep reading<GrLinkNext className='icon' /></Link>
                     </div>
-                </div>  
-                {/* Cat */}
-                <div className='product-item'>
-                        <div className='product-item-des'>
-                            <p className='p-prag'><h1>Make A Cat Head</h1>
-                            An extremely cute cat head for anyone who loves cats
 
-                            </p>
+
+
+                    {/* Hoa sen */}
+                    <div className='product-items'>
+                        <div className='p-item-little p-lotus'>
+
+                            <img src={lotus} className='p-img-little lotus-img' />
+                            <a className='tittle-item'><b> {this.title.title1}</b> </a>
+                            <div className='div-p'>Tên mẫu: Hoa Sen / Lotus <br/> Tác giả: Đặng Việt Tân </div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+                        </div>
+
+
+                        {/* Con Vẹt */}
+
+                        <div className='p-item-little p-parrot'>
+
+                            <img src={parrot} className='p-img-little parrot-img' />
+                            <a className='tittle-item'><b> {this.title.title4}</b> </a>
+                            <div className='div-p'>Tên mẫu: Vẹt / Parrot <br/> Tác giả: Hoàng Tiến Quyết</div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+
 
                         </div>
-                        <Link to="/products/catmaking" className='p-item-making'>Making Now</Link>
-                        <img className='product-item-represent'  src={ImgCat} alt='Cat' />
-                </div>                               
-                {/* Making A Dog      */}
-                <div className='product-item'>
-                    <img className='product-item-represent'  src={ImgDog} alt='Dog' />
-                    <Link to="/products/dogmaking" className='p-item-making'>Making Now</Link>  
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Dog Head</h1>
-                        Surely everyone likes dogs like this to unleash their creativity
 
-                        </p>
+
+                        {/* Con Cua */}
+
+                        <div className='p-item-little p-crab'>
+
+                            <img src={crab} className='p-img-little crab-img' />
+                            <a className='tittle-item'><b> {this.title.title5}</b> </a>
+                            <div className='div-p'>Tên mẫu: Con cua / Crab <br/> Tác giả: Nguyễn Hùng Cường, phát triển từ hình cơ bản trong loạt tác phẩm “Cube Art” của Kunihiko Kasahara</div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+
+
+                        </div>
+
+
+                        {/* Pig */}
+
+                        <div className='p-item-little p-boar'>
+
+                            <img src={Boar} className='p-img-little boar-img' />
+                            <a className='tittle-item'><b> {this.title.title2}</b> </a>
+                            <div className='div-p'>Tên mẫu: Heo rừng / Boar <br/> Tác giả: Đỗ Trí Khải</div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+
+
+                        </div>
+
+                        {/* Vietnam Flag */}
+
+                        <div className='p-item-little p-flag'>
+
+                            <img src={VN} className='p-img-little flag-img' />
+                            <a className='tittle-item'><b> {this.title.title3}</b> </a>
+                            <div className='div-p'>Tên mẫu: Quốc kỳ Việt Nam <br/> Tác giả: Nguyễn Xuân Tùng Sáng tác nhân dịp 62 năm Quốc Khánh nước CHXHCN Việt Nam. Mẫu gấp …</div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+
+
+                        </div>
+
+
+                        {/* Con Cáo */}
+
+                        <div className='p-item-little p-fox'>
+
+                            <img src={fox} className='p-img-little fox-img' />
+                            <a className='tittle-item'><b> {this.title.title6}</b> </a>
+                            <div className='div-p'>Tên mẫu: Cáo / Fox <br/> Tác giả: Hoàng Tiến Quyết</div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+
+
+                        </div>
+
+                        {/* Khung ảnh  */}
+
+                        <div className='p-item-little p-frame'>
+
+                            <img src={frame} className='p-img-little frame-img' />
+                            <a className='tittle-item'><b> {this.title.title7}</b> </a>
+                            <div className='div-p'>Tên mẫu: Khung ảnh / Bảng thông tin <br/> Tác giả: Nguyễn Xuân Tùng</div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+
+
+                        </div>
+
+                        {/* Cờ Nhật */}
+
+                        <div className='p-item-little p-japan'>
+                            <img src={japan} className='p-img-little japan-img' />
+                            <a className='tittle-item '><b> {this.title.title8}</b> </a>
+                            <div className='div-p'>Tên mẫu: Quốc kỳ Nhật bản <br/> Sáng tác: Hiba</div>
+                            <div className='div-p'>< IoPersonSharp />Poster by {this.state.poster1} </div >
+                        </div>
                     </div>
-                </div>  
-                {/* Making Sumo      */}
-                <div className='product-item'>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A SUmo</h1>
-                            Categories:Children
+                        <div className='footer-p'>
+                            <p><MdCopyright/>Make by team: Luonvuituoi work on 2022 <br/><BsSuitHeartFill/> Huyền Cute <BsFillSuitHeartFill/> </p>
+                        </div>
+                </div>
 
-                        </p>
-                    </div>
-                    <Link to="/products/sumomaking" className='p-item-making'>Making Now</Link>  
-                    <img className='product-item-represent'  src={ImgSumo} alt='Sumo' />
-                </div>  
-                {/* Making TownShip      */}
-                <div className='product-item'>
-                    <img className='product-item-represent'  src={ImgTownship} alt='Township' />
-                    <Link to="/products/township" className='p-item-making'>Making Now</Link>  
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Township</h1>
-                            Categories:Children
 
-                        </p>
-                    </div>
-                </div>  
-                 {/* Making Pig      */}
-                 <div className='product-item'>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Pig Head</h1>
-                            Categories:Children
 
-                        </p>
-                    </div>
-                    <Link to="/products/pig" className='p-item-making'>Making Now</Link>  
-                    <img className='product-item-represent'  src={ImgPig} alt='Pig' />
-                </div>  
-                {/* Making Cactus      */}
-                <div className='product-item'>
-                    <img className='product-item-represent'  src={ImgCactus} alt='Cactus' />
-                    <Link to="/products/cactus" className='p-item-making'>Making Now</Link>  
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Cactus Plant</h1>
-                            Categories:Children
-
-                        </p>
-                    </div>
-                </div> 
-                {/* Making Bird      */}
-                <div className='product-item'>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Bird</h1>
-                            Categories:Children
-
-                        </p>
-                    </div>
-                    <Link to="/products/bird" className='p-item-making'>Making Now</Link>  
-                    <img className='product-item-represent'  src={ImgBird} alt='Bird' />
-                </div>  
-                {/* Making Bloomson      */}
-                <div className='product-item'>
-                    <img className='product-item-represent'  src={ImgBL} alt='Bloomson' />
-                    <Link to="/products/bloomson" className='p-item-making'>Making Now</Link>  
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Branch Bloomson</h1>
-                            Categories:Children
-
-                        </p>
-                    </div>
-                </div>  
-                {/* Making Fish      */}
-                <div className='product-item'>
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Fish</h1>
-                            Categories:Children
-
-                        </p>
-                    </div>
-                    <Link to="/products/fish" className='p-item-making'>Making Now</Link>  
-                    <img className='product-item-represent'  src={ImgFish} alt='Fish' />
-                </div>                
-                {/* Making Love      */}
-                <div className='product-item'>
-                    <img className='product-item-represent'  src={ImgLove} alt='Love' />
-                    <Link to="/products/love" className='p-item-making'>Making Now</Link>  
-                    <div className='product-item-des'>
-                        <p className='p-prag'><h1>Make A Heart Angel Love</h1>
-                            Categories:Children
-
-                        </p>
-                    </div>
-                </div>  
-
-           </div>
-
+            </>
         )
     }
 }
