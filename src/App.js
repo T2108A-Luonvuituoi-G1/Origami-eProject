@@ -8,6 +8,14 @@ import Home from './OrigamiPage/Home/Components/Home';
 import Nav from './OrigamiPage/Nav/Components/Nav';
 import UserProfile from './OrigamiPage/UserProfile/Components/UserProfile';
 import Butter from './OrigamiPage/Products/Components/Butter';
+import Lotus from './OrigamiPage/Products/Components/lotus';
+import Parrot from './OrigamiPage/Products/Components/Parrot';
+import Vietnam from './OrigamiPage/Products/Components/Vietnam';
+import Crab from './OrigamiPage/Products/Components/Crab';
+import Pig from './OrigamiPage/Products/Components/Pig';
+import Fox from './OrigamiPage/Products/Components/Fox';
+import Frame from './OrigamiPage/Products/Components/Frame';
+import JapanFlag from './OrigamiPage/Products/Components/JapanFlag';
 
 
 
@@ -28,7 +36,17 @@ export default class App extends Component {
               <Route exact path="/contact" element={<Contact />} />
               <Route exact path="/profile" element={<UserProfile />} />
               <Route exact path="/products/butter" element={<Butter />}/>
+              <Route exact path="/products/lotus" element={<Lotus />}/>
+              <Route exact path="/products/parrot" element={<Parrot />}/>
+              <Route exact path="/products/vietnam" element={<Vietnam />}/>
+              <Route exact path="/products/crab" element={<Crab />}/>
+              <Route exact path="/products/pig" element={<Pig />}/>
+              <Route exact path="/products/fox" element={<Fox />}/>
+              <Route exact path="/products/frame" element={<Frame />}/>
+              <Route exact path="/products/jpflag" element={<JapanFlag />}/>
+
      
+
             </Routes>
           </div>
         </div>

@@ -4,11 +4,13 @@
     background-color: rgb(230, 230, 230);
     margin-top: 6vw;
     margin-left: 20vw;
+    box-shadow: 5px 4px 0px 4px rgba(0,0,0,0.3);
 
 }
 
 .poster-hightlight{
     padding-left: 2vw;
+   
 }
 .hl-poster{
     padding-left: 2vw;
@@ -34,17 +36,25 @@
 .p-item-little{
     display: flex;
     flex-direction: column;
-    background-color: rgb(140, 140, 140);
+    background-color: rgb(206, 206, 206);
+    box-shadow: 5px 6px 0px 6px rgba(0,0,0,0.3);
 }
 .tittle-item{
     padding-left: 2vw;
     padding-top: 1vw;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: rgb(12, 15, 15);
+    
+}
+.tittle-item:hover{
+    color:rgb(213, 95, 84) ;
 }
 /* Lotus */
 .p-lotus{
     margin-top: 2vw;
-    width: 18vw;
-    height: 24vw;
+    width: 19vw;
+    height: 25vw;
     margin-left: 20vw;
 }
 .lotus-img{
@@ -54,10 +64,10 @@
 }
 /* Parrot */
 .p-parrot{
-    margin-left: 1.5vw;
-    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
     width: 19vw;
-    height: 31vw;
+    height: 31.5vw;
 }
 .parrot-img{
     width: 17vw;
@@ -68,36 +78,37 @@
 /* Crab */
 .p-crab{
     margin-top: 2vw;
-    margin-left: 1.5vw;
-    width: 20vw;
+    margin-left: 2vw;
+    width: 18vw;
     height: 32vw;
     margin-right: 15vw;
 }
 .crab-img{
-    width: 19vw;
+    width: 17vw;
     height: 15vw;
     padding-top: 1vw;
     padding-left: 1vw;
 }
 /* pig */
 .p-boar{
-   margin-top: -6.5vw;
+   margin-top: -6vw;
     margin-left: 20vw;
-    width: 18vw;
-    height: 26vw;
+    width: 19vw;
+    height: 29vw;
 }
 .boar-img{
-    width: 16vw;
+    width: 18vw;
     height: 18vw;
     padding-left: 1.5vw;
     padding-top: 1vw;
 }
+
 /* Flag */
 .p-flag{
     width: 19vw;
-    height: 30vw;
-    margin-left: 1.5vw;
-    margin-top: 1vw;
+    height: 32.5vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
 
 }
 .flag-img{
@@ -107,41 +118,51 @@
 }
 /* Fox */
 .p-fox{
-    margin-left: 1.5vw;
+    margin-left: 2vw;
     margin-top: 1vw;
-    width: 20vw;
-    height: 25vw;
+    width: 18vw;
+    height: 23vw;
     margin-right: 10vw;
 }
 .fox-img{
-    width: 19vw;
-    padding-left: 1vw;
-    padding-top: 1vw;
-}
-/* frame */
-.p-frame{
-    margin-top: -10vw;
-    margin-left: 20vw;
-    width: 18vw;
-    height: 25vw;
-}
-.frame-img{
     width: 17vw;
     padding-left: 1vw;
     padding-top: 1vw;
 }
+.font-fox{
+    font-size: 15px;
+}
+/* frame */
+.p-frame{
+    margin-top: -8vw;
+    margin-left: 20vw;
+    width: 19vw;
+    height: 26.5vw;
+}
+.frame-img{
+    width: 18vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+.font-frame{
+    font-size: 15px;
+    padding-top: 1.5vw;
+}
 /* Japan Flag */
 .p-japan{
-    margin-left: 1.5vw;
-    margin-top: 1.5vw;
-    width: 19vw;
-    height: 25vw;
+    margin-left: 23vw;
+    margin-top: -7vw;
+    width: 18vw;
+    height: 27vw;
 }
 .japan-img{
     width: 18vw;
     height: 15vw;
     padding-left: 1vw;
     padding-top: 1vw;
+}
+.font-jp{
+    font-size: 15px;
 }
 .footer-p{
     margin-top: 2vw;
