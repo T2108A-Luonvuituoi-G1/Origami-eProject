@@ -1,0 +1,50 @@
+body{
+    background-image: url(../images/background.jpg);
+    
+}
+.crab{
+    background-color: white;
+    width: 62%;
+    border-radius: 25px;
+    padding:40px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+.crab_top .crab_title {
+    font-size: 35px;
+    font-weight: bold;
+    display:block;
+    padding-bottom: 10px;
+}
+.crab_title-author{
+    color: #999;
+    font-size: 20px;
+    cursor: pointer;
+    display:block;
+    padding-bottom: 5px;
+}
+.crab_title-author a{
+    text-decoration: none;
+}
+.crab_content p{
+    font-size:20px;
+}
+.crab_images{
+    height: 350px;
+    display:block;
+    margin: 0px auto;
+}
+.crab_origami span {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding: 10px;
+}
+.crab_bottom{
+    font-size: 20px;
+    display:block;
+    text-align: center ;
+    padding-top:10px;
+    color: #999;
+}
