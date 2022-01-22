@@ -9,7 +9,7 @@ import Boar from '../Assets/Images/represent/Boar.jpg'
 import VN from '../Assets/Images/represent/flagVN.jpg'
 import { IoPersonSharp } from "react-icons/io5";
 import parrot from '../Assets/Images/represent/parrot.jpg'
-import crab from '../Assets/Images/represent/crab.jpg'
+import Crab from '../Assets/Images/represent/crab.jpg'
 import fox from '../Assets/Images/represent/fox.jpg'
 import frame from '../Assets/Images/represent/frameimg.jpg'
 import japan from '../Assets/Images/represent/japanflag.jpg'
@@ -93,7 +93,7 @@ export default class ProductList extends Component {
 
                         <div className='p-item-little p-crab'>
 
-                            <img src={crab} className='p-img-little crab-img' />
+                            <img src={Crab} className='p-img-little crab-img' />
                             <Link to="/products/crab" className='tittle-item'><b> {this.title.title5}</b> </Link>
                             <div className='div-item'>
                                 Model name: Crab <br /> Author: Nguyen Hung Cuong, developed from the basic figure in the series “Cube Art” by Kunihiko Kasahara</div>
