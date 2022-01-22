@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom";
 import React, { Component } from 'react';
+import bg from '../Assets/Images/background.jpg'
 import vf from '../Assets/Images/making/vnflag.jpg'
 import vf2 from '../Assets/Images/making/vnmaking.png'
 
 export default class Vietnam extends Component {
   render() {
     return (
-      <>
+      <div  style={{
+        background: `url(${bg})`
+    }}>
         <div className="fov">
           <div className="fov_top">
-            <span className="fov_title"> Quốc kỳ Việt Nam </span>
+            <span className="fov_title"> Flag of VietNam </span>
             <div className="fov_title-author">
               <span>Posed by </span>
               <span>
@@ -23,31 +26,31 @@ export default class Vietnam extends Component {
             </div>
             <div className="fov_content">
               <p >
-                <strong>Tên mẫu:</strong> Quốc kỳ Việt Nam
+                <strong>Form name:</strong> Flag of VietNam
               </p>
               <p >
-                <strong>Tác giả:</strong> Nguyễn Xuân Tùng
+                <strong>Author:</strong> Nguyen Xuan Tung
               </p>
               <p >
-                Sáng tác nhân dịp 62 năm Quốc Khánh nước CHXHCN Việt Nam. Mẫu gấp
-                được áp dụng kỹ thuật Inside-out để tận dụng 2 mặt màu khác nhau của
-                1 tờ giấy vuông.
+                Composed on the occasion of the 62nd National Day of the Socialist Republic of Vietnam. Folding pattern
+                is applied inside-out technique to take advantage of 2 different color sides of
+                1 square sheet of paper.
               </p>
             </div>
             <div className="flag">
               <img src={vf} alt="image" />
-              <span>Quốc kỳ Việt Nam - Nguyễn Xuân Tùng</span>
+              <span>Flag of VietNam- Nguyen Xuan Tung</span>
               <img src={vf2} alt="image" />
 
             </div>
           </div>
           <div className="fov-bottom">
             <p>@2022 LuonVuiTuoi Team</p> <br />
-            <p>Bây giờ là 1h26' </p>
+
           </div>
 
         </div>
-      </>
+      </div>
     )
   }
 }
