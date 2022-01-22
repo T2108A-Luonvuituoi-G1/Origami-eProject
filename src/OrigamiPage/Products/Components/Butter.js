@@ -44,13 +44,13 @@ export default class Butter extends Component {
           <h1 className="p-text">VOG’s Butterfly – Michael Lafosse</h1>
           <div className="poster">< IoPersonSharp /> Poster by {this.poster.name1}</div>
           <p className="p-text">
-            Năm 2015, nhân dịp kỷ niệm 10 năm thành lập Vietnam Origami Group, tác giả Michael LaFosse đã sáng tác riêng một mẫu bươm bướm tặng VOG.
+          In 2015, on the occasion of the 10th anniversary of Vietnam Origami Group, author Michael LaFosse created a butterfly template for VOG.
             <br />
-            VOG chân thành cảm ơn tình cảm của Mr. Michael LaFosse.
+            VOG sincerely thanks Mr. Michael LaFosse.
           </p>
           <div className="p-img">
             <img src={butter} className='product-hightlight-img-details' />
-            <p className="p-text-img">VOG 10th Anniversary Butterfly – Sáng tác: Michael LaFosse – Gấp bởi: Giangdinh</p>
+            <p className="p-text-img">VOG 10th Anniversary Butterfly- Composed:Michael LaFosse -Folded by: Giangdinh</p>
           </div>
           <div className="product-making">
             <p className="p-text-making">Tutorial Making:</p>
