@@ -19,10 +19,10 @@ export default class ProductList extends Component {
     state = {
         poster1: 'Vo Van Viet',
         poster2: 'LVT-Butterfly - Michael Lafosse',
-        poster3:'Dao Thanh Nam',
-        poster4:'Tran Minh Duc',
-        poster5:'Ta Quang Minh',
-        poster6:'Le Nhu Viet Anh'
+        poster3: 'Dao Thanh Nam',
+        poster4: 'Tran Minh Duc',
+        poster5: 'Ta Quang Minh',
+        poster6: 'Le Nhu Viet Anh'
 
     }
     title = {
@@ -53,12 +53,12 @@ export default class ProductList extends Component {
                             < IoPersonSharp className='icon-human ' /> Posted by {this.state.poster1}
                         </div >
                         <img src={VOG} className='product-hightlight-img' />
-                         <p className='div-p-poster'>
+                        <p className='div-p-poster'>
 
                             In 2015, on the occasion of the 10th anniversary of Vietnam Origami Group, author Michael LaFosse created a butterfly template for VOG.
                             <br /><br />
                             VOG sincerely thanks Mr. Michael LaFosse.
-                        </p> 
+                        </p>
                         <Link to="/products/butter" className='link-btn'>Keep reading<GrLinkNext className='icon ' /></Link>
                     </div>
 
@@ -80,21 +80,21 @@ export default class ProductList extends Component {
                         <div className='p-item-little p-flag'>
 
                             <img src={VN} className='p-img-little flag-img' />
-                            <Link to="products/vietnam" className='tittle-item'><b> {this.title.title3}</b> </Link>
+                            <Link to="/products/vietnam" className='tittle-item'><b> {this.title.title3}</b> </Link>
                             <div className='div-item'>
                                 Model name: National flag of Vietnam Author: Nguyen Xuan Tung Composed on the occasion of the 62nd National Day of the Socialist Republic of Vietnam. Folding pattern…</div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster3} </div >
 
 
                         </div>
-                       
+
 
                         {/* Con Cua */}
 
                         <div className='p-item-little p-crab'>
 
                             <img src={crab} className='p-img-little crab-img' />
-                            <Link to="products/crab" className='tittle-item'><b> {this.title.title5}</b> </Link>
+                            <Link to="/products/crab" className='tittle-item'><b> {this.title.title5}</b> </Link>
                             <div className='div-item'>
                                 Model name: Crab <br /> Author: Nguyen Hung Cuong, developed from the basic figure in the series “Cube Art” by Kunihiko Kasahara</div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster1} </div >
@@ -108,7 +108,7 @@ export default class ProductList extends Component {
                         <div className='p-item-little p-boar'>
 
                             <img src={Boar} className='p-img-little boar-img' />
-                            <Link to="products/pig" className='tittle-item'><b> {this.title.title2}</b> </Link>
+                            <Link to="/products/pig" className='tittle-item'><b> {this.title.title2}</b> </Link>
                             <div className='div-item'>
                                 Model name: Wild boar <br /> Author: Do Tri Khai</div>
                             <div className='div-p pig-poster'>< IoPersonSharp />Posted by {this.state.poster4} </div >
@@ -121,7 +121,7 @@ export default class ProductList extends Component {
                         <div className='p-item-little p-parrot'>
 
                             <img src={parrot} className='p-img-little parrot-img' />
-                            <Link to="products/parrot" className='tittle-item'><b> {this.title.title4}</b> </Link>
+                            <Link to="/products/parrot" className='tittle-item'><b> {this.title.title4}</b> </Link>
                             <div className='div-item'>
                                 Model name: Parrot  <br /> Author: Hoang Tien Quyet</div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster1} </div >
@@ -136,7 +136,7 @@ export default class ProductList extends Component {
                         <div className='p-item-little p-fox'>
 
                             <img src={fox} className='p-img-little fox-img' />
-                            <Link to="products/fox" className='tittle-item'><b> {this.title.title6}</b> </Link>
+                            <Link to="/products/fox" className='tittle-item'><b> {this.title.title6}</b> </Link>
                             <div className='div-item'>
                                 Model name: Fox <br /> Author: Hoang Tien Quyet</div>
                             <div className='div-p '>< IoPersonSharp />Posted by {this.state.poster6} </div >
@@ -148,7 +148,7 @@ export default class ProductList extends Component {
 
                         <div className='p-item-little p-japan'>
                             <img src={japan} className='p-img-little japan-img' />
-                            <Link to="products/jpflag" className='tittle-item '><b> {this.title.title8}</b> </Link>
+                            <Link to="/products/jpflag" className='tittle-item '><b> {this.title.title8}</b> </Link>
                             <div className='div-item'>
                                 Model name: National flag of Japan <br /> Composer: Hiba
                             </div>
@@ -159,7 +159,7 @@ export default class ProductList extends Component {
                         <div className='p-item-little p-frame'>
 
                             <img src={frame} className='p-img-little frame-img' />
-                            <Link to="products/frame" className='tittle-item'><b> {this.title.title7}</b> </Link>
+                            <Link to="/products/frame" className='tittle-item'><b> {this.title.title7}</b> </Link>
                             <div className='div-item'>
                                 Model name: Photo frame <br /> Author: Nguyen Xuan Tung</div>
                             <div className='div-p '>< IoPersonSharp />Posted by {this.state.poster5} </div >
