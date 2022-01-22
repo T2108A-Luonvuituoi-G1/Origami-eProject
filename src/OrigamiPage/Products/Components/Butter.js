@@ -12,7 +12,7 @@ import bg from '../Assets/Images/background.jpg'
 
 export default class Butter extends Component {
   poster = {
-    name1: 'Võ Văn Việt '
+    name1: 'Vo Van Viet '
   }
   state = {
     img: butter1
