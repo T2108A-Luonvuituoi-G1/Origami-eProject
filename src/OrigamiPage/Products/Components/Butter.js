@@ -7,6 +7,8 @@ import butter1 from '../Assets/Images/making/butter1.png'
 import butter2 from '../Assets/Images/making/butter2.png'
 import butter3 from '../Assets/Images/making/butter3.png'
 import { MdCopyright } from "react-icons/md";
+import '../Assets/Css/ProductItem.css'
+import bg from '../Assets/Images/background.jpg'
 
 export default class Butter extends Component {
   poster = {
@@ -35,7 +37,9 @@ export default class Butter extends Component {
   }
   render() {
     return (
-      <>
+      <div  className="large"       style={{
+        background:`url(${bg})`
+      }}>
         <div className="p-news">
           <h1 className="p-text">VOG’s Butterfly – Michael Lafosse</h1>
           <div className="poster">< IoPersonSharp /> Poster by {this.poster.name1}</div>
@@ -66,7 +70,7 @@ export default class Butter extends Component {
 
         <p className="p-footer"><MdCopyright/>Make by team: Luonvuituoi work on 2022 </p>
         </div>
-      </>
+      </div>
     )
   }
 }
