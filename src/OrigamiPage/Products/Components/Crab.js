@@ -1,16 +1,20 @@
 import { Link } from "react-router-dom";
 import React, { Component } from 'react';
+import bg from '../Assets/Images/background.jpg'
 import Cm from '../Assets/Images/making/tutorial.png'
 import Cm1 from '../Assets/Images/making/Crab.jpg'
 
 export default class Crab extends Component {
   render() {
     return (
-      <>
-        <div class="crab">
-          <div class="crab_top">
-            <span class="crab_title">Crab</span>
-            <div class="crab_title-author">
+      <div  style={{
+        background: `url(${bg})`
+    }}>
+        <div className="crab"
+        >
+          <div className="crab_top">
+            <span className="crab_title">Crab</span>
+            <div className="crab_title-author">
               <span>Posed by</span>
               <span>
                 <a href="https://www.facebook.com/VoVanViet.2003" rel="author">
@@ -18,25 +22,26 @@ export default class Crab extends Component {
                 >
               </span>
             </div>
-            <div class="crab_content">
+            <div className="crab_content">
               <p ><strong>Tên mẫu:</strong>Crab</p>
               <p >
-                <strong>Tác giả:</strong> Nguyễn Hùng Cường, phát triển từ hình cơ
-                bản trong loạt tác phẩm “Cube Art” của Kunihiko Kasahara
+                <strong>Author:</strong> Nguyen Hung Cuong<br/>
+                Develop from muscle
+                version in the “Cube Art” series by Kunihiko Kasahara
               </p>
             </div>
-            <div class="crab_origami">
-              <img class="crab_images"
-                src={Cm1}alt="iamges"/>
-                <span>Nguyễn Hùng Cường - Inspired by Kunihiko Kasahara's Cube Art</span>
+            <div className="crab_origami">
+              <img className="crab_images"
+                src={Cm1} alt="iamges" />
+              <span>Nguyen Hung Cuong- Inspired by Kunihiko Kasahara's Cube Art</span>
             </div>
-            <img class="crab_images" src={Cm} alt="images"/>
+            <img className="crab_images" src={Cm} alt="images" />
           </div>
-          <div class="crab_bottom">
+          <div className="crab_bottom">
             <p>@2022 LuonVuiTuoi Team</p>
           </div>
         </div>
-      </>
+      </div>
     )
   }
 }
