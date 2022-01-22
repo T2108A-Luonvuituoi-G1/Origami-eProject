@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { Component } from 'react';
+import bg from '../Assets/Images/background.jpg'
 import d1 from '../Assets/Images/making/d1.jpg'
 import d2 from '../Assets/Images/making/d2.jpg'
 import finis from '../Assets/Images/making/finis.jpg'
@@ -34,10 +35,12 @@ import t6 from '../Assets/Images/making/t6.jpg'
 export default class Lotus extends Component {
     render() {
         return (
-            <>
+            <div div   style={{
+                background: `url(${bg})`
+            }}>
                 <div className="lotus">
                     <div className="lotus_top">
-                        <span className="lt_title">Hoa Sen</span>
+                        <span className="lt_title">Lotus</span>
                         <div className="lt_title-author">
                             <span>Posed by </span>
                             <span>
@@ -48,18 +51,18 @@ export default class Lotus extends Component {
                             </span>
                         </div>
                         <div className="lotus_content">
-                            <p ><strong>Tên mẫu:</strong> Hoa Sen</p>
+                            <p ><strong>Model Name:</strong> Lotus</p>
                             <p >
-                                <strong>Tác giả:</strong> Đặng Việt Tân
+                                <strong>Author:</strong> Dang Viet Tan
                             </p>
-                            <p>Sáng tác hưởng ứng cuộc thi Pig Base</p>
+                            <p>Composing in response to Pig Base contest</p>
                         </div>
                         <div className="lotus_origami">
                             <img className="images" src={lotus} alt="image" />
-                            <span>Hoa Sen - Đặng Việt Tân</span>
+                            <span>Lotus -Dang Viet Tan</span>
                         </div>
 
-                        <p><strong>Bắt đầu từ base chong chóng:</strong></p>
+                        <p><strong>Starting from the pinwheel base:</strong></p>
                         <div className="imagess">
                             <img src={t1} alt="t1" />
                             <img src={t2} alt="t2" />
@@ -67,14 +70,14 @@ export default class Lotus extends Component {
                             <img src={t5} alt="t4" />
                             <img src={t6} alt="t5" />
                         </div>
-                        <p><strong>Lật mặt sau:</strong></p>
+                        <p><strong>Flip the back side:</strong></p>
                         <div className="imagess">
                             <img src={s1} alt="t2" />
                             <img src={s2} alt="t2" />
                             <img src={s3} alt="t2" />
                         </div>
 
-                        <p><strong>Lật ngược lại rồi gấp lên, kéo phần giấy đằng sau ra (như hình mũi tên):</strong></p>
+                        <p><strong>Turn it upside down and then fold it up, pull out the back paper (like an arrow):</strong></p>
                         <div className="imagess">
                             <img src={n1} alt="t3" />
                             <img src={n2} alt="t3" />
@@ -86,24 +89,24 @@ export default class Lotus extends Component {
                             <img src={n8} alt="t3" />
                             <img src={n9} alt="t3" />
                         </div>
-                        <p><strong>Lật ngược lại:</strong></p>
+                        <p><strong>Turn over:</strong></p>
                         <div className="imagess">
                             <img src={ln1} alt="t4" />
                             <img src={ln2} alt="t4" />
                         </div>
-                        <p><strong>Dùng keo sữa để cố định nếu nếp gấp ko chặt:</strong></p >
+                        <p><strong>Use glue to fix if the folds are not tight:</strong></p >
                         <img src={d1} alt="t5" /> <br />
-                        <p><strong>Dán cố định 4 góc giấy và gấp hơi hơi theo cạnh hình vuông ở giữa để tạo độ phồng: </strong></p>
+                        <p><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
                         <img src={d2} alt="t5" /> <br />
-                        <p><strong>Dán cố định 4 góc giấy và gấp hơi hơi theo cạnh hình vuông ở giữa để tạo độ phồng: </strong></p>
+                        <p><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
                         <img src={finis} alt="t5" />
                     </div>
                     <div className="lotus_bottom">
                         <p>@2022 LuonVuiTuoi Team</p>
                     </div>
                 </div>
-            {/* </div> */}
-           </> 
+            
+           </div> 
         )
     }
 }
