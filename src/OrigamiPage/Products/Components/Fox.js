@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import bg from '../Assets/Images/background.jpg'
 import React, { Component } from 'react';
 import fox from '../Assets/Images/making/fox.jpg'
 import Fm from '../Assets/Images/making/tutorial1.jpg'
@@ -15,7 +16,9 @@ import Fm9 from '../Assets/Images/making/tutorial9.jpg'
 export default class Fox extends Component {
   render() {
     return (
-      <>
+      <div   style={{
+        background: `url(${bg})`
+    }}>
         <div className="fox">
           <div className="fox_top">
             <span className="fox_title">Fox</span>
@@ -29,9 +32,9 @@ export default class Fox extends Component {
               </span>
             </div>
             <div className="fox_content">
-              <p ><strong>Tên mẫu:</strong>Fox</p>
+              <p ><strong>Form name:</strong>Fox</p>
               <p >
-                <strong>Tác giả:</strong> Hoang Tien Quyet
+                <strong>Author:</strong> Hoang Tien Quyet
               </p>
             </div>
             <div className="fox_origami">
@@ -54,7 +57,7 @@ export default class Fox extends Component {
             </div>
           </div>
         </div>
-      </>
+      </div>
     )
   }
 }
