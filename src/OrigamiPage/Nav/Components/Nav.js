@@ -1,29 +1,22 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../Assets/Css/Nav.css'
 import Logo from '../Assets/Images/user-logo.jpg'
 import { BiSearchAlt } from 'react-icons/bi'
 import NavClock from './NavClock';
+import NavSearchInput from './NavSearchInput'
 
-export default class Nav extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { value: '' };
-
-        this.handleChange = this.handleChange.bind(this);
-    }
-
-    handleChange(event) {
-        this.setState({ value: event.target.value });
-    }
-
-    render() {
-        return (
+function Nav() {
+    
+    return (
+        <>
             <div>
                 <div className="top-nav">
                     <BiSearchAlt className='icon-search' />
                     <Link className='nav-logo' to='/'>LUONVUITUOI</Link>
-                    <input type="text" className='input-search' placeholder='Search' value={this.state.value} onChange={this.handleChange} />
+
+                    <NavSearchInput />
+
                     <div className='nav-link-page'>
                         <Link className='nav-link' to="/">Home</Link>
                         <Link className='nav-link' to="/products">Origami</Link>
@@ -38,6 +31,8 @@ export default class Nav extends Component {
                     </div>
                 </div>
             </div>
-        )
-    }
+        </>
+    );
 }
+
+export default Nav;
