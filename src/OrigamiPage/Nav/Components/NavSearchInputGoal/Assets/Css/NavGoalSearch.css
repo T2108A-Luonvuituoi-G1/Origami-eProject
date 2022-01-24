@@ -13,3 +13,9 @@
 .nav-search-goal-text-composer {
     font-size: 1vw;
 }
+
+.nav-goal-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
