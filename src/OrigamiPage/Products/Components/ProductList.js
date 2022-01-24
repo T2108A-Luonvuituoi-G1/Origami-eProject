@@ -39,7 +39,9 @@ export default class ProductList extends Component {
 
     render() {
         return (
-            <>
+            <div className='product-layout'>
+            <br/>
+     
                 <div className='product-background'
                     style={{
                         background: `url(${bg})`
@@ -176,7 +178,7 @@ export default class ProductList extends Component {
 
 
 
-            </>
+            </div>
         )
     }
 }
