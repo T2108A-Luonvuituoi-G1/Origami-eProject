@@ -8,12 +8,14 @@ import ParrotSearch from './NavSearchInputGoal/Components/ParrotSearch';
 import FoxSearch from './NavSearchInputGoal/Components/FoxSearch';
 import CrabSearch from './NavSearchInputGoal/Components/CrabSearch';
 import PhotoFrameSearch from './NavSearchInputGoal/Components/PhotoFrameSearch';
+import { Link } from 'react-router-dom';
 
 function NavSearchInput() {
 
     const [search, setSearch] = useState('');
 
     let goal = '';
+    let goalLink = '';
 
     switch (search) {
         case 'japan':
@@ -22,16 +24,19 @@ function NavSearchInput() {
         case 'Japan flag':
         case 'Japan Flag':
             goal = <JapanFlagSearch />
+            goalLink = '/products/jpflag'
             break;
 
         case 'butterfly':
         case 'Butterfly':
             goal = <ButterflySearch />;
+            goalLink = '/products/butter'
             break;
 
         case 'lotus':
         case 'Lotus':
             goal = <LotusSearch />;
+            goalLink = '/products/lotus'
             break;
 
         case 'vietnam':
@@ -44,27 +49,32 @@ function NavSearchInput() {
         case 'Viet Nam':
         case 'Viet Nam flag':
             goal = <VietNamSearch />
+            goalLink = '/products/vietnam'
             break;
 
         case 'Boar':
         case 'boar':
         case 'Wild boar':
             goal = <BoarSearch />
+            goalLink = '/products/pig'
             break;
 
         case 'parrot':
         case 'Parrot':
             goal = <ParrotSearch />
+            goalLink = '/products/parrot'
             break;
 
         case 'fox':
         case 'Fox':
             goal = <FoxSearch />
+            goalLink = '/products/fox'
             break;
 
         case 'crab':
         case 'Crab':
             goal = <CrabSearch />
+            goalLink = '/products/crab'
             break;
 
         case 'photo':
@@ -73,6 +83,7 @@ function NavSearchInput() {
         case 'photo frame':
         case 'Photo Frame':
             goal = <PhotoFrameSearch />
+            goalLink = '/products/frame'
             break;
 
         default:
@@ -86,7 +97,7 @@ function NavSearchInput() {
                 onChange={e => setSearch(e.target.value)}
             />
             <div className='nav-origami-search'>
-                {goal}
+                <Link className='nav-goal-link' to={goalLink}>{goal}</Link>
             </div>
         </>
     );;
