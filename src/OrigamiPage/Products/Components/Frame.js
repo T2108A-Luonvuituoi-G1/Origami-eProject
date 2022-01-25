@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import bg from '../Assets/Images/background.jpg'
 import fr from '../Assets/Images/making/Frame1.jpg'
 import fr2 from '../Assets/Images/making/Frame2.jpg'
