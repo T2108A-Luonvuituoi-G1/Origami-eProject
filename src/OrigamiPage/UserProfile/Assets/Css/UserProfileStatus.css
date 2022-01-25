@@ -8,11 +8,8 @@
 
 .up-status-post {
     background-color: #fff;
-<<<<<<< HEAD
     width: 64vw;
-=======
     width: 68vw;
->>>>>>> 73789af8a2bf5d7b27aad30aac209fef09e4acfa
     height: 35vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     margin: 0vw 0vw 5vw 0vw;
@@ -43,12 +40,11 @@
     margin: 7vw 8.7vw;
 }
 .up-status-post-content-love{
-    margin-top: 15vw;
+    margin-top: 13vw;
     border-radius: 1.9vw;
-    margin-left: 7vw;
+    margin-left: 8.5vw;
 }
 .up-status-post-content-love2{
-    margin-top: 5vw;
     border-radius: 1.9vw;
-    margin-left: 15vw;
+    margin-left: 2vw;
 }
