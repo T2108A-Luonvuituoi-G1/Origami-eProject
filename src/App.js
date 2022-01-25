@@ -20,6 +20,7 @@ import JapanFlag from './OrigamiPage/Products/Components/JapanFlag';
 
 
 
+
 export default class App extends Component {
   render() {
     return (
@@ -35,6 +36,9 @@ export default class App extends Component {
               <Route exact path="/aboutus" element={<AboutUs />} />
               <Route exact path="/contact" element={<Contact />} />
               <Route exact path="/profile" element={<UserProfile />} />
+
+
+
               <Route exact path="/products/butter" element={<Butter />}/>
               <Route exact path="/products/lotus" element={<Lotus />}/>
               <Route exact path="/products/parrot" element={<Parrot />}/>
