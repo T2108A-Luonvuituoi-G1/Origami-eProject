@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import React, { Component } from 'react';
 import bg from '../Assets/Images/background.jpg'
 import Parrot1 from '../Assets/Images/making/Parrot1.jpg'
@@ -34,6 +34,7 @@ export default class Parrot extends Component {
               <img className="parrot_images" src={Parrot1} alt="images" />
               <span>Parrot - Hoang Tien Quyet</span>
             </div>
+            <p>Tutorial Making:</p>
             <img className="parrot_images" src={Parrot2} alt="images" />
             <img className="parrot_images" src={Parrot3} alt="images" />
             <img className="parrot_images" src={Parrot4} alt="images" />
