@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import bg from '../Assets/Images/background.jpg'
 import Cm1 from '../Assets/Images/represent/crab.jpg'
 import Cm2 from '../Assets/Images/making/tutorial-crab.jpg'
+// import Cm1 from '../Assets/Images/represent/crab.jpg'
 
 export default class Crab extends Component {
   render() {
@@ -31,8 +32,8 @@ export default class Crab extends Component {
               </p>
             </div>
             <div className="crab_origami">
-              <img className="crab_images"
-                src={Cm1} className='img-crab' alt="iamges" />
+              {/* <img className="crab_images"
+                src={Cm1} className='img-crab' alt="images" /> */}
               <span>Nguyen Hung Cuong- Inspired by Kunihiko Kasahara's Cube Art</span>
             </div>
             <img className="crab_images" src={Cm2} alt="images" />
