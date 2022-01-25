@@ -7,7 +7,7 @@ function UserProfileContent() {
             <div className='up-content'>
                 <div className='up-information' >
                     <div className='up-full-name'>
-                        Ta Quang Minh
+                         Tran Minh Duc
                     </div>
                     <div className='up-job' >
                         Manager
