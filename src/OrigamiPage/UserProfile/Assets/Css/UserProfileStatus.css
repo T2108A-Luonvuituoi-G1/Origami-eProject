@@ -2,17 +2,14 @@
     position: relative;
     width: 68vw;
     height: 100vw;
-    margin: -0.5vw 2.2vw;
+    margin: -0.5vw 3vw;
     border-radius: 1.9vw;
 }
 
 .up-status-post {
-    background-color: #fff;
-<<<<<<< HEAD
+    background-color: #ccc;
     width: 64vw;
-=======
     width: 68vw;
->>>>>>> 73789af8a2bf5d7b27aad30aac209fef09e4acfa
     height: 35vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     margin: 0vw 0vw 5vw 0vw;
@@ -51,4 +48,16 @@
     margin-top: 5vw;
     border-radius: 1.9vw;
     margin-left: 15vw;
+}
+
+.up-status-post-content-anhtet1{
+    top: 50vw;
+    margin-top: 12vw;
+    border-radius: 1.9vw;
+    margin-left: 6vw;
+}
+.up-status-post-content-anhtet2{
+    margin-top: -20vw;
+    border-radius: 1.9vw;
+    margin-left: 38vw;
 }
