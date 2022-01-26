@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import bg from '../Assets/Images/background.jpg'
 import React, { Component } from 'react';
 import fox from '../Assets/Images/making/fox.jpg'
@@ -41,16 +41,16 @@ export default class Fox extends Component {
               <img className="fox_imagess" src={fox} alt="images" />
               <span>Fox - Hoang Tien Quyet</span>
             </div>
-            <div className="fox_images">
-              <img src={Fm} alt="image" />
-              <img src={Fm2} alt="image" />
-              <img src={Fm3} alt="image" />
-              <img src={Fm4} alt="image" />
-              <img src={Fm5} alt="image" />
-              <img src={Fm6} alt="image" />
-              <img src={Fm7} alt="image" />
-              <img src={Fm8} alt="image" />
-              <img src={Fm9} alt="image" />
+            <div >
+              <img src={Fm} className="fox_images"  alt="image" />
+              <img src={Fm2} className="fox_images" alt="image" />
+              <img src={Fm3} className="fox_images" alt="image" />
+              <img src={Fm4} className="fox_images" alt="image" />
+              <img src={Fm5} className="fox_images" alt="image" />
+              <img src={Fm6} className="fox_images" alt="image" />
+              <img src={Fm7} className="fox_images" alt="image" />
+              <img src={Fm8} className="fox_images" alt="image" />
+              <img src={Fm9} className="fox_images" alt="image" />
             </div>
             <div className="fox_bottom">
               <p>@2022 LuonVuiTuoi Team</p>
