@@ -10,6 +10,7 @@ import Lotus from '../Assets/Images/lotus.jpg'
 import Img from '../Assets/Images/img.jpg'
 import Vietnam from '../Assets/Images/vietnam.jpg'
 import Japan from '../Assets/Images/japan.jpg'
+import { Link } from 'react-router-dom';
 
 function ProductList() {
     return (
@@ -26,10 +27,10 @@ function ProductList() {
                             Author: Hoang Tien Quyet <br />
                             Update by: Vo Van Viet
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/fox" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -43,10 +44,10 @@ function ProductList() {
                             Author: Do Tri Khai <br />
                             Update by: Tran Minh Duc
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/pig" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -60,10 +61,10 @@ function ProductList() {
                             Author: Michael LaFosse <br />
                             Update by: Dao Thanh Nam
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/butterfly" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -77,10 +78,10 @@ function ProductList() {
                             Author: H.T.Quyet <br />
                             Update by: Ta Quang Minh
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/crab" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -94,10 +95,10 @@ function ProductList() {
                             Author: Hoang Tien Quyet <br />
                             Update by: Ta Quang Minh
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/parrot" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -111,10 +112,10 @@ function ProductList() {
                             Author: Dang Viet Tan <br />
                             Update by: Vo Van Viet
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/lotus" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -128,10 +129,10 @@ function ProductList() {
                             Author: H.T.Quyet <br />
                             Update by: Dao Thanh Nam
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/frameImg" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -145,10 +146,10 @@ function ProductList() {
                             Author: Nguyen Xuan Tung <br />
                             Update by: Le Nhu Viet Anh
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/VietNamFlag" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -162,10 +163,10 @@ function ProductList() {
                             Author: Hiba <br />
                             Update by: Ta Quang Minh
                         </p>
-                        <a href='#' className='product-page-list-item-btn'>
+                        <Link to="/products/JapanFlag" className='product-page-list-item-btn'>
                             <p>Try now</p>
                             <BiChevronRight className='product-page-list-item-btn-icon' />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
