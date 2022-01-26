@@ -14,6 +14,7 @@ import fox from '../Assets/Images/represent/fox.jpg'
 import frame from '../Assets/Images/represent/frameimg.jpg'
 import japan from '../Assets/Images/represent/japanflag.jpg'
 import { MdCopyright } from "react-icons/md";
+import ProductNav from './ProductNav';
 
 export default class ProductList extends Component {
     state = {
@@ -40,23 +41,17 @@ export default class ProductList extends Component {
     render() {
         return (
             <div className='product-layout'>
-            <br/>
-     
-                <div className='product-background'
-                    style={{
-                        background: `url(${bg})`
-                    }}
-                >
+                <ProductNav />
+
+                <div className='product-background'>
 
                     <div className='product-hightlight'>
-
-                        <h1 className='poster-hightlight font-posted'><b>Posted by {this.state.poster2}</b></h1>
+                        <h1 className='poster-hightlight font-posted'><b className='b-product-item'>Posted by {this.state.poster2}</b></h1>
                         <div className='hl-poster'>
                             < IoPersonSharp className='icon-human ' /> Posted by {this.state.poster1}
                         </div >
                         <img src={VOG} className='product-hightlight-img' />
                         <p className='div-p-poster'>
-
                             In 2015, on the occasion of the 10th anniversary of Vietnam Origami Group, author Michael LaFosse created a butterfly template for VOG.
                             <br /><br />
                             VOG sincerely thanks Mr. Michael LaFosse.
@@ -64,14 +59,11 @@ export default class ProductList extends Component {
                         <Link to="/products/butter" className='link-btn'>Keep reading<GrLinkNext className='icon ' /></Link>
                     </div>
 
-
-
                     {/* Hoa sen */}
                     <div className='product-items'>
                         <div className='p-item-little p-lotus'>
-
                             <img src={lotus} className='p-img-little lotus-img' />
-                            <Link to="/products/lotus" className='tittle-item'><b> {this.title.title1}</b> </Link>
+                            <Link to="/products/lotus" className='tittle-item'><b className='b-product-item'> {this.title.title1}</b> </Link>
                             <div className='div-item'>
                                 Model name: Lotus <br /> Author: Dang Viet Tan </div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster3} </div >
@@ -80,104 +72,83 @@ export default class ProductList extends Component {
                         {/* Vietnam Flag */}
 
                         <div className='p-item-little p-flag'>
-
                             <img src={VN} className='p-img-little flag-img' />
-                            <Link to="/products/vietnam" className='tittle-item'><b> {this.title.title3}</b> </Link>
+                            <Link to="/products/vietnam" className='tittle-item'><b className='b-product-item'> {this.title.title3}</b> </Link>
                             <div className='div-item'>
                                 Model name: National flag of Vietnam Author: Nguyen Xuan Tung Composed on the occasion of the 62nd National Day of the Socialist Republic of Vietnam. Folding pattern…</div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster3} </div >
-
-
                         </div>
-
 
                         {/* Con Cua */}
 
                         <div className='p-item-little p-crab'>
-
                             <img src={Crab} className='p-img-little crab-img' />
-                            <Link to="/products/crab" className='tittle-item'><b> {this.title.title5}</b> </Link>
+                            <Link to="/products/crab" className='tittle-item'><b className='b-product-item'> {this.title.title5}</b> </Link>
                             <div className='div-item'>
                                 Model name: Crab <br /> Author: Nguyen Hung Cuong, developed from the basic figure in the series “Cube Art” by Kunihiko Kasahara</div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster1} </div >
-
-
                         </div>
-
 
                         {/* Pig */}
 
                         <div className='p-item-little p-boar'>
-
                             <img src={Boar} className='p-img-little boar-img' />
-                            <Link to="/products/pig" className='tittle-item'><b> {this.title.title2}</b> </Link>
+                            <Link to="/products/pig" className='tittle-item'><b className='b-product-item'> {this.title.title2}</b> </Link>
                             <div className='div-item'>
                                 Model name: Wild boar <br /> Author: Do Tri Khai</div>
                             <div className='div-p pig-poster'>< IoPersonSharp />Posted by {this.state.poster4} </div >
-
-
                         </div>
 
                         {/* Con Vẹt */}
 
                         <div className='p-item-little p-parrot'>
-
                             <img src={parrot} className='p-img-little parrot-img' />
-                            <Link to="/products/parrot" className='tittle-item'><b> {this.title.title4}</b> </Link>
+                            <Link to="/products/parrot" className='tittle-item'><b className='b-product-item'> {this.title.title4}</b> </Link>
                             <div className='div-item'>
                                 Model name: Parrot  <br /> Author: Hoang Tien Quyet</div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster1} </div >
-
-
                         </div>
-
 
 
                         {/* Con Cáo */}
 
                         <div className='p-item-little p-fox'>
-
                             <img src={fox} className='p-img-little fox-img' />
-                            <Link to="/products/fox" className='tittle-item'><b> {this.title.title6}</b> </Link>
+                            <Link to="/products/fox" className='tittle-item'><b className='b-product-item'> {this.title.title6}</b> </Link>
                             <div className='div-item'>
                                 Model name: Fox <br /> Author: Hoang Tien Quyet</div>
                             <div className='div-p '>< IoPersonSharp />Posted by {this.state.poster6} </div >
-
-
                         </div>
 
                         {/* Cờ Nhật */}
 
                         <div className='p-item-little p-japan'>
                             <img src={japan} className='p-img-little japan-img' />
-                            <Link to="/products/jpflag" className='tittle-item '><b> {this.title.title8}</b> </Link>
+                            <Link to="/products/jpflag" className='tittle-item '><b className='b-product-item'> {this.title.title8}</b> </Link>
                             <div className='div-item'>
                                 Model name: National flag of Japan <br /> Composer: Hiba
                             </div>
                             <div className='div-p'>< IoPersonSharp />Posted by {this.state.poster5} </div >
                         </div>
+
                         {/* Khung ảnh  */}
 
                         <div className='p-item-little p-frame'>
-
                             <img src={frame} className='p-img-little frame-img' />
-                            <Link to="/products/frame" className='tittle-item'><b> {this.title.title7}</b> </Link>
+                            <Link to="/products/frame" className='tittle-item'><b className='b-product-item'> {this.title.title7}</b> </Link>
                             <div className='div-item'>
                                 Model name: Photo frame <br /> Author: Nguyen Xuan Tung</div>
                             <div className='div-p '>< IoPersonSharp />Posted by {this.state.poster5} </div >
-
-
                         </div>
 
 
                     </div>
+
                     <div className='footer-p'>
                         <p><MdCopyright />Make by team: Luonvuituoi work on 2022  </p>
                     </div>
+
                 </div>
-
-
-
             </div>
         )
     }
