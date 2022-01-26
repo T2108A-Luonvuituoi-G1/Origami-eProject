@@ -4,8 +4,17 @@
     background-color: rgb(230, 230, 230);
     margin-top: 6vw;
     margin-left: 20vw;
-    box-shadow: 5px 4px 0px 4px rgba(0,0,0,0.3);
+}
 
+.product-background {
+    position: absolute;
+}
+
+/* .b-product-item {
+} */
+
+.product-layout {
+    
 }
 
 .poster-hightlight{
@@ -21,7 +30,6 @@
 .product-hightlight-img{
     margin-left: 4vw;
     width: 53vw;
-    
 }
 .font-posted{
     margin-top: 2vw;
@@ -57,13 +65,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
 .p-item-little{
     display: flex;
     flex-direction: column;
     background-color: rgb(206, 206, 206);
-    box-shadow: 5px 3px 0px 3px rgba(0,0,0,0.3);
 }
 .tittle-item{
     padding-left: 1vw;
@@ -99,7 +105,6 @@
     height: 40vw;
     margin-left: 2vw;
     margin-top: 2vw;
-
 }
 .flag-img{
     width: 17vw;
@@ -131,9 +136,9 @@
  .boar-img{
      width: 18vw;
      height: 18vw;
-     padding-left: 1.5vw;
+     padding-left: 1vw;
      padding-top: 1vw;
- }
+    }
  /* Parrot */
 .p-parrot{
     margin-left: 2vw;
