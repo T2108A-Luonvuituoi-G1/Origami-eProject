@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import React, { Component } from 'react';
 import bg from '../Assets/Images/background.jpg'
 import d1 from '../Assets/Images/making/d1.jpg'
@@ -42,8 +42,8 @@ export default class Lotus extends Component {
                     <div className="lotus_top">
                         <span className="lt_title">Lotus</span>
                         <div className="lt_title-author">
-                            <span>Posed by </span>
-                            <span>
+                            <span className="text-item">Posed by </span>
+                            <span className="text-item">
                                 <a
                                     href="https://www.facebook.com/thanhnam092/"
                                     rel="author"
@@ -51,58 +51,56 @@ export default class Lotus extends Component {
                             </span>
                         </div>
                         <div className="lotus_content">
-                            <p ><strong>Model Name:</strong> Lotus</p>
-                            <p >
-                                <strong>Author:</strong> Dang Viet Tan
-                            </p>
-                            <p>Composing in response to Pig Base contest</p>
+                        <p className="text-item"> <strong>Model Name:</strong> Lotus</p>
+                        <p className="text-item" ><strong >Author:</strong> Dang Viet Tan</p>
+                            <p className="text-item" >Composing in response to Pig Base contest</p>
                         </div>
                         <div className="lotus_origami">
                             <img className="images" src={lotus} alt="image" />
-                            <span>Lotus -Dang Viet Tan</span>
+                            <span className="text-item">Lotus -Dang Viet Tan</span>
                         </div>
 
-                        <p><strong>Starting from the pinwheel base:</strong></p>
+                        <p className="text-item" ><strong>Starting from the pinwheel base:</strong></p>
                         <div className="imagess">
-                            <img src={t1} alt="t1" />
-                            <img src={t2} alt="t2" />
-                            <img src={t3} alt="t3" />
-                            <img src={t5} alt="t4" />
-                            <img src={t6} alt="t5" />
+                            <img src={t1}className="img-making"  alt="t1" />
+                            <img src={t2}className="img-making" alt="t2" />
+                            <img src={t3}className="img-making" alt="t3" />
+                            <img src={t5}className="img-making" alt="t4" />
+                            <img src={t6}className="img-making" alt="t5" />
                         </div>
-                        <p><strong>Flip the back side:</strong></p>
+                        <p className="text-item" ><strong>Flip the back side:</strong></p>
                         <div className="imagess">
-                            <img src={s1} alt="t2" />
-                            <img src={s2} alt="t2" />
-                            <img src={s3} alt="t2" />
+                            <img src={s1}className="img-making" alt="t2" />
+                            <img src={s2}className="img-making" alt="t2" />
+                            <img src={s3}className="img-making" alt="t2" />
                         </div>
 
-                        <p><strong>Turn it upside down and then fold it up, pull out the back paper (like an arrow):</strong></p>
+                        <p className="text-item" ><strong>Turn it upside down and then fold it up, pull out the back paper (like an arrow):</strong></p>
                         <div className="imagess">
-                            <img src={n1} alt="t3" />
-                            <img src={n2} alt="t3" />
-                            <img src={n3} alt="t3" />
-                            <img src={n4} alt="t3" />
-                            <img src={n5} alt="t3" />
-                            <img src={n6} alt="t3" />
-                            <img src={n7} alt="t3" />
-                            <img src={n8} alt="t3" />
-                            <img src={n9} alt="t3" />
+                            <img src={n1}className="img-making" alt="t3" />
+                            <img src={n2}className="img-making" alt="t3" />
+                            <img src={n3}className="img-making" alt="t3" />
+                            <img src={n4}className="img-making" alt="t3" />
+                            <img src={n5}className="img-making" alt="t3" />
+                            <img src={n6}className="img-making" alt="t3" />
+                            <img src={n7}className="img-making" alt="t3" />
+                            <img src={n8}className="img-making" alt="t3" />
+                            <img src={n9}className="img-making" alt="t3" />
                         </div>
-                        <p><strong>Turn over:</strong></p>
+                        <p className="text-item" ><strong>Turn over:</strong></p>
                         <div className="imagess">
-                            <img src={ln1} alt="t4" />
-                            <img src={ln2} alt="t4" />
+                            <img src={ln1}className="img-making" alt="t4" />
+                            <img src={ln2}className="img-making" alt="t4" />
                         </div>
-                        <p><strong>Use glue to fix if the folds are not tight:</strong></p >
-                        <img src={d1} alt="t5" /> <br />
-                        <p><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
-                        <img src={d2} alt="t5" /> <br />
-                        <p><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
-                        <img src={finis} alt="t5" />
+                        <p className="text-item" ><strong>Use glue to fix if the folds are not tight:</strong></p >
+                        <img src={d1}className="img-making" alt="t5" /> <br />
+                        <p className="text-item" ><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
+                        <img src={d2}className="img-making" alt="t5" /> <br />
+                        <p className="text-item" ><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
+                        <img src={finis}className="img-making" alt="t5" />
                     </div>
                     <div className="lotus_bottom">
-                        <p>@2022 LuonVuiTuoi Team</p>
+                        <p className="text-item" >@2022 LuonVuiTuoi Team</p>
                     </div>
                 </div>
             
