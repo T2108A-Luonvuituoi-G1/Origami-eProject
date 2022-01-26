@@ -1,3 +1,65 @@
+.up-status-post-add {
+    border-radius: 1.9vw;
+    margin: 0vw 0vw 4vw 0;
+    width: 68vw;
+    height: 20vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.up-status-post-add-header {
+    display: flex;
+}
+
+.up-status-post-add-header-ava {
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    margin: 1.5vw;
+}
+
+.up-status-post-add-header-text {
+    width: 56vw;
+    height: 4vw;
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    border-radius: 1.9vw;
+    margin: 2.3vw 0;
+    padding: 1vw;
+    font-size: 1.2vw;
+    transition: 0.25s;
+}
+
+.up-status-post-add-header-text:focus {
+    color: #000;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    transition: 0.25s;
+}
+
+.up-status-post-add-hr {
+    width: 65vw;
+    margin: 0 1.4vw;
+    background-color: #000;
+}
+
+.up-status-post-add-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.up-status-post-add-icon {
+    font-size: 8vw;
+    margin: 1vw 0;
+    cursor: pointer;
+}
+
+.up-status-post-add-p {
+    font-size: 2vw;
+    margin: 3.2vw 0 3.2vw -8vw;
+}
+
 .up-status {
     position: relative;
     width: 68vw;
@@ -7,7 +69,11 @@
 }
 
 .up-status-post {
+<<<<<<< HEAD
     background-color: #ccc;
+=======
+    background-color: #fff;
+>>>>>>> 182b2205c082c30a597f254288077d0ce3006700
     width: 64vw;
     width: 68vw;
     height: 35vw;
@@ -40,13 +106,14 @@
     margin: 7vw 8.7vw;
 }
 .up-status-post-content-love{
-    margin-top: 15vw;
+    margin-top: 13vw;
     border-radius: 1.9vw;
-    margin-left: 7vw;
+    margin-left: 9vw;
 }
 .up-status-post-content-love2{
-    margin-top: 5vw;
+    width: 21vw;
     border-radius: 1.9vw;
+<<<<<<< HEAD
     margin-left: 15vw;
 }
 
@@ -60,4 +127,7 @@
     margin-top: -20vw;
     border-radius: 1.9vw;
     margin-left: 38vw;
+=======
+    margin-left: 2vw;
+>>>>>>> 182b2205c082c30a597f254288077d0ce3006700
 }
