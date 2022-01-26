@@ -16,6 +16,10 @@ import Pig from './OrigamiPage/Products/Components/Pig';
 import Fox from './OrigamiPage/Products/Components/Fox';
 import Frame from './OrigamiPage/Products/Components/Frame';
 import JapanFlag from './OrigamiPage/Products/Components/JapanFlag';
+import ProductAnimal from './OrigamiPage/ProductPage/Components/ProductAnimal';
+import ProductPlant from './OrigamiPage/ProductPage/Components/ProductPlant';
+import ProductItem from './OrigamiPage/ProductPage/Components/ProductItem';
+import ProductFlag from './OrigamiPage/ProductPage/Components/ProductFlag';
 
 
 export default class App extends Component {
@@ -28,14 +32,20 @@ export default class App extends Component {
           </div>
           <div className='Content'>
             <Routes>
+              {/* Navigation */}
               <Route exact path="/" element={<Home />} />
               <Route exact path="/products" element={<ProductPage />} />
               <Route exact path="/aboutus" element={<AboutUs />} />
               <Route exact path="/contact" element={<Contact />} />
               <Route exact path="/profile" element={<UserProfile />} />
+              {/* Category */}
+              <Route exact path="/products/ProductAnimal" element={<ProductAnimal />}/>
+              <Route exact path="/products/ProductPlant" element={<ProductPlant />}/>
+              <Route exact path="/products/ProductItem" element={<ProductItem />}/>
+              <Route exact path="/products/ProductFlag" element={<ProductFlag />}/>
 
 
-
+              {/* Product */}
               <Route exact path="/products/butterfly" element={<Butter />}/>
               <Route exact path="/products/lotus" element={<Lotus />}/>
               <Route exact path="/products/parrot" element={<Parrot />}/>
