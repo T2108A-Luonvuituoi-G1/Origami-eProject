@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import bg from '../Assets/Images/background.jpg'
 import img1 from '../Assets/Images/making/image1.jpg'
 import img2 from '../Assets/Images/making/image2.jpg'
@@ -18,7 +18,7 @@ export default class JapanFlag extends Component {
     }}>
         <div class="foj">
           <div class="foj_top">
-            <span class="foj_title">Quốc Kỳ Nhật Bản</span>
+            <span class="foj_title">Flag of Japan</span>
             <div class="foj_title-author">
               <span>Posed by</span>
               <span>
