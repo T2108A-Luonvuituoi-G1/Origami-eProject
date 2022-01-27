@@ -2,6 +2,15 @@ import React, { Component } from 'react'
 import '../Assets/Css/HomeBlog.css'
 import { Link } from 'react-router-dom';
 import { BiChevronRight } from "react-icons/bi";
+import Fox from '../Assets/Images/fox.jpg'
+import Boar from '../Assets/Images/boar.jpg'
+import Crab from '../Assets/Images/crab.jpg'
+import Parrot from '../Assets/Images/parrot.jpg'
+import Butterfly from '../Assets/Images/butterfly.jpg'
+import Lotus from '../Assets/Images/lotus.jpg'
+import Img from '../Assets/Images/img.jpg'
+import Vietnam from '../Assets/Images/vietnam.jpg'
+import Japan from '../Assets/Images/japan.jpg'
 
 export default class HomeBlog extends Component {
     render() {
@@ -17,45 +26,21 @@ export default class HomeBlog extends Component {
                     </div>
                     <div className='home-blog-content'>
                         <div className='home-blog-content-news'>
-                            <div className='home-blog-news home-blog-1'>
+                            <Link to= '/products/fox' ><img src={Fox} className='home-blog-news home-blog-1' /></Link>
 
-                            </div>
+                            <Link to= '/products/pig' ><img src={Boar} className='home-blog-news home-blog-1' /></Link>
 
-                            <div className='home-blog-news home-blog-1'>
+                            <Link to= '/products/parrot' ><img src={Parrot} className='home-blog-news home-blog-1' /></Link>
 
-                            </div>
+                            <Link to= '/products/butterfly' ><img src={Butterfly} className='home-blog-news home-blog-1' /></Link>
 
-                            <div className='home-blog-news home-blog-1'>
+                            <Link to= '/products/lotus' ><img src={Lotus} className='home-blog-news home-blog-1' /></Link>
 
-                            </div>
+                            <Link to= '/products/frameImg' ><img src={Img} className='home-blog-news home-blog-1' /></Link>
 
-                            <div className='home-blog-news home-blog-1'>
+                            <Link to= '/products/VietNamFlag' ><img src={Vietnam} className='home-blog-news home-blog-1' /></Link>
 
-                            </div>
-
-                            <div className='home-blog-news home-blog-1'>
-
-                            </div>
-
-                            <div className='home-blog-news home-blog-1'>
-
-                            </div>
-
-                            <div className='home-blog-news home-blog-1'>
-
-                            </div>
-
-                            <div className='home-blog-news home-blog-1'>
-
-                            </div>
-
-                            <div className='home-blog-news home-blog-1'>
-
-                            </div>
-
-                            <div className='home-blog-news home-blog-1'>
-
-                            </div>
+                            <Link to= '/products/JapanFlag' ><img src={Japan} className='home-blog-news home-blog-1' /></Link>
                         </div>
                     </div>
                 </div>
