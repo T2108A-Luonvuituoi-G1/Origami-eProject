@@ -9,11 +9,11 @@ import '../Assets/Css/ProductItem.css'
 function ProductItem() {
     return (
         <>
-            <ProductListNav/>
-            <div>
+            <ProductListNav />
+            <div className='product-page-list'>
 
-             {/* FRAME IMAGE */}
-             <div className='product-page-list-item'>
+                {/* FRAME IMAGE */}
+                <div className='product-page-list-item'>
                     <img src={Img} className='product-page-list-item-img' />
                     <div className='product-page-list-item-body'>
                         <h2 className='product-page-list-item-title'>Frame image</h2>
@@ -28,6 +28,7 @@ function ProductItem() {
                         </Link>
                     </div>
                 </div>
+
             </div>
         </>
     );

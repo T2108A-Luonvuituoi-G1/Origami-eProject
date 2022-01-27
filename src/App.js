@@ -38,6 +38,7 @@ export default class App extends Component {
               <Route exact path="/aboutus" element={<AboutUs />} />
               <Route exact path="/contact" element={<Contact />} />
               <Route exact path="/profile" element={<UserProfile />} />
+              
               {/* Category */}
               <Route exact path="/products/ProductAnimal" element={<ProductAnimal />}/>
               <Route exact path="/products/ProductPlant" element={<ProductPlant />}/>

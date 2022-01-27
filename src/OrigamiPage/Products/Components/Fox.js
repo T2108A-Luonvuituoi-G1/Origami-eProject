@@ -16,9 +16,7 @@ import Fm9 from '../Assets/Images/making/tutorial9.jpg'
 export default class Fox extends Component {
   render() {
     return (
-      <div   style={{
-        background: `url(${bg})`
-    }}>
+      <div>
         <div className="fox">
           <div className="fox_top">
             <span className="fox_title">Fox</span>
@@ -28,12 +26,11 @@ export default class Fox extends Component {
                 <a
                   href="https://www.facebook.com/profile.php?id=100059104665311"
                   rel="author"
-                >Le Nhu Viet Anh</a>
+                > Vo Van Viet</a>
               </span>
             </div>
             <div className="fox_content">
-              <p ><strong>Form name:</strong>Fox</p>
-              <p >
+              <p>
                 <strong>Author:</strong> Hoang Tien Quyet
               </p>
             </div>
@@ -42,7 +39,7 @@ export default class Fox extends Component {
               <span>Fox - Hoang Tien Quyet</span>
             </div>
             <div >
-              <img src={Fm} className="fox_images"  alt="image" />
+              <img src={Fm} className="fox_images" alt="image" />
               <img src={Fm2} className="fox_images" alt="image" />
               <img src={Fm3} className="fox_images" alt="image" />
               <img src={Fm4} className="fox_images" alt="image" />
@@ -52,9 +49,9 @@ export default class Fox extends Component {
               <img src={Fm8} className="fox_images" alt="image" />
               <img src={Fm9} className="fox_images" alt="image" />
             </div>
-            <div className="fox_bottom">
-              <p>@2022 LuonVuiTuoi Team</p>
-            </div>
+          </div>
+          <div className="fox_bottom">
+            <p>©2022 LUONVUITUOI Team</p>
           </div>
         </div>
       </div>

@@ -12,95 +12,91 @@ import { Link } from 'react-router-dom';
 function ProductAnimal() {
     return (
         <>
-            <div className='Layout-Page'>
 
-
-                <ProductListNav />
-
-                <div className='product-listItem'>
-
-
-                    {/* FOX */}
-                    <div className='product-page-list-item'>
-                        <img src={Fox} className='product-page-list-item-img' />
-                        <div className='product-page-list-item-body'>
-                            <h2 className='product-page-list-item-title'>Fox</h2>
-                            <p className='product-page-list-item-text'>
-                                Kind: Animal <br />
-                                Author: Hoang Tien Quyet <br />
-                                Update by: Vo Van Viet
-                            </p>
-                            <Link to="/products/fox" className='product-page-list-item-btn'>
-                                <p>Try now</p>
-                                <BiChevronRight className='product-page-list-item-btn-icon' />
-                            </Link>
-                        </div>
+            <ProductListNav />
+            <div className='product-page-list'>
+                {/* FOX */}
+                <div className='product-page-list-item'>
+                    <img src={Fox} className='product-page-list-item-img' />
+                    <div className='product-page-list-item-body'>
+                        <h2 className='product-page-list-item-title'>Fox</h2>
+                        <p className='product-page-list-item-text'>
+                            Kind: Animal <br />
+                            Author: Hoang Tien Quyet <br />
+                            Update by: Vo Van Viet
+                        </p>
+                        <Link to="/products/fox" className='product-page-list-item-btn'>
+                            <p>Try now</p>
+                            <BiChevronRight className='product-page-list-item-btn-icon' />
+                        </Link>
                     </div>
-                    {/* BOAR */}
-                    <div className='product-page-list-item'>
-                        <img src={Boar} className='product-page-list-item-img' />
-                        <div className='product-page-list-item-body'>
-                            <h2 className='product-page-list-item-title'>Boar</h2>
-                            <p className='product-page-list-item-text'>
-                                Kind: Animal <br />
-                                Author: Do Tri Khai <br />
-                                Update by: Tran Minh Duc
-                            </p>
-                            <Link to="/products/pig" className='product-page-list-item-btn'>
-                                <p>Try now</p>
-                                <BiChevronRight className='product-page-list-item-btn-icon' />
-                            </Link>
-                        </div>
-                    </div>
-                    {/* BUTTERFLY */}
-                    <div className='product-page-list-item'>
-                        <img src={Butterfly} className='product-page-list-item-img' />
-                        <div className='product-page-list-item-body'>
-                            <h2 className='product-page-list-item-title'>Butterfly</h2>
-                            <p className='product-page-list-item-text'>
-                                Kind: Animal <br />
-                                Author: Michael LaFosse <br />
-                                Update by: Dao Thanh Nam
-                            </p>
-                            <Link to="/products/butterfly" className='product-page-list-item-btn'>
-                                <p>Try now</p>
-                                <BiChevronRight className='product-page-list-item-btn-icon' />
-                            </Link>
-                        </div>
-                    </div>
+                </div>
 
-                    {/* CRAB */}
-                    <div className='product-page-list-item'>
-                        <img src={Crab} className='product-page-list-item-img' />
-                        <div className='product-page-list-item-body'>
-                            <h2 className='product-page-list-item-title'>Crab</h2>
-                            <p className='product-page-list-item-text'>
-                                Kind: Animal <br />
-                                Author: H.T.Quyet <br />
-                                Update by: Ta Quang Minh
-                            </p>
-                            <Link to="/products/crab" className='product-page-list-item-btn'>
-                                <p>Try now</p>
-                                <BiChevronRight className='product-page-list-item-btn-icon' />
-                            </Link>
-                        </div>
+                {/* BOAR */}
+                <div className='product-page-list-item'>
+                    <img src={Boar} className='product-page-list-item-img' />
+                    <div className='product-page-list-item-body'>
+                        <h2 className='product-page-list-item-title'>Boar</h2>
+                        <p className='product-page-list-item-text'>
+                            Kind: Animal <br />
+                            Author: Do Tri Khai <br />
+                            Update by: Tran Minh Duc
+                        </p>
+                        <Link to="/products/pig" className='product-page-list-item-btn'>
+                            <p>Try now</p>
+                            <BiChevronRight className='product-page-list-item-btn-icon' />
+                        </Link>
                     </div>
+                </div>
 
-                    {/* PARROT */}
-                    <div className='product-page-list-item'>
-                        <img src={Parrot} className='product-page-list-item-img' />
-                        <div className='product-page-list-item-body'>
-                            <h2 className='product-page-list-item-title'>Parrot</h2>
-                            <p className='product-page-list-item-text'>
-                                Kind: Animal <br />
-                                Author: Hoang Tien Quyet <br />
-                                Update by: Ta Quang Minh
-                            </p>
-                            <Link to="/products/parrot" className='product-page-list-item-btn'>
-                                <p>Try now</p>
-                                <BiChevronRight className='product-page-list-item-btn-icon' />
-                            </Link>
-                        </div>
+                {/* BUTTERFLY */}
+                <div className='product-page-list-item'>
+                    <img src={Butterfly} className='product-page-list-item-img' />
+                    <div className='product-page-list-item-body'>
+                        <h2 className='product-page-list-item-title'>Butterfly</h2>
+                        <p className='product-page-list-item-text'>
+                            Kind: Animal <br />
+                            Author: Michael LaFosse <br />
+                            Update by: Dao Thanh Nam
+                        </p>
+                        <Link to="/products/butterfly" className='product-page-list-item-btn'>
+                            <p>Try now</p>
+                            <BiChevronRight className='product-page-list-item-btn-icon' />
+                        </Link>
+                    </div>
+                </div>
+
+                {/* CRAB */}
+                <div className='product-page-list-item'>
+                    <img src={Crab} className='product-page-list-item-img' />
+                    <div className='product-page-list-item-body'>
+                        <h2 className='product-page-list-item-title'>Crab</h2>
+                        <p className='product-page-list-item-text'>
+                            Kind: Animal <br />
+                            Author: H.T.Quyet <br />
+                            Update by: Ta Quang Minh
+                        </p>
+                        <Link to="/products/crab" className='product-page-list-item-btn'>
+                            <p>Try now</p>
+                            <BiChevronRight className='product-page-list-item-btn-icon' />
+                        </Link>
+                    </div>
+                </div>
+
+                {/* PARROT */}
+                <div className='product-page-list-item'>
+                    <img src={Parrot} className='product-page-list-item-img' />
+                    <div className='product-page-list-item-body'>
+                        <h2 className='product-page-list-item-title'>Parrot</h2>
+                        <p className='product-page-list-item-text'>
+                            Kind: Animal <br />
+                            Author: Hoang Tien Quyet <br />
+                            Update by: Ta Quang Minh
+                        </p>
+                        <Link to="/products/parrot" className='product-page-list-item-btn'>
+                            <p>Try now</p>
+                            <BiChevronRight className='product-page-list-item-btn-icon' />
+                        </Link>
                     </div>
                 </div>
             </div>
