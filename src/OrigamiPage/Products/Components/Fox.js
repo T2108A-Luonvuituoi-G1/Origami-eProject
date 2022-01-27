@@ -1,5 +1,4 @@
 // import { Link } from "react-router-dom";
-import bg from '../Assets/Images/background.jpg'
 import React, { Component } from 'react';
 import fox from '../Assets/Images/making/fox.jpg'
 import Fm from '../Assets/Images/making/tutorial1.jpg'
@@ -11,24 +10,15 @@ import Fm6 from '../Assets/Images/making/tutorial6.jpg'
 import Fm7 from '../Assets/Images/making/tutorial7.jpg'
 import Fm8 from '../Assets/Images/making/tutorial8.jpg'
 import Fm9 from '../Assets/Images/making/tutorial9.jpg'
-
+import Comment from './Comment';
 
 export default class Fox extends Component {
   render() {
     return (
-      <div>
+      <div className='product-item-page-inside'>
         <div className="fox">
           <div className="fox_top">
             <span className="fox_title">Fox</span>
-            <div className="fox_title-author">
-              <span>Posed by</span>
-              <span>
-                <a
-                  href="https://www.facebook.com/profile.php?id=100059104665311"
-                  rel="author"
-                > Vo Van Viet</a>
-              </span>
-            </div>
             <div className="fox_content">
               <p>
                 <strong>Author:</strong> Hoang Tien Quyet
@@ -51,7 +41,9 @@ export default class Fox extends Component {
             </div>
           </div>
           <div className="fox_bottom">
-            <p>©2022 LUONVUITUOI Team</p>
+            <div className='comment'>
+              <Comment />
+            </div>
           </div>
         </div>
       </div>
