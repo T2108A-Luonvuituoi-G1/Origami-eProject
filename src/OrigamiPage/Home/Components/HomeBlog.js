@@ -26,21 +26,21 @@ export default class HomeBlog extends Component {
                     </div>
                     <div className='home-blog-content'>
                         <div className='home-blog-content-news'>
-                            <img src={Fox} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/fox' ><img src={Fox} className='home-blog-news home-blog-1' /></Link>
 
-                            <img src={Boar} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/pig' ><img src={Boar} className='home-blog-news home-blog-1' /></Link>
 
-                            <img src={Parrot} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/parrot' ><img src={Parrot} className='home-blog-news home-blog-1' /></Link>
 
-                            <img src={Butterfly} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/butterfly' ><img src={Butterfly} className='home-blog-news home-blog-1' /></Link>
 
-                            <img src={Lotus} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/lotus' ><img src={Lotus} className='home-blog-news home-blog-1' /></Link>
 
-                            <img src={Img} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/frameImg' ><img src={Img} className='home-blog-news home-blog-1' /></Link>
 
-                            <img src={Vietnam} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/VietNamFlag' ><img src={Vietnam} className='home-blog-news home-blog-1' /></Link>
 
-                            <img src={Japan} className='home-blog-news home-blog-1' />
+                            <Link to= '/products/JapanFlag' ><img src={Japan} className='home-blog-news home-blog-1' /></Link>
                         </div>
                     </div>
                 </div>
