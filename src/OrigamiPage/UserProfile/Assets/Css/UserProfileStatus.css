@@ -63,8 +63,13 @@
 .up-status {
     position: relative;
     width: 68vw;
+<<<<<<< HEAD
     height: 100vw;
     margin: -0.5vw 3vw;
+=======
+    height: 60vw;
+    margin: -0.5vw 2.2vw;
+>>>>>>> d95e911153abccac4625cce1f5ca3bbdfd3b599c
     border-radius: 1.9vw;
 }
 
