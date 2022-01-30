@@ -63,13 +63,22 @@
 .up-status {
     position: relative;
     width: 68vw;
+<<<<<<< HEAD
+    height: 100vw;
+    margin: -0.5vw 3vw;
+=======
     height: 60vw;
     margin: -0.5vw 2.2vw;
+>>>>>>> d95e911153abccac4625cce1f5ca3bbdfd3b599c
     border-radius: 1.9vw;
 }
 
 .up-status-post {
+<<<<<<< HEAD
+    background-color: #ccc;
+=======
     background-color: #fff;
+>>>>>>> 182b2205c082c30a597f254288077d0ce3006700
     width: 64vw;
     width: 68vw;
     height: 35vw;
@@ -109,5 +118,21 @@
 .up-status-post-content-love2{
     width: 21vw;
     border-radius: 1.9vw;
+<<<<<<< HEAD
+    margin-left: 15vw;
+}
+
+.up-status-post-content-anhtet1{
+    top: 50vw;
+    margin-top: 12vw;
+    border-radius: 1.9vw;
+    margin-left: 6vw;
+}
+.up-status-post-content-anhtet2{
+    margin-top: -20vw;
+    border-radius: 1.9vw;
+    margin-left: 38vw;
+=======
     margin-left: 2vw;
+>>>>>>> 182b2205c082c30a597f254288077d0ce3006700
 }
