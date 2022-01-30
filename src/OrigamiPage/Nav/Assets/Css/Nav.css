@@ -68,7 +68,7 @@
 .nav-link-page {
     width: 50vw;
     position: absolute;
-    margin: -2vw 26vw;
+    margin: -2vw 24.5vw;
 }
 
 .nav-link {
@@ -91,7 +91,7 @@
 /* CLOCK */
 .home-clock {
     position: absolute;
-    margin: -2vw 68vw;
+    margin: -2vw 71.5vw;
     width: 14vw;
     user-select: none;
 }

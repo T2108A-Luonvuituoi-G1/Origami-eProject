@@ -20,6 +20,7 @@ import ProductAnimal from './OrigamiPage/ProductPage/Components/ProductAnimal';
 import ProductPlant from './OrigamiPage/ProductPage/Components/ProductPlant';
 import ProductItem from './OrigamiPage/ProductPage/Components/ProductItem';
 import ProductFlag from './OrigamiPage/ProductPage/Components/ProductFlag';
+import AdminPage from './OrigamiPage/Admin/Components/AdminPage';
 
 
 export default class App extends Component {
@@ -37,6 +38,7 @@ export default class App extends Component {
               <Route exact path="/products" element={<ProductPage />} />
               <Route exact path="/aboutus" element={<AboutUs />} />
               <Route exact path="/contact" element={<Contact />} />
+              <Route exact path="/admin" element={<AdminPage />} />
               <Route exact path="/profile" element={<UserProfile />} />
               
               {/* Category */}
