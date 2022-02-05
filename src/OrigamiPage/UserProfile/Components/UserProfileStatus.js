@@ -3,12 +3,9 @@ import '../Assets/Css/UserProfileStatus.css'
 import Avatar from '../Assets/Images/Anh-chim-hac.jpg'
 import Love from '../Assets/Images/Anhny.jpg'
 import Love2 from '../Assets/Images/Anhny2.jpg'
-<<<<<<< HEAD
 import anhtet1 from '../Assets/Images/Anhtet1.jpg'
 import anhtet2 from '../Assets/Images/Anhtet2.jpg'
-=======
 import { HiOutlinePhotograph, HiPaperClip, HiChevronRight } from "react-icons/hi";
->>>>>>> 182b2205c082c30a597f254288077d0ce3006700
 
 function UserProfileStatus() {
     return (
@@ -42,7 +39,6 @@ function UserProfileStatus() {
                         <img src={Love2} className='up-status-post-content-love2' />
                     </div>
                     <div className='up-status-post-footer'></div>
-<<<<<<< HEAD
                     </div>
 
                 <div className='up-status-post'>
@@ -59,8 +55,6 @@ function UserProfileStatus() {
                     </div>  
                        
                     <div className='up-status-post-footer'></div>
-=======
->>>>>>> 182b2205c082c30a597f254288077d0ce3006700
                 </div>
             </div>
         </>
