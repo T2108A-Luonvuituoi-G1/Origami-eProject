@@ -1,9 +1,120 @@
 .contact-send-page {
     position: relative;
-    top: 1vw;
-    left: 1vw;
-    width: 98vw;
-    height: 36.8vw;
-    background-color: aqua;
+    width: 100%;
+    height: 38.8vw;
 }
 
+.contact-input {
+    position: absolute;
+    margin: 2vw 28.7vw;
+    width: 55vw;
+    height: 35vw;
+    background-color: #fff;
+    border-radius: 1.9vw;
+    background-color: rgb(216, 213, 213);
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+
+.contact-input-inside {
+    width: 70%;
+    height: 95%;
+    margin: 1.6% 29%;
+    position: absolute;
+}
+
+.contact-input-title {
+    position: absolute;
+    margin: 1vw 0;
+    font-size: 2.5vw;
+    color: rgb(51, 51, 51);
+}
+
+.contact-input-title-sub {
+    position: absolute;
+    margin: 5vw 0;
+    font-size: 1.5vw;
+    color: rgb(160, 159, 159);
+}
+
+.contact-input-submit {
+    margin: 20% 0;
+    position: absolute;
+    line-height: 4.2vw;
+}
+
+.contact-input-area {
+    height: 3vw;
+    width: 98%;
+    border: none;
+    border-radius: 1.9vw;
+    padding: 1.5vw;
+    font-size: 1.4;
+    transition: 0.25s;
+    outline: none;
+}
+
+.contact-input-area:focus {
+    border: 0.2vw solid rgb(160, 159, 159);
+    transition: 0.25s;
+}
+
+.contact-input-text {
+    margin: 0.6vw 0;
+    height: 10vw;
+    padding: -10vw 1.4vw;
+    resize: none;
+}
+
+.contact-input-button {
+    position: absolute;
+    border: none;
+    width: 15vw;
+    height: 4vw;
+    margin: 72.8% 0;
+    border-radius: 1.9vw;
+    background-color: #fff;
+    transition: 0.25s;
+}
+
+.contact-input-button:hover {
+    cursor: pointer;
+    background-color: rgb(160, 159, 159);
+    color: #fff;
+    transition: 0.25s;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+
+.contact-input-sub {
+    position: absolute;
+    margin: 4vw 15vw;
+    width: 28vw;
+    height: 31vw;
+    background-color: rgb(160, 159, 159);
+    border-radius: 1.9vw;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+
+.contact-input-sub-inside {
+    position: absolute;
+    margin: 2vw;
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.contact-input-sub-title {
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0 0 2vw 0;
+}
+
+.contact-input-sub-address {
+    margin: 0 0 3vw 0;
+}
+
+.contact-input-sub-email {
+    margin: 0 0 3vw 0;
+}
+
+.contact-input-sub-phone {
+    margin: 0 0 3vw 0;
+}
