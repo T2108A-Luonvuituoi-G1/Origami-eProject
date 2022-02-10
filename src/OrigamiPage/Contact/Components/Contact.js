@@ -6,7 +6,9 @@ export default class Contact extends Component {
         return (
             <>
                 <div>
-                    
+                    <div className='contact-send-page'>
+                        
+                    </div>
                 </div>
             </>
         )
