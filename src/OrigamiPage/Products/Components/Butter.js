@@ -9,6 +9,7 @@ import butter3 from '../Assets/Images/making/butter3.png'
 import { MdCopyright } from "react-icons/md";
 import '../Assets/Css/ProductItem.css'
 import bg from '../Assets/Images/background.jpg'
+import Comment from './Comment';
 
 export default class Butter extends Component {
   poster = {
@@ -63,7 +64,7 @@ export default class Butter extends Component {
           </div>
           <div className="comment">
             <p className="p-text-making">Facebook comments</p>
-            <input type='text' className="p-input-comment" placeholder="Add a comment..."/>
+            <Comment />
           </div>
         </div>
         <div>
