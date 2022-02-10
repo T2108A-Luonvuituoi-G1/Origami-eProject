@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import React, { Component } from 'react';
+import bg from '../Assets/Images/background.jpg'
 import fox from '../Assets/Images/making/fox.jpg'
 import Fm from '../Assets/Images/making/tutorial1.jpg'
 import Fm2 from '../Assets/Images/making/tutorial2.jpg'
@@ -15,7 +16,10 @@ import Comment from './Comment';
 export default class Fox extends Component {
   render() {
     return (
-      <div className='product-item-page-inside'>
+      <div className='product-item-page-inside'
+      style={{
+        background: `url(${bg})`
+    }}>
         <div className="fox">
           <div className="fox_top">
             <span className="fox_title">Fox</span>

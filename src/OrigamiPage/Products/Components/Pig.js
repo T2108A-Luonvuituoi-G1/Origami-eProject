@@ -2,7 +2,9 @@
 import React, { Component } from 'react';
 import bg from '../Assets/Images/background.jpg'
 import Bm from '../Assets/Images/making/Boar_DoTriKhai.jpg'
-import Bm2 from '../Assets/Images/making/boar.png'
+import Bm1 from '../Assets/Images/making/boar.png'
+import Bm2 from '../Assets/Images/making/boar2.png'
+
 
 export default class Pig extends Component {
   render() {
@@ -30,6 +32,8 @@ export default class Pig extends Component {
             </div>
             <div className="boar_origami">
               <img className="b_images" src={Bm} /> <br />
+              <p>Tutorial:</p>
+              <img className='b_images' src={Bm1}/>
               <img className="b_images" src={Bm2} alt="image" />
             </div>
             <div class="boar_bottom">
