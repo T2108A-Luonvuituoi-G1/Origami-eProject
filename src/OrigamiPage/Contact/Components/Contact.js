@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import '../Assets/Css/Contact.css'
 import { BiMap, BiConversation, BiPhone } from "react-icons/bi";
+import HomeBackgroundHeader from '../Assets/Images/5991159.jpg'
 
 export default class Contact extends Component {
     render() {
@@ -8,12 +9,12 @@ export default class Contact extends Component {
             <>
                 <div>
                     <div className='contact-send-page'
-                    // style={{
-                    //     background: `url(${HomeBackgroundHeader})`,
-                    //     backgroundPosition: 'center',
-                    //     backgroundSize: 'cover',
-                    //     backgroundRepeat: 'no-repeat',
-                    // }}
+                    style={{
+                        background: `url(${HomeBackgroundHeader})`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                    }}
                     >
                         <div className='contact-input'>
                             <div className='contact-input-inside'>
@@ -38,7 +39,7 @@ export default class Contact extends Component {
                                 </div>
                                 <div className='contact-input-sub-address'>
                                     <BiMap />
-                                    8 Ton That Huyet, My Dinh, Ha Noi, Viet Nam
+                                    8 Ton That Huyet, My Dinh
                                 </div>
                                 <div className='contact-input-sub-email'>
                                     <BiConversation />
