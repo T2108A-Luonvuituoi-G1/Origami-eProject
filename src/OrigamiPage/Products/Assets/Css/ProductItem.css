@@ -157,7 +157,7 @@
 
 /* Flag VietNam */
 .layout-item-little{
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(255, 253, 253);
     width: 60vw;
     margin-left: 20vw;
 }
@@ -344,7 +344,7 @@
 }
 
 .fox{
-    background-color: rgb(160, 159, 159);
+    background-color: rgb(255, 254, 254);
     width: 62%;
     border-radius: 1.9vw;
     padding:2vw;
