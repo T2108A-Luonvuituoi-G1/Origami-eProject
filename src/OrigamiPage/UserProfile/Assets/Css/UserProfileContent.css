@@ -42,3 +42,12 @@
 .up-follower ul li {
     list-style: none;
 }
+.up-icons-infromation {
+    font-size: 1.5vw;
+    margin-top: 15vw;
+    margin-right: 1vw;
+    margin-left: 0.9vw;
+    list-style: none;
+    padding: auto;
+    line-height: 5vw;
+}

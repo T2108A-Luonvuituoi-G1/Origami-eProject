@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Assets/Css/UserProfileStatus.css'
 import Avatar from '../Assets/Images/Anh-chim-hac.jpg'
-import Love from '../Assets/Images/Anhny.jpg'
+import Love from '../Assets/Images/Anhny1.jpg'
 import Love2 from '../Assets/Images/Anhny2.jpg'
 import anhtet1 from '../Assets/Images/Anhtet1.jpg'
 import anhtet2 from '../Assets/Images/Anhtet2.jpg'

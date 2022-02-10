@@ -4,6 +4,7 @@ import fr from '../Assets/Images/making/Frame1.jpg'
 import fr2 from '../Assets/Images/making/Frame2.jpg'
 import fr3 from '../Assets/Images/making/Frame3.jpg'
 import fr4 from '../Assets/Images/making/Frame4.png'
+import Comment from './Comment';
 
 
 import React, { Component } from 'react';
@@ -40,6 +41,10 @@ export default class Frame extends Component {
               <img class="f_images" src={fr3} alt="image" />
               <img class="f_images" src={fr4} alt="image" />
             </div >
+            <div className="comment">
+            <p className="p-text-making">Facebook comments</p>
+            <Comment />
+          </div>
             <div class="frame_bottom">
               <p>@2022 LuonVuiTuoi Team</p> <br />
 

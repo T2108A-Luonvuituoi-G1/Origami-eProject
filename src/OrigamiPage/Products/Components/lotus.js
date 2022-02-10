@@ -25,7 +25,7 @@ import t3 from '../Assets/Images/making/t3.jpg'
 import t4 from '../Assets/Images/making/t4.jpg'
 import t5 from '../Assets/Images/making/t5.jpg'
 import t6 from '../Assets/Images/making/t6.jpg'
-
+import Comment from './Comment';
 
 
 
@@ -35,7 +35,7 @@ import t6 from '../Assets/Images/making/t6.jpg'
 export default class Lotus extends Component {
     render() {
         return (
-            <div div   style={{
+            <div div style={{
                 background: `url(${bg})`
             }}>
                 <div className="lotus">
@@ -51,8 +51,8 @@ export default class Lotus extends Component {
                             </span>
                         </div>
                         <div className="lotus_content">
-                        <p className="text-item"> <strong>Model Name:</strong> Lotus</p>
-                        <p className="text-item" ><strong >Author:</strong> Dang Viet Tan</p>
+                            <p className="text-item"> <strong>Model Name:</strong> Lotus</p>
+                            <p className="text-item" ><strong >Author:</strong> Dang Viet Tan</p>
                             <p className="text-item" >Composing in response to Pig Base contest</p>
                         </div>
                         <div className="lotus_origami">
@@ -62,49 +62,53 @@ export default class Lotus extends Component {
 
                         <p className="text-item" ><strong>Starting from the pinwheel base:</strong></p>
                         <div className="imagess">
-                            <img src={t1}className="img-making"  alt="t1" />
-                            <img src={t2}className="img-making" alt="t2" />
-                            <img src={t3}className="img-making" alt="t3" />
-                            <img src={t5}className="img-making" alt="t4" />
-                            <img src={t6}className="img-making" alt="t5" />
+                            <img src={t1} className="img-making" alt="t1" />
+                            <img src={t2} className="img-making" alt="t2" />
+                            <img src={t3} className="img-making" alt="t3" />
+                            <img src={t5} className="img-making" alt="t4" />
+                            <img src={t6} className="img-making" alt="t5" />
                         </div>
                         <p className="text-item" ><strong>Flip the back side:</strong></p>
                         <div className="imagess">
-                            <img src={s1}className="img-making" alt="t2" />
-                            <img src={s2}className="img-making" alt="t2" />
-                            <img src={s3}className="img-making" alt="t2" />
+                            <img src={s1} className="img-making" alt="t2" />
+                            <img src={s2} className="img-making" alt="t2" />
+                            <img src={s3} className="img-making" alt="t2" />
                         </div>
 
                         <p className="text-item" ><strong>Turn it upside down and then fold it up, pull out the back paper (like an arrow):</strong></p>
                         <div className="imagess">
-                            <img src={n1}className="img-making" alt="t3" />
-                            <img src={n2}className="img-making" alt="t3" />
-                            <img src={n3}className="img-making" alt="t3" />
-                            <img src={n4}className="img-making" alt="t3" />
-                            <img src={n5}className="img-making" alt="t3" />
-                            <img src={n6}className="img-making" alt="t3" />
-                            <img src={n7}className="img-making" alt="t3" />
-                            <img src={n8}className="img-making" alt="t3" />
-                            <img src={n9}className="img-making" alt="t3" />
+                            <img src={n1} className="img-making" alt="t3" />
+                            <img src={n2} className="img-making" alt="t3" />
+                            <img src={n3} className="img-making" alt="t3" />
+                            <img src={n4} className="img-making" alt="t3" />
+                            <img src={n5} className="img-making" alt="t3" />
+                            <img src={n6} className="img-making" alt="t3" />
+                            <img src={n7} className="img-making" alt="t3" />
+                            <img src={n8} className="img-making" alt="t3" />
+                            <img src={n9} className="img-making" alt="t3" />
                         </div>
                         <p className="text-item" ><strong>Turn over:</strong></p>
                         <div className="imagess">
-                            <img src={ln1}className="img-making" alt="t4" />
-                            <img src={ln2}className="img-making" alt="t4" />
+                            <img src={ln1} className="img-making" alt="t4" />
+                            <img src={ln2} className="img-making" alt="t4" />
                         </div>
                         <p className="text-item" ><strong>Use glue to fix if the folds are not tight:</strong></p >
-                        <img src={d1}className="img-making" alt="t5" /> <br />
+                        <img src={d1} className="img-making" alt="t5" /> <br />
                         <p className="text-item" ><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
-                        <img src={d2}className="img-making" alt="t5" /> <br />
+                        <img src={d2} className="img-making" alt="t5" /> <br />
                         <p className="text-item" ><strong>Glue the 4 corners of the paper and fold it slightly along the middle square edge to create volume: </strong></p>
-                        <img src={finis}className="img-making" alt="t5" />
+                        <img src={finis} className="img-making" alt="t5" />
+                    </div>
+                    <div className="comment">
+                        <p className="p-text-making">Facebook comments</p>
+                        <Comment />
                     </div>
                     <div className="lotus_bottom">
                         <p className="text-item" >@2022 LuonVuiTuoi Team</p>
                     </div>
                 </div>
-            
-           </div> 
+
+            </div>
         )
     }
 }

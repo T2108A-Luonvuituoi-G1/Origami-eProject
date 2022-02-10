@@ -4,6 +4,7 @@ import bg from '../Assets/Images/background.jpg'
 import Bm from '../Assets/Images/making/Boar_DoTriKhai.jpg'
 import Bm1 from '../Assets/Images/making/boar.png'
 import Bm2 from '../Assets/Images/making/boar2.png'
+import Comment from './Comment';
 
 
 export default class Pig extends Component {
@@ -36,6 +37,10 @@ export default class Pig extends Component {
               <img className='b_images' src={Bm1}/>
               <img className="b_images" src={Bm2} alt="image" />
             </div>
+            <div className="comment">
+            <p className="p-text-making">Facebook comments</p>
+            <Comment />
+          </div>
             <div class="boar_bottom">
               <p>@2022 LuonVuiTuoi Team</p> <br />
            

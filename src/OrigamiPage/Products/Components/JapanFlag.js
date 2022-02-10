@@ -4,7 +4,7 @@ import img1 from '../Assets/Images/making/image1.jpg'
 import img2 from '../Assets/Images/making/image2.jpg'
 import img3 from '../Assets/Images/making/image3.jpg'
 import img4 from '../Assets/Images/making/image4.jpg'
-
+import Comment from './Comment';
 
 
 
@@ -39,6 +39,10 @@ export default class JapanFlag extends Component {
               <img class="foj_images" src={img3} alt="image" />
               <img class="foj_images" src={img4} alt="image" />
             </div>
+          </div>
+          <div className="comment">
+            <p className="p-text-making">Facebook comments</p>
+            <Comment />
           </div>
           <div class="foj_bottom">
             <p>@2022 LuonVuiTuoi Team</p>
