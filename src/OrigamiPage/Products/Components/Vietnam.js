@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import bg from '../Assets/Images/background.jpg'
 import vf from '../Assets/Images/making/vnflag.jpg'
 import vf2 from '../Assets/Images/making/vnmaking.png'
+import Comment from './Comment';
 
 export default class Vietnam extends Component {
 
@@ -29,6 +30,10 @@ export default class Vietnam extends Component {
           </div>
           <div className='tutorial-making'>
             <img className='tutorial-making' src={vf2} />
+          </div>
+          <div className="comment">
+            <p className="p-text-making">Facebook comments</p>
+            <Comment />
           </div>
           <div class="fov-bottom">
             <p className='text-item'>@2022 LuonVuiTuoi Team</p>
