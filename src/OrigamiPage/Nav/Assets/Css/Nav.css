@@ -16,7 +16,7 @@
     position: absolute;
     text-decoration: none;
     color: #000;
-    margin: 0vw 0 0 -8.7vw;
+    margin: 0vw 0 0 -8vw;
 }
 
 /* SEARCH INPUT */
@@ -86,8 +86,8 @@
 }
 
 .nav-link:hover {
-    background-color: #fdd9c8;
-    color: #000;
+    background-color: #d48f4b;
+    color: #fff;
     transition: 0.25s;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
 }

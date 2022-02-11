@@ -7,7 +7,7 @@
 
 /* HOME PAGE EVENT */
 .home-page-content-event {
-    background-color: rgb(216, 213, 213);
+    background-color: rgb(251 226 214);
     width: 55.8vw;
     border-radius: 1.9vw;
     height: 35vw;
@@ -20,7 +20,7 @@
     text-align: center;
     align-items: center;
     margin: 1.5vw 1.4vw ;
-    background-color: rgb(160, 159, 159);
+    background-color: #d48f4b;
     width: 53vw;
     border-radius: 1.9vw;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
@@ -64,7 +64,7 @@
     appearance: none;
     width: 1vw;
     height: 1vw;
-    background-color: rgb(129, 129, 129);
+    background-color: #d48f4b;
     border-radius: 50%;
     transition: 0.25s;
     cursor: pointer;
@@ -87,7 +87,7 @@
 /* HOME NEW */
 
 .home-page-content-new {
-    background-color: rgb(216, 213, 213);
+    background-color: rgb(251 226 214);
     width: 35.2vw;
     height: 35.2vw;
     border-radius: 1.9vw;
@@ -99,7 +99,7 @@
 .home-new-header {
     text-align: center;
     margin: 1.56vw 1.2vw;
-    background-color: rgb(160, 159, 159);
+    background-color: #d48f4b;
     width: 32.7vw;
     border-radius: 1.9vw;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
@@ -111,7 +111,7 @@
 }
 
 .home-new {
-    background-color: rgb(141, 140, 140);
+    background-color: #d48f4b;
     width: 32.7vw;
     height: 7.8vw;
     margin: 1.1vw;
@@ -123,7 +123,7 @@
 }
 
 .home-new:hover {
-    background-color: rgb(160, 160, 160);
+    background-color: #e4a464;
     width: 33.5vw;
     height: 8.6vw;
     transition: 0.25s;
@@ -132,7 +132,7 @@
 }
 
 .home-new-content {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(251 226 214);
     box-shadow: inset 0px 0px 10px 2px rgba(0,0,0,0.2);
     border-radius: 0 0 0 1.9vw;
     height: 29.6vw;
@@ -146,13 +146,13 @@
 } 
 
 .home-new-content::-webkit-scrollbar-thumb {
-    background-color: rgb(104, 104, 104);
+    background-color: #d48f4b;
     border-radius: 1vw;
 }
 
 .home-new-content::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: #F5F5F5;
+    background-color: #fff;
 }
 
 
