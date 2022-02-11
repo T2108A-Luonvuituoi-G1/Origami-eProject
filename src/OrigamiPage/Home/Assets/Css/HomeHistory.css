@@ -3,7 +3,7 @@
     position: relative;
     width: 100%;
     height: 40vw;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(228, 198, 183);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)
 }
 
@@ -13,24 +13,24 @@
     background-color: rgb(255, 255, 255);
     margin: 1.5vw 2vw;
     padding: 1.56vw;
-    border-radius: 1vw 1vw 0 1vw;
+    border-radius: 1.9vw 1.9vw 0 1.9vw;
     position: absolute;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
-    background-color: rgb(216, 213, 213);
+    background-color: rgb(250, 236, 229);
 }
 
 .home-history-text-header {
     font-size: 1.7vw;
     color: #fff;
     text-align: center;
-    background-color: rgb(160, 159, 159);
+    background-color: #c56e17;
     border-radius: 1.9vw;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
 }
 
 .home-history-text-content {
     background-color: rgb(255, 255, 255);
-    margin: 1.4vw -1.55vw;
+    margin: 1.4vw -1.6vw;
     height: 31.1vw;
     border-radius: 0 0 0 1.9vw;
     padding: 1vw;
@@ -46,13 +46,13 @@
 } 
 
 .home-history-text-content::-webkit-scrollbar-thumb {
-    background-color: rgb(104, 104, 104);
+    background-color: #c56e17;
     border-radius: 1vw;
 }
 
 .home-history-text-content::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    background-color: #F5F5F5;
+    background-color: #fff;
 }
 
 .home-history-pic {
