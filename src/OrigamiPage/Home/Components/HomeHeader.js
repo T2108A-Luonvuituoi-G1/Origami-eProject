@@ -19,7 +19,7 @@ export default class HomeHeader extends Component {
                 >
                     <div className='home-text-header'>
                         <h1 className='home-text-h1'>You can make all of origami</h1>
-                        <p className='home-text-p'>Make Your Favorite Origami now!</p>
+                        <p className='home-text-p'>Make Your Favorite Origami Now!</p>
                         <Link className='home-header-btn' to="/products">Try now</Link>
                     </div>
                     <div className='home-image-header-sub'></div>

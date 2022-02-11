@@ -17,6 +17,12 @@
     text-decoration: none;
     color: #000;
     margin: 0vw 0 0 -8vw;
+    transition: 0.25s;
+}
+
+.nav-logo:hover {
+    color: #c56e17;
+    transition: 0.25s;
 }
 
 /* SEARCH INPUT */
