@@ -5,36 +5,39 @@
     top: 0;
     box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.1);
     position: fixed;
-    background-color: #fff;
+    background-color: rgb(251 226 214);
     z-index: 10;
     font-size: 1.33vw;
 }
 
 /* LOGO  */
 .nav-logo {
+    font-size: 1.9vw;
     position: absolute;
     text-decoration: none;
     color: #000;
-    margin: 0.5vw 0 0 -7.4vw;
+    margin: 0vw 0 0 -8.7vw;
 }
 
 /* SEARCH INPUT */
 .icon-search {
     font-size: 1.6vw;
-    margin: 0.55vw 0 0 5.5vw;
+    margin: 0.7vw 0 0 7.4vw;
     position: absolute;
 }
 
 .input-search {
+    position: absolute;
     font-size: 1.1vw;
-    margin: 0 5vw;
-    padding: 1.14vw 2.4vw;
+    margin: 0.4vw 6.9vw;
+    padding: 1vw 2.3vw;
     color: rgb(87, 86, 86);
     border: 0.1vw solid #ccc;
     outline: none;
     border-radius: 1.8vw;
     height: 0.3vw;
-    width: 18vw;
+    width: 16vw;
+    opacity: 70%;
     background-color: rgb(247, 247, 247);
     box-shadow: inset 0px 0px 6px 0px rgba(0,0,0,0.2);
 }
@@ -68,7 +71,7 @@
 .nav-link-page {
     width: 50vw;
     position: absolute;
-    margin: -2vw 24.5vw;
+    margin: 0.5vw 24.5vw;
 }
 
 .nav-link {
@@ -83,7 +86,8 @@
 }
 
 .nav-link:hover {
-    background-color: rgb(247, 247, 247);
+    background-color: #fdd9c8;
+    color: #000;
     transition: 0.25s;
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
 }
@@ -91,7 +95,7 @@
 /* CLOCK */
 .home-clock {
     position: absolute;
-    margin: -2vw 71.5vw;
+    margin: 0.5vw 71.5vw;
     width: 14vw;
     user-select: none;
 }
@@ -103,7 +107,7 @@
     width: 4vw;
     height: 4vw;
     border-radius: 50%;
-    margin: -3vw 83vw;
+    margin: -0.5vw 83vw;
     transition: 0.25s;
 }
 

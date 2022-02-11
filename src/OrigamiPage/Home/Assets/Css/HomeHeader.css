@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: 40vw;
+    top: -0.1vw;
 }
 
 .home-text-header {
@@ -20,17 +21,20 @@
 }
 
 .home-header-btn {
-    background-color: #fff;
+    background-color: rgb(251 226 214);
     padding: 1vw 3vw;
     position: absolute;
     top: 17vw;
     color: #000;
     text-decoration: none;
     border-radius: 1.9vw;
+    transition: 0.25s;
 }
 
 .home-header-btn:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: #caada0;
+    color: #000;
+    transition: 0.25s;
 }
 
 .home-image-header-sub {
