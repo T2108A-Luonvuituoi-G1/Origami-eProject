@@ -12,7 +12,7 @@
 .product-page-list-item {
     width: 27vw;
     height: 35vw;
-    background-color: rgb(160, 159, 159);
+    background-color:  rgb(251 226 214);
     border-radius: 1.9vw;
     position: relative;
     margin: 2vw 0;
@@ -36,7 +36,7 @@
     font-size: 3vw;
     position: absolute;
     margin: 0 -0.5vw;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .product-page-list-item-text {
