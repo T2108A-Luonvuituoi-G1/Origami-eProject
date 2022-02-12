@@ -14,6 +14,10 @@ function NavSearchInput() {
 
     const [search, setSearch] = useState('');
 
+    // const handleSubmit = () => {
+    //     search('')
+    // }
+
     let goal = '';
     let goalLink = '';
 
@@ -97,7 +101,11 @@ function NavSearchInput() {
                 onChange={e => setSearch(e.target.value)}
             />
             <div className='nav-origami-search'>
-                <Link className='nav-goal-link' to={goalLink}>{goal}</Link>
+                <Link className='nav-goal-link' to={goalLink}
+                    onClick={() => {
+                        search('')
+                    }}
+                >{goal}</Link>
             </div>
         </>
     );;

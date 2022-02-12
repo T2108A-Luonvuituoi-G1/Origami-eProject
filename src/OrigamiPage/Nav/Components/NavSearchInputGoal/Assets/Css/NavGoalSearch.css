@@ -1,11 +1,11 @@
 .nav-search-goal-img {
     width: 9.1vw;
-    margin: 0.6vw 0 0.6vw 0.5vw;
+    margin: 0.6vw 0 0.6vw -1.5vw;
     border-radius: 1.9vw;
 }
 
 .nav-search-goal-text {
-    margin: 1vw 1vw 0 1vw;
+    margin: 1vw 1vw 0 0.3vw;
     font-size: 1.4vw;
 }
 
