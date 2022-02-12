@@ -10,9 +10,7 @@ import Comment from './Comment';
 export default class Pig extends Component {
   render() {
     return (
-      <div div   style={{
-        background: `url(${bg})`
-    }}>
+      <div  className='product-item-page-inside'>
         <div className="boar">
           <div className="boar_top">
             <span className="boar_title">Boar</span>

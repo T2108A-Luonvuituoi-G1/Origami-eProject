@@ -10,9 +10,7 @@ import Comment from './Comment';
 export default class Parrot extends Component {
   render() {
     return (
-      <div   style={{
-        background: `url(${bg})`
-    }}>
+      <div   className='product-item-page-inside'>
         <div className="parrot">
           <div className="parrot_top">
             <span className="parrot_title">Parrot</span>

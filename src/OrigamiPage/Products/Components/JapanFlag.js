@@ -13,9 +13,7 @@ import React, { Component } from 'react';
 export default class JapanFlag extends Component {
   render() {
     return (
-      <div  style={{
-        background: `url(${bg})`
-    }}>
+      <div   className='product-item-page-inside'>
         <div class="foj">
           <div class="foj_top">
             <span class="foj_title">Flag of Japan</span>

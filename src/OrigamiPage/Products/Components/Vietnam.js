@@ -9,9 +9,7 @@ export default class Vietnam extends Component {
 
   render() {
     return (
-      <div className='layout-item'style={{
-        background: `url(${bg})`
-      }}><br />
+      <div className='product-item-page-inside'><br />
         <div className='layout-item-little' >
           <div className='title-item'>
             <h1 className='text-title'>VietNam Flag</h1>

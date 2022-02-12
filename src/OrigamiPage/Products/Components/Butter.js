@@ -38,9 +38,8 @@ export default class Butter extends Component {
   }
   render() {
     return (
-      <div  className="large"       style={{
-        background:`url(${bg})`
-      }}>
+      <div   className='product-item-page-inside'
+      >
         <div className="p-news">
           <h1 className="p-text">VOG’s Butterfly – Michael Lafosse</h1>
           <div className="poster">< IoPersonSharp /> Poster by {this.poster.name1}</div>

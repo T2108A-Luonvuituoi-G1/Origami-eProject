@@ -12,9 +12,8 @@ import React, { Component } from 'react';
 export default class Frame extends Component {
   render() {
     return (
-      <div   style={{
-        background: `url(${bg})`
-    }}>
+      <div    className='product-item-page-inside'
+    >
 
         <div class="frame"
         >
