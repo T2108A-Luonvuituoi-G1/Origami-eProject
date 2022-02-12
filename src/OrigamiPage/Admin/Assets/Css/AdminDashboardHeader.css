@@ -1,10 +1,49 @@
 .admin-header-main {
+    position: relative;
     width: 78.7vw;
-    height: 20vw;
-    background-color: #ccc;
+    height: 15vw;
+    background-color: rgb(228, 198, 183);
     margin: 1vw 20vw;
 }
 
+.admin-header-main-inside {
+    position: absolute;
+    margin: 2vw;
+    width: 95%;
+    height: 74%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
 .admin-header-main-title {
+    margin: 1.1vw 0;
+    width: 20vw;
+    height: 10vw;
+    background-color: tomato;
+}
+
+.admin-header-main-btn {
+    margin: 5vw 0vw;
+    width: 23vw;
+    height: 3vw;
+}
+
+.admin-header-main-btn-manage {
+    height: 3vw;
+    width: 9vw;
+    border: 0.15vw solid #fff;
     color: #fff;
-} 
+    background-color: transparent;
+    font-size: 1.1vw;
+    border-radius: 1.9vw;
+}
+
+.admin-header-main-btn-add {
+    width: 13vw;
+    font-size: 1.1vw;
+    height: 3vw;
+    margin: 0 0 0 1vw;
+    border: none;
+    border-radius: 1.9vw;
+}

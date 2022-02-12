@@ -9,11 +9,11 @@ function AdminNav() {
             <div className='admin-nav-page'>
                 <div className='product-page-nav-link'>
                     <Link to="#" className='product-page-nav-btn'>
-                        <p>Client</p>
+                        <p>Base</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
                     <Link to="#" className='product-page-nav-btn'>
-                        <p>Slider</p>
+                        <p>Forms</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
                     <Link to="#" className='product-page-nav-btn'>
@@ -25,7 +25,7 @@ function AdminNav() {
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
                     <Link to="#" className='product-page-nav-btn'>
-                        <p>Page</p>
+                        <p>Map</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
                     
