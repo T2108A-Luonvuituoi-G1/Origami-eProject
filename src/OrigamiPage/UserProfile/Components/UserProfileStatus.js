@@ -19,9 +19,9 @@ function UserProfileStatus() {
                     <hr className='up-status-post-add-hr' />
                     <div className='up-status-post-add-footer'>
                         <HiOutlinePhotograph className='up-status-post-add-icon' />
-                        <p className='up-status-post-add-p' >Photos</p>
+                        <p className='up-status-post-add-p' >live video</p>
                         <HiPaperClip className='up-status-post-add-icon' />
-                        <p className='up-status-post-add-p' >Videos</p>
+                        <p className='up-status-post-add-p' >Photo/video</p>
                         <HiChevronRight className='up-status-post-add-icon' />
                     </div>
                 </div>

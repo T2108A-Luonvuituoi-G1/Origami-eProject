@@ -10,27 +10,35 @@
     padding: 0.5vw 1vw;
     outline: none;
     border: none;
-    background-color: rgb(221, 220, 220);
+    background-color: rgb(231, 230, 230);
     border-radius: 1.9vw;
-    
+}
+
+.comment-input-text:focus {
+    border: 0.2vw solid #c56e17;
 }
 
 .comment-input-btn {
     width: 10vw;
     border-radius: 1.9vw;
+    color: #fff;
     border: none;
-    background-color: rgb(221, 221, 221);
+    background-color: #c56e17;
     transition: 0.25s;
 }
 
 .comment-input-btn:hover {
-    background-color: rgb(139, 139, 139);
+    color: #fff;
+    background-color: #965412;
     transition: 0.25s;
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
     cursor: pointer;
 }
 
 .comment-page {
+    border-radius: 1.9vw;
+    padding: 1vw;
+    background-color: rgb(228, 198, 183);
     position: relative;
     color: #000;
     margin: 2vw 0 0 0.5vw;

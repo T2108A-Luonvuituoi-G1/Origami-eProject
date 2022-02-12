@@ -2,7 +2,7 @@
     border-radius: 1.9vw;
     margin: 0vw 0vw 4vw 0;
     width: 68vw;
-    height: 20vw;
+    height: 16vw;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
@@ -50,14 +50,27 @@
 }
 
 .up-status-post-add-icon {
-    font-size: 8vw;
+    font-size: 4vw;
     margin: 1vw 0;
     cursor: pointer;
+    transition: 0.25s;
+}
+
+.up-status-post-add-icon:hover {
+    color: #c56e17;
+    transition: 0.25s;
 }
 
 .up-status-post-add-p {
     font-size: 2vw;
-    margin: 3.2vw 0 3.2vw -8vw;
+    margin: 1.5vw 0 3.2vw -10vw;
+    transition: 0.25s;
+}
+
+.up-status-post-add-p:hover {
+    cursor: pointer;
+    color: #c56e17;
+    transition: 0.25s;
 }
 
 .up-status {
