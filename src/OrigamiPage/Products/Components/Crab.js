@@ -9,9 +9,8 @@ import Comment from './Comment';
 export default class Crab extends Component {
   render() {
     return (
-      <div  style={{
-        background: `url(${bg})`
-    }}>
+      <div  className='product-item-page-inside'
+    >
         <div className="crab"
         >
           <div className="crab_top">
