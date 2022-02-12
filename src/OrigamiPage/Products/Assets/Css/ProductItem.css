@@ -6,7 +6,7 @@
     width: 60vw;
     height: 154vw;
     margin-top: 6vw;
-    background-color: rgb(204, 204, 201);
+    background-color: rgb(250, 250, 250);
     margin-left: 20vw;
 }  
 .p-text {
@@ -340,7 +340,7 @@
 }
 /* Fox */
 .product-item-page-inside {
-    background-color: rgb(216, 213, 213);
+    background-color: rgb(228, 198, 183);
 }
 
 .fox{
