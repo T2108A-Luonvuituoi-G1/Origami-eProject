@@ -17,9 +17,8 @@ export default class Fox extends Component {
   render() {
     return (
       <div className='product-item-page-inside'
-      style={{
-        background: `url(${bg})`
-    }}>
+ 
+    >
         <div className="fox">
           <div className="fox_top">
             <span className="fox_title">Fox</span>
