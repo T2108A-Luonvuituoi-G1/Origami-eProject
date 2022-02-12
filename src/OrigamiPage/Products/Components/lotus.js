@@ -35,9 +35,7 @@ import Comment from './Comment';
 export default class Lotus extends Component {
     render() {
         return (
-            <div div style={{
-                background: `url(${bg})`
-            }}>
+            <div  className='product-item-page-inside'>
                 <div className="lotus">
                     <div className="lotus_top">
                         <span className="lt_title">Lotus</span>
