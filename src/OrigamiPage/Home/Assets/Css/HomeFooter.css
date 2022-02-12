@@ -35,6 +35,12 @@
     margin: 0 5vw;
 }
 
+.home-footer-li p:hover {
+    color: #c56e17;
+    cursor: pointer;
+}
+
+
 .home-footer-logo {
     position: absolute;
     width: 17vw;

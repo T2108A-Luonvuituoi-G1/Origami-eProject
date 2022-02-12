@@ -14,7 +14,7 @@ function Comment() {
             setComment('')
         }
     }
-
+    
     return (
         <>
             <div className='comment-input'>

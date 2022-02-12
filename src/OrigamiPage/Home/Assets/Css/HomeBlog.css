@@ -47,6 +47,10 @@
     box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.2);
 }
 
+.home-blog-header-btn:hover > .home-blog-icon {
+    margin: 0 2.5vw;
+}
+
 .home-blog-header-p {
     position: absolute;
     margin: 0 0.5vw;
