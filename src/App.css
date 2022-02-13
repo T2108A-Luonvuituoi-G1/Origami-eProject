@@ -12,17 +12,17 @@
 }
 
 ::selection {
-    background:#c2660d;
+    background:#c56e17;
     color:#fff;
 }
      
 ::-moz-selection {
-    background:#c2660d;
+    background:#c56e17;
     color:#fff;
 }
      
 ::-webkit-selection {
-    background:#c2660d;
+    background:#c56e17;
     color:#fff;
 }
      
