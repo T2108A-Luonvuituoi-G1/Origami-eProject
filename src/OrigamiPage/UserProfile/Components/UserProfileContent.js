@@ -3,19 +3,19 @@ import '../Assets/Css/UserProfileContent.css'
 import { FaGithub, FaEnvelope } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
 import { ImPhone } from "react-icons/im";
-import {MdSchool } from "react-icons/md";
+import { MdSchool } from "react-icons/md";
 import { BsTwitter } from "react-icons/bs";
 import { ImFacebook } from "react-icons/im";
-import { AiFillHeart} from "react-icons/ai";
+import { AiFillHeart } from "react-icons/ai";
 
-{/* Mo dau */}
+{/* Mo dau */ }
 function UserProfileContent() {
     return (
         <>
             <div className='up-content'>
                 <div className='up-information' >
                     <div className='up-full-name'>
-                         Tran Minh Duc
+                        Tran Minh Duc
                     </div>
                     <div className='up-job' >
                         Manager
@@ -34,15 +34,14 @@ function UserProfileContent() {
                     </ul>
                 </div>
 
-{/*Icons */}                
+                {/*Icons */}
                 <div className='up-icons'>
-                    <ul className='up-icons-infromation'>
-
+                    <ul className='up-icons-information'>
 
                         <li>
                             <MdSchool /> THPT Tam Nong .
                         </li>
-                         <li>
+                        <li>
                             <ImMail /> Tran****@gmail.com.
                         </li>
                         <li>
@@ -55,7 +54,7 @@ function UserProfileContent() {
                             <FaGithub /> LuonVuiTuoi-origami.
                         </li>
                         <li>
-                            <BsTwitter /> tranduc0501.                        
+                            <BsTwitter /> tranduc0501.
                         </li>
                         <li>
                             <ImFacebook /> Tran Duc.
@@ -63,9 +62,9 @@ function UserProfileContent() {
                         <li>
                             <AiFillHeart /> Dating hihi.
                         </li>
-                        
-                        
-                       
+
+
+
                     </ul>
                 </div>
             </div>

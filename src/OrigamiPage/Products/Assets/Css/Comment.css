@@ -12,10 +12,12 @@
     border: none;
     background-color: rgb(231, 230, 230);
     border-radius: 1.9vw;
+    transition: 0.25s;
 }
 
 .comment-input-text:focus {
     border: 0.2vw solid #c56e17;
+    transition: 0.25s;
 }
 
 .comment-input-btn {

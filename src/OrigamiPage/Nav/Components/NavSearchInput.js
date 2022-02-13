@@ -103,7 +103,7 @@ function NavSearchInput() {
             <div className='nav-origami-search'>
                 <Link className='nav-goal-link' to={goalLink}
                     onClick={() => {
-                        search('')
+                        setSearch('')
                     }}
                 >{goal}</Link>
             </div>
