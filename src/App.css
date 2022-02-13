@@ -10,3 +10,19 @@
 .Content {
     margin-top: 73px;
 }
+
+::selection {
+    background:#c2660d;
+    color:#fff;
+}
+     
+::-moz-selection {
+    background:#c2660d;
+    color:#fff;
+}
+     
+::-webkit-selection {
+    background:#c2660d;
+    color:#fff;
+}
+     
