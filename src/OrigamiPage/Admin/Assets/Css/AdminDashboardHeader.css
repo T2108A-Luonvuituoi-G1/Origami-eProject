@@ -6,6 +6,7 @@
     margin: 1vw 20vw;
 }
 
+
 .admin-header-main-inside {
     position: absolute;
     margin: 2vw;
@@ -13,18 +14,27 @@
     height: 74%;
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
 }
 
 .admin-header-main-title {
     margin: 1.1vw 0;
     width: 20vw;
     height: 10vw;
-    background-color: tomato;
+    line-height: 3vw;
+}
+
+.admin-header-main-title h2 {
+    font-size: 1.5vw;
+    color: rgb(51, 51, 51);
+}
+
+.admin-header-main-title h5 {
+    font-size: 1vw;
+    color: rgb(85, 85, 85);
 }
 
 .admin-header-main-btn {
-    margin: 5vw 0vw;
+    margin: 3vw 0vw;
     width: 23vw;
     height: 3vw;
 }
@@ -37,6 +47,14 @@
     background-color: transparent;
     font-size: 1.1vw;
     border-radius: 1.9vw;
+    transition: 0.25s;
+}
+
+.admin-header-main-btn-manage:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: 0.25s;
 }
 
 .admin-header-main-btn-add {
@@ -45,5 +63,14 @@
     height: 3vw;
     margin: 0 0 0 1vw;
     border: none;
+    background-color: rgb(250, 236, 229);
+    transition: 0.25s;
     border-radius: 1.9vw;
+}
+
+.admin-header-main-btn-add:hover {
+    cursor: pointer;
+    color: #fff;
+    transition: 0.25s;
+    background-color: #c56e17;
 }

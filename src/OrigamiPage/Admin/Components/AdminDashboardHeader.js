@@ -7,8 +7,8 @@ function AdminDashboardHeader() {
             <div className='admin-header-main'>
                 <div className='admin-header-main-inside'>
                     <div className='admin-header-main-title'>
-                        <h5>Dashboard</h5>
-                        <h2>Admin Dashboard</h2>
+                        <h2>Dashboard</h2>
+                        <h5>Admin Dashboard</h5>
                     </div>
                     <div className='admin-header-main-btn'>
                         <input type='button' value='Manage' className='admin-header-main-btn-manage' />
