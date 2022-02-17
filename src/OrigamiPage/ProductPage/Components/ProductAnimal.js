@@ -8,6 +8,8 @@ import Parrot from '../Assets/Images/parrot.jpg'
 import Butterfly from '../Assets/Images/butterfly.jpg'
 import { BiChevronRight } from "react-icons/bi";
 import { Link } from 'react-router-dom';
+import HomeFooter from '../Components/Footer';
+
 
 function ProductAnimal() {
     return (
@@ -100,6 +102,9 @@ function ProductAnimal() {
                     </div>
                 </div>
             </div>
+                <div>
+            <HomeFooter/>
+          </div>
         </>
     );
 }
