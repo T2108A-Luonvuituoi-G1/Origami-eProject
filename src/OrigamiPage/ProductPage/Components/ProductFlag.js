@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Vietnam from '../Assets/Images/vietnam.jpg'
 import Japan from '../Assets/Images/japan.jpg'
 import { BiChevronRight } from "react-icons/bi";
+import HomeFooter from '../Components/Footer';
+
 
 function ProductFlag() {
     return (
@@ -45,8 +47,10 @@ function ProductFlag() {
                         </Link>
                     </div>
                 </div>
-
             </div>
+                <div>
+            <HomeFooter/>
+          </div>
         </>
     );
 }
