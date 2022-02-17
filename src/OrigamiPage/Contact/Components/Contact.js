@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../Assets/Css/Contact.css'
 import { BiMap, BiConversation, BiPhone } from "react-icons/bi";
-
+import HomeFooter from '../Components/Footer'
 function Contact() {
 
     const [border1, setBorder1] = useState('');
@@ -135,6 +135,7 @@ function Contact() {
                     </div>
                 </div>
             </div>
+            <HomeFooter/>
         </div>
     )
 }
