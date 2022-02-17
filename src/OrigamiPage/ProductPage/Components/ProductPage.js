@@ -2,6 +2,8 @@ import React from 'react';
 import '../Assets/Css/ProductPage.css'
 import ProductListNav from './ProductListNav';
 import ProductList from './ProductList';
+import HomeFooter from '../Components/Footer';
+
 
 function ProductPage() {
     return (
