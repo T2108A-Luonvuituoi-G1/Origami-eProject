@@ -3,6 +3,8 @@ import '../Assets/Css/ProductListNav.css'
 import { BiChevronRight } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 
+
+
 function ProductListNav() {
     return (
         <>
@@ -25,6 +27,7 @@ function ProductListNav() {
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
                 </div>
+              
             </div>
         </>
     );
