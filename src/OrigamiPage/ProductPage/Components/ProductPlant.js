@@ -4,6 +4,8 @@ import { BiChevronRight } from "react-icons/bi";
 import ProductListNav from './ProductListNav';
 import Lotus from '../Assets/Images/lotus.jpg'
 import '../Assets/Css/ProductPlant.css'
+import HomeFooter from '../Components/Footer';
+
 
 function ProductPlant() {
     return (
@@ -27,8 +29,10 @@ function ProductPlant() {
                         </Link>
                     </div>
                 </div>
-
             </div>
+                <div>
+            <HomeFooter/>
+          </div>
         </>
     );
 }
