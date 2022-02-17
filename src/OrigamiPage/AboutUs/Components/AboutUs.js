@@ -3,6 +3,7 @@ import AboutUsHeader from "./AboutUsHeader";
 import AboutUsSlider from "./AboutUsSlider";
 import AboutUsContainer from "./AboutUsContainer";
 import AboutUsFooter from "./AboutUsFooter";
+// import HomeFooter from "../Components/Footer";
 
 export default class AboutUs extends Component {
   render() {
@@ -19,6 +20,8 @@ export default class AboutUs extends Component {
 
         {/* SLIDER */}
         <AboutUsSlider />
+
+        {/* <HomeFooter/> */}
       </>
     );
   }
