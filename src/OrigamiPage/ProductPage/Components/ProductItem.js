@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { BiChevronRight } from "react-icons/bi";
 import Img from '../Assets/Images/img.jpg'
 import '../Assets/Css/ProductItem.css'
+import HomeFooter from '../Components/Footer';
 
 
 function ProductItem() {
@@ -28,8 +29,10 @@ function ProductItem() {
                         </Link>
                     </div>
                 </div>
-
             </div>
+                <div>
+            <HomeFooter/>
+          </div>
         </>
     );
 }
