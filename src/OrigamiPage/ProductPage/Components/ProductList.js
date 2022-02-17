@@ -10,6 +10,9 @@ import Lotus from '../Assets/Images/lotus.jpg'
 import Img from '../Assets/Images/img.jpg'
 import Vietnam from '../Assets/Images/vietnam.jpg'
 import Japan from '../Assets/Images/japan.jpg'
+import HomeFooter from '../Components/Footer';
+
+
 import { Link } from 'react-router-dom';
 
 function ProductList() {
@@ -171,6 +174,9 @@ function ProductList() {
                 </div>
 
             </div>
+                <div>
+            <HomeFooter/>
+          </div>
         </>
     );
 }
