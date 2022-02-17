@@ -40,8 +40,8 @@
 }
 
 .admin-header-main-btn-manage {
-    height: 3vw;
-    width: 9vw;
+    text-decoration: none;
+    padding: 0.6vw 2vw;
     border: 0.15vw solid #fff;
     color: #fff;
     background-color: transparent;

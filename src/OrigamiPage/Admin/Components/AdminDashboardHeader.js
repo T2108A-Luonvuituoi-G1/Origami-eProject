@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Assets/Css/AdminDashboardHeader.css'
 
 function AdminDashboardHeader() {
@@ -11,7 +12,7 @@ function AdminDashboardHeader() {
                         <h5>Admin Dashboard</h5>
                     </div>
                     <div className='admin-header-main-btn'>
-                        <input type='button' value='Manage' className='admin-header-main-btn-manage' />
+                        <Link className='admin-header-main-btn-manage' to="/errorpage">Manage</Link>
                         <input type='button' value='Add Customer' className='admin-header-main-btn-add' />
                     </div>
                 </div>

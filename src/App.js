@@ -21,6 +21,7 @@ import ProductPlant from './OrigamiPage/ProductPage/Components/ProductPlant';
 import ProductItem from './OrigamiPage/ProductPage/Components/ProductItem';
 import ProductFlag from './OrigamiPage/ProductPage/Components/ProductFlag';
 import AdminPage from './OrigamiPage/Admin/Components/AdminPage';
+import ErrorPage from './OrigamiPage/401Page/Components/ErrorPage';
 
 
 export default class App extends Component {
@@ -59,6 +60,8 @@ export default class App extends Component {
               <Route exact path="/products/frameImg" element={<Frame />}/>
               <Route exact path="/products/JapanFlag" element={<JapanFlag />}/>
 
+              {/* ErrorPage */}
+              <Route exact path="/errorpage" element={<ErrorPage />}/>
      
 
             </Routes>
