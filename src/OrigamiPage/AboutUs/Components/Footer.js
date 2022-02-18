@@ -3,6 +3,8 @@ import '../Assets/Css/Footer.css'
 import AptechLogo from '../Assets/Images/aptech.png'
 import { AiFillGithub } from "react-icons/ai";
 import { BsStackOverflow } from "react-icons/bs";
+import { Link } from 'react-router-dom';
+
 
 function HomeFooter() {
     return (
@@ -15,7 +17,7 @@ function HomeFooter() {
                 </li>
                 <li className='home-footer-li home-footer-sp' >SUPPORT
                     <p>Contact</p>
-                    <p>Rules</p>
+                    <Link to='/pagenotfound'className='home-footer_rules'>Rules</Link>
                     <p>security</p>
                 </li>
                 <li className='home-footer-li home-footer-us' >ABOUT US
