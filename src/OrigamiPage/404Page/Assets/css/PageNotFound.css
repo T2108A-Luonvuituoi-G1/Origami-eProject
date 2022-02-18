@@ -21,13 +21,13 @@
     background-color:#c56e17;
     padding:1vw 2vw;
     border-radius: 25px;
-    border: solid rgb(216 140 0);
+    /* border: solid rgb(216 140 0); */
     transition: 0.25s;
 }
 .PageNotFound-btn:hover{
     padding:1vw 5vw;
-    background-color: rgb(165 101 62) ;
+    background-color: #9b5713;
     transition: 0.25s;
-    color: rgb(0, 0, 0);
-    border: solid rgb(216 140 0);
+    color: #fff;
+    /* border: solid rgb(216 140 0); */
 }

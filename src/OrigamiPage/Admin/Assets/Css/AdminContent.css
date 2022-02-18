@@ -12,7 +12,7 @@
     margin: 0 1.3vw;
     border-radius: 1.9vw;
     width: 36vw;
-    height: 28vw;
+    height: 23vw;
     background-color: rgb(250, 236, 229);
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
 }
@@ -38,16 +38,93 @@
 .admin-content-chart1-content {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
     margin: 8vw 0vw;
     position: absolute;
     width: 100%;
     height: 9vw;
-    background-color: aqua;
 }
 
 .admin-content-circle {
     width: 9vw;
     height: 9vw;
-    background-color: #f1f1f1;
     border-radius: 50%
+}
+
+.admin-content-img-chart {
+    width: 9vw;
+    height: 9vw;
+}
+
+
+.admin-content-chart1-detail {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    margin: 29% 0;
+    /* background-color: aqua; */
+}
+
+.admin-content-number-chart {
+    margin: 0 3.9vw;
+    font-size: 2vw;
+}
+
+.admin-content-chart1-footer {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 20%;
+    margin: 51.2% 0.4vw;
+}
+
+.admin-content-p-chart {
+    margin: 0vw 0.4vw;
+    font-size: 1.3vw;
+    color: rgb(51, 51, 51);
+}
+
+.admin-content-chart2-content {
+    position: absolute;
+    margin: 21% 33%;
+}
+
+.admin-content-chart2-content-img {
+    position: absolute;
+    width: 23vw;
+}
+
+.admin-content-chart2-content-sub {
+    position: absolute;
+    width: 10vw;
+    height: 14.5vw;
+    margin: 5.3vw 1.7vw;
+}
+
+.admin-content-chart2-content-sub-title1 {
+    margin: 2vw 0 3vw 0;
+}
+
+.admin-title1-income {
+    color: rgb(63 133 26);
+    font-size: 1.3vw;
+}
+
+.admin-title1-spend {
+    color: #DD4A48;
+    font-size: 1.3vw;
+}
+
+.admin-title1-spend-sub,
+.admin-title1-income-sub {
+    color: rgb(51, 51, 51);
+    font-size: 1.7vw;
 }
