@@ -5,6 +5,7 @@ import UserProfileHeader from './UserProfileHeader';
 import UserProfileSlider from './UserProfileSlider';
 import UserProfileStatus from './UserProfileStatus';
 
+
 function UserProfile() {
   return (
     <>
@@ -20,6 +21,7 @@ function UserProfile() {
         {/* SLIDER */}
         <UserProfileSlider />
       </div>
+       
     </>
   );
 }

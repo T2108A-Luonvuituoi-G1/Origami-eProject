@@ -7,13 +7,18 @@ import HomeFooter from '../Components/Footer';
 
 function ProductPage() {
     return (
-        <div className='ProductPage'>
-            {/* Nav */}
-            <ProductListNav />
+        <>
+            <div className='ProductPage'>
+                {/* Nav */}
+                <ProductListNav />
 
-            {/* Products */}
-            <ProductList />
-        </div>
+                {/* Products */}
+                <ProductList />
+            </div>
+            <div className='Product-page-footer'>
+                <HomeFooter />
+            </div>
+        </>
     );
 }
 

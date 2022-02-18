@@ -25,6 +25,16 @@
     text-align: start;
     line-height: 2.4vw;
 }
+.home-footer_rules{
+    margin: 0 2vw;
+    text-align: start;
+    line-height: 2.4vw;
+    text-decoration: none;
+    color: black;
+}
+.home-footer_rules:hover{
+    color: #c56e17;
+}
 
 .home-footer-sp p{
     text-align: center;

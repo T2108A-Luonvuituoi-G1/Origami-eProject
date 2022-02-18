@@ -11,6 +11,8 @@ import Img from '../Assets/Images/img.jpg'
 import Vietnam from '../Assets/Images/vietnam.jpg'
 import Japan from '../Assets/Images/japan.jpg'
 import HomeFooter from '../Components/Footer';
+import ProductListNav from './ProductListNav';
+
 
 
 import { Link } from 'react-router-dom';
@@ -19,7 +21,6 @@ function ProductList() {
     return (
         <>
             <div className='product-page-list'>
-
                 {/* FOX */}
                 <div className='product-page-list-item'>
                     <img src={Fox} className='product-page-list-item-img' />
@@ -172,11 +173,10 @@ function ProductList() {
                         </Link>
                     </div>
                 </div>
-
             </div>
-                <div>
-            <HomeFooter/>
-          </div>
+            <div>
+                {/* <HomeFooter /> */}
+            </div>
         </>
     );
 }
