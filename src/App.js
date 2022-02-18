@@ -22,6 +22,7 @@ import ProductItem from './OrigamiPage/ProductPage/Components/ProductItem';
 import ProductFlag from './OrigamiPage/ProductPage/Components/ProductFlag';
 import AdminPage from './OrigamiPage/Admin/Components/AdminPage';
 import ErrorPage from './OrigamiPage/401Page/Components/ErrorPage';
+import PageNotFound from './OrigamiPage/404Page/Components/PageNotFound';
 
 
 export default class App extends Component {
@@ -62,7 +63,8 @@ export default class App extends Component {
 
               {/* ErrorPage */}
               <Route exact path="/errorpage" element={<ErrorPage />}/>
-     
+              <Route exact path="/pagenotfound" element={<PageNotFound />}/>
+
 
             </Routes>
           </div>
