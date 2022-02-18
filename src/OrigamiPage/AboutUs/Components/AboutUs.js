@@ -3,6 +3,7 @@ import AboutUsHeader from "./AboutUsHeader";
 import AboutUsSlider from "./AboutUsSlider";
 import AboutUsContainer from "./AboutUsContainer";
 import AboutUsFooter from "./AboutUsFooter";
+import HomeFooter from "../../ProductPage/Components/Footer";
 // import HomeFooter from "../Components/Footer";
 
 export default class AboutUs extends Component {
@@ -22,6 +23,7 @@ export default class AboutUs extends Component {
         <AboutUsSlider />
 
         {/* <HomeFooter/> */}
+        <HomeFooter />
       </>
     );
   }
