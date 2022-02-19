@@ -1,9 +1,11 @@
 .up-content {
     width: 20vw;
-    height: 59vw;
+    height: 35vw;
     background-color: rgb(250, 236, 229);
     margin: -0.5vw 1vw 0 2.4vw;
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    /* position: relative; */
     border-radius: 1.9vw;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
@@ -35,6 +37,7 @@
 }
 
 .up-follower ul {
+    font-size: 1.4vw;
     display: flex;
     justify-content: space-around;
 }
@@ -50,4 +53,12 @@
     list-style: none;
     padding: auto;
     line-height: 5vw;
+}
+
+.dog-img {
+    position: absolute;
+    top: 10vw;
+    border-radius: 1.9vw;
+    left: 1.5vw;
+    width: 65vw;
 }

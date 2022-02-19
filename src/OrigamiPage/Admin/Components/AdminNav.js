@@ -13,10 +13,6 @@ function AdminNav() {
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
                     <Link to="#" className='product-page-nav-btn admin-nav-btn'>
-                        <p>Forms</p>
-                        <BiChevronRight className='product-page-nav-icon' />
-                    </Link>
-                    <Link to="#" className='product-page-nav-btn admin-nav-btn'>
                         <p>Chart</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
@@ -24,11 +20,6 @@ function AdminNav() {
                         <p>Table</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
-                    <Link to="#" className='product-page-nav-btn admin-nav-btn'>
-                        <p>Map</p>
-                        <BiChevronRight className='product-page-nav-icon' />
-                    </Link>
-                    
                 </div>
             </div>
         </>

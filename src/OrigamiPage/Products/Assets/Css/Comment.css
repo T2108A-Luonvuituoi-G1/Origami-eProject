@@ -40,7 +40,6 @@
 .comment-page {
     border-radius: 1.9vw;
     padding: 1vw;
-    background-color: rgb(228, 198, 183);
     position: relative;
     color: #000;
     margin: 2vw 0 0 0.5vw;
@@ -50,7 +49,7 @@
     flex-wrap: wrap; */
 }
 
-.comment-page img {
+.avatar-comment {
     width: 6vw;
     height: 6vw;
     border-radius: 50%;
@@ -64,7 +63,7 @@
     margin: 1.9vw 6.7vw;
     /* width: 20vw; */
     /* height: 4vw; */
-    background-color: #fff;
+    background-color: rgb(231, 230, 230);
     border-radius: 1.9vw;
     position: absolute;
     display: flex;
@@ -72,4 +71,12 @@
 
 .comment-page-text {
     padding: 1vw;
+}
+
+.comment-bot {
+    display: flex;
+    padding: 1vw;
+    position: relative;
+    color: #000;
+    margin: 2vw 0 0 0.5vw;
 }

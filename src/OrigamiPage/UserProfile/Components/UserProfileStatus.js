@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Assets/Css/UserProfileStatus.css'
 import Avatar from '../Assets/Images/Anh-chim-hac.jpg'
-import Love from '../Assets/Images/Anhny1.jpg'
+import Love from '../Assets/Images/274176151_10224796332848822_5921506225620991094_n.jpg'
 import Love2 from '../Assets/Images/Anhny2.jpg'
 import anhtet1 from '../Assets/Images/Anhtet1.jpg'
 import anhtet2 from '../Assets/Images/Anhtet2.jpg'
@@ -12,6 +12,7 @@ function UserProfileStatus() {
     const [statuss, setStatuss] = useState([]);
     const [status, setStatus] = useState('');
     const [clockState, setClockState] = useState();
+    const [border, setBorder] = useState('')
 
     const handleClick = () => {
         const Dates = new Date();
@@ -25,6 +26,7 @@ function UserProfileStatus() {
                     <div className='up-status-post-add-header'>
                         <img src={Avatar} className='up-status-post-add-header-ava' />
                         <input type='text' className='up-status-post-add-header-text' placeholder='What on your mind, Duc ?'
+                            style={{ border: border }}
                             value={status}
                             onChange={e => setStatus(e.target.value)}
                         />
@@ -38,11 +40,12 @@ function UserProfileStatus() {
                         <HiChevronRight className='up-status-post-add-icon'
                             onClick={() => {
                                 if (status == '') {
-                                    alert('What are you doing ?')
+                                    setBorder('0.2vw solid #DD4A48')
                                 } else {
                                     handleClick()
-                                    setStatuss(prev => [status ,...prev])
+                                    setStatuss(prev => [status, ...prev])
                                     setStatus('')
+                                    setBorder('none')
                                 }
                             }}
 
@@ -68,31 +71,11 @@ function UserProfileStatus() {
                         <img src={Avatar} className='up-status-post-header-ava' />
                         <p className='up-status-post-header-name'>Tran Minh Duc</p>
                         <p className='up-status-post-header-time'>3:20am 22/1/2022</p>
-                        <p className='up-status-post-header-statusline'>Hi everybody . Today I will introduce myself. My name is Duc,
-                            this year I am 19 years old. You can contact me via
-                            nick face "Tran Duc" or phone number 035467*** to know more about me. 
-                            </p>
+                        <p className='up-status-post-header-statusline'>Dog in Origami </p>
                     </div>
                     <div className='up-status-post-content'>
-                        <img src={Love} className='up-status-post-content-love' />
-                        <img src={Love2} className='up-status-post-content-love2' />
+                        <img src={Love} className='dog-img' />
                     </div>
-                    <div className='up-status-post-footer'></div>
-                </div>
-
-                <div className='up-status-post'>
-                    <div className='up-status-post-header'></div>
-                    <img src={Avatar} className='up-status-post-header-ava' />
-                    <p className='up-status-post-header-name'>Tran Minh Duc</p>
-                    <p className='up-status-post-header-time'>7:20am 1/2/2022</p>
-                    <p className='up-status-post-header-statusline'>Hello everyone. So the old year has ended and the new year
-                        has come again. Today is February 1, 2002.
-                        On the first day of the new year, I wish everyone good health and good luck.</p>
-                    <div className='up-status-post-content'>
-                        <img src={anhtet1} className='up-status-post-content-anhtet1' />
-                        <img src={anhtet2} className='up-status-post-content-anhtet2' />
-                    </div>
-
                     <div className='up-status-post-footer'></div>
                 </div>
             </div>
