@@ -21,7 +21,7 @@ import ProductPlant from './OrigamiPage/ProductPage/Components/ProductPlant';
 import ProductItem from './OrigamiPage/ProductPage/Components/ProductItem';
 import ProductFlag from './OrigamiPage/ProductPage/Components/ProductFlag';
 import AdminPage from './OrigamiPage/Admin/Components/AdminPage';
-import ErrorPage from './OrigamiPage/401Page/Components/ErrorPage';
+import ErrorPage from './OrigamiPage/500Page/Components/ErrorPage';
 import PageNotFound from './OrigamiPage/404Page/Components/PageNotFound';
 
 
