@@ -1,15 +1,15 @@
-import React from 'react'
-import AdminNav from '../../Admin/Components/AdminNav'
-import '../Css/Chart.css'
-import Line_chart from '../Assets/Img/line-chart.png'
-import Bar_chart from '../Assets/Img/bar_chart.png'
-import Pie_chart from '../Assets/Img/pie_chart.png'
-import Doughnut_chart from '../Assets/Img/Doyghnut_png'
-import Radar_chart from '../Assets/Img/Radar_chart.png'
-import Bubble_chart from '../Assets/Img/bubble_chart.png'
-import Mutiple_line from '../Assets/Img/Mutiple_line.png'
-import Mutiple_bar from '../Assets/Img/mutiple_bar.png'
-import Chart_html from '../Assets/Img/chart_with_html.png'
+// import React from 'react'
+// import AdminNav from '../../Admin/Components/AdminNav'
+// import '../Css/Chart.css'
+// import Line_chart from '../Assets/Img/line-chart.png'
+// import Bar_chart from '../Assets/Img/bar_chart.png'
+// import Pie_chart from '../Assets/Img/pie_chart.png'
+// import Doughnut_chart from '../Assets/Img/Doyghnut_png'
+// import Radar_chart from '../Assets/Img/Radar_chart.png'
+// import Bubble_chart from '../Assets/Img/bubble_chart.png'
+// import Mutiple_line from '../Assets/Img/Mutiple_line.png'
+// import Mutiple_bar from '../Assets/Img/mutiple_bar.png'
+// import Chart_html from '../Assets/Img/chart_with_html.png'
 
 // function Chart() {
 //   return (
@@ -64,4 +64,4 @@ import Chart_html from '../Assets/Img/chart_with_html.png'
 //   )
 // }
 
-export default Chart
+// export default Chart
