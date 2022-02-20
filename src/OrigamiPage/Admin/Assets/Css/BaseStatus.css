@@ -1,0 +1,58 @@
+
+.BA-Status{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 70vw;
+    height: 15vw;
+    margin-top: 3vw;
+    margin-left: 25vw;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.Base-Text{
+    margin: 1vw 2vw;
+}
+.BA-Status-images{
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.BA-Status-online,.BA-Status-away,.BA-Status-offline{
+    width: 3vw;
+    height: 3vw;
+    position: absolute;
+}
+.BA-Status-offline{
+    margin-left: 4vw;
+
+}
+.BA-Status-away{
+    margin-left: 8vw;
+}
+.BA-Status-online::before,
+.BA-Status-offline::before,
+.BA-Status-away::before{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    border: 2px solid #fff;
+}
+.BA-Status-online::before{
+    background-color: greenyellow;
+
+}
+.BA-Status-offline::before{
+    background-color: #888;
+}
+.BA-Status-away::before{
+    background-color: orange;
+}
+.BA-Status-img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+}
