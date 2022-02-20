@@ -8,11 +8,11 @@ function AdminNav() {
         <>
             <div className='admin-nav-page'>
                 <div className='product-page-nav-link'>
-                    <Link to="#" className='product-page-nav-btn admin-nav-btn'>
+                    <Link to="/base" className='product-page-nav-btn admin-nav-btn'>
                         <p>Base</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
-                    <Link to="#" className='product-page-nav-btn admin-nav-btn'>
+                    <Link to="/chart" className='product-page-nav-btn admin-nav-btn'>
                         <p>Chart</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>

@@ -23,6 +23,8 @@ import ProductFlag from './OrigamiPage/ProductPage/Components/ProductFlag';
 import AdminPage from './OrigamiPage/Admin/Components/AdminPage';
 import ErrorPage from './OrigamiPage/500Page/Components/ErrorPage';
 import PageNotFound from './OrigamiPage/404Page/Components/PageNotFound';
+import Chart from './OrigamiPage/Chart/Components/Chart';
+import Base from './OrigamiPage/Base/Components/Base';
 
 
 export default class App extends Component {
@@ -65,6 +67,9 @@ export default class App extends Component {
               <Route exact path="/errorpage" element={<ErrorPage />}/>
               <Route exact path="/pagenotfound" element={<PageNotFound />}/>
 
+              {/* Admin Base Chart */}
+              <Route exact path="/chart" element={<Chart />}/>
+              <Route exact path="/base" element={<Base />}/>
 
             </Routes>
           </div>
