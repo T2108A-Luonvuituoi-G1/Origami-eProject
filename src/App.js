@@ -23,8 +23,10 @@ import ProductFlag from './OrigamiPage/ProductPage/Components/ProductFlag';
 import AdminPage from './OrigamiPage/Admin/Components/AdminPage';
 import ErrorPage from './OrigamiPage/500Page/Components/ErrorPage';
 import PageNotFound from './OrigamiPage/404Page/Components/PageNotFound';
+
 import Chart from './OrigamiPage/Chart/Components/Chart';
-import Base from './OrigamiPage/Base/Components/Base';
+import BaseAvatars from './OrigamiPage/Admin/Components/BaseAvatars';
+
 
 
 export default class App extends Component {
@@ -44,32 +46,35 @@ export default class App extends Component {
               <Route exact path="/contact" element={<Contact />} />
               <Route exact path="/admin" element={<AdminPage />} />
               <Route exact path="/profile" element={<UserProfile />} />
-              
+
               {/* Category */}
-              <Route exact path="/products/ProductAnimal" element={<ProductAnimal />}/>
-              <Route exact path="/products/ProductPlant" element={<ProductPlant />}/>
-              <Route exact path="/products/ProductItem" element={<ProductItem />}/>
-              <Route exact path="/products/ProductFlag" element={<ProductFlag />}/>
+              <Route exact path="/products/ProductAnimal" element={<ProductAnimal />} />
+              <Route exact path="/products/ProductPlant" element={<ProductPlant />} />
+              <Route exact path="/products/ProductItem" element={<ProductItem />} />
+              <Route exact path="/products/ProductFlag" element={<ProductFlag />} />
 
 
               {/* Product */}
-              <Route exact path="/products/butterfly" element={<Butter />}/>
-              <Route exact path="/products/lotus" element={<Lotus />}/>
-              <Route exact path="/products/parrot" element={<Parrot />}/>
-              <Route exact path="/products/VietNamFlag" element={<Vietnam />}/>
-              <Route exact path="/products/crab" element={<Crab />}/>
-              <Route exact path="/products/pig" element={<Pig />}/>
-              <Route exact path="/products/fox" element={<Fox />}/>
-              <Route exact path="/products/frameImg" element={<Frame />}/>
-              <Route exact path="/products/JapanFlag" element={<JapanFlag />}/>
+              <Route exact path="/products/butterfly" element={<Butter />} />
+              <Route exact path="/products/lotus" element={<Lotus />} />
+              <Route exact path="/products/parrot" element={<Parrot />} />
+              <Route exact path="/products/VietNamFlag" element={<Vietnam />} />
+              <Route exact path="/products/crab" element={<Crab />} />
+              <Route exact path="/products/pig" element={<Pig />} />
+              <Route exact path="/products/fox" element={<Fox />} />
+              <Route exact path="/products/frameImg" element={<Frame />} />
+              <Route exact path="/products/JapanFlag" element={<JapanFlag />} />
 
               {/* ErrorPage */}
-              <Route exact path="/errorpage" element={<ErrorPage />}/>
-              <Route exact path="/pagenotfound" element={<PageNotFound />}/>
+              <Route exact path="/errorpage" element={<ErrorPage />} />
+              <Route exact path="/pagenotfound" element={<PageNotFound />} />
+
+              {/* Admin */}
+              <Route exact path="/admin/base" element={<BaseAvatars />} />
 
               {/* Admin Base Chart */}
               <Route exact path="/chart" element={<Chart />}/>
-              <Route exact path="/base" element={<Base />}/>
+
 
             </Routes>
           </div>
