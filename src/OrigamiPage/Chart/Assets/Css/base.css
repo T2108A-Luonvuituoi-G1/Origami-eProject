@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --dam_nhat: #ca9c80;
+    --nhat_nhat: #fdd9c8;
+    --cam-dat: #d48f4b;
+    --nude: #faddbb;
+}
