@@ -1,0 +1,38 @@
+.BA-Sizing{
+    margin-top: 10vw;
+    margin-left: 25vw;
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    width: 70vw;
+    height: 20vw;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.BA-avartar{
+    margin-top: 3vw;
+    margin-left: 3vw;
+    vertical-align: middle;
+}
+.BA-S1,.BA-S2,.BA-S3,.BA-S4,.BA-S5,.BA-S6{
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: .3vw;
+}
+.BA-S1{  
+    width: 7vw;
+}
+.BA-S2{
+    width: 6vw;
+}
+.BA-S3{
+    width: 5vw;
+}
+.BA-S4{
+    width: 4vw;
+}
+.BA-S5{
+    width: 3vw;
+}
+.BA-S6{
+    width: 2vw;
+}

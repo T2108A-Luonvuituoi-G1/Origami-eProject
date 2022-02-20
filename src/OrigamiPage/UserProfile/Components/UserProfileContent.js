@@ -37,34 +37,15 @@ function UserProfileContent() {
                 {/*Icons */}
                 <div className='up-icons'>
                     <ul className='up-icons-information'>
-
                         <li>
-                            <MdSchool /> THPT Tam Nong .
+                            <MdSchool /> THPT Tam Nong 
                         </li>
                         <li>
-                            <ImMail /> Tran****@gmail.com.
+                            <ImMail /> Tran****@gmail.com
                         </li>
                         <li>
-                            <ImPhone /> 0352946702.
+                            <ImPhone /> 0352946702
                         </li>
-                        <li>
-                            <FaEnvelope /> Send me a message.
-                        </li>
-                        <li>
-                            <FaGithub /> LuonVuiTuoi-origami.
-                        </li>
-                        <li>
-                            <BsTwitter /> tranduc0501.
-                        </li>
-                        <li>
-                            <ImFacebook /> Tran Duc.
-                        </li>
-                        <li>
-                            <AiFillHeart /> Dating hihi.
-                        </li>
-
-
-
                     </ul>
                 </div>
             </div>
