@@ -1,13 +1,8 @@
 import React from 'react'
 import AdminNav from '../../Admin/Components/AdminNav'
 import '../Assets/Css/chart.css'
-<<<<<<< HEAD
-import Line_chart from '../Assets/Img/line_char.png'
-import Bar_chart from '../Assets/Img/bar_char.png'
-=======
 import Line_chart from '../Assets/Img/line_chart.png'
 import Bar_chart from '../Assets/Img/bar_chart.png'
->>>>>>> 7037aacfe9f16950a4896ae6de444fbe34b08881
 import Pie_chart from '../Assets/Img/pie_chart.png'
 import Doughnut_chart from '../Assets/Img/Doyghnut_Chart.png'
 import Radar_chart from '../Assets/Img/Radar_chart.png'
@@ -17,7 +12,6 @@ import Mutiple_bar from '../Assets/Img/mutiple_bar.png'
 import Chart_html from '../Assets/Img/chart_with_html.png'
 
 function Chart() {
-<<<<<<< HEAD
   return (
     <React.Fragment>
     <div>
@@ -85,7 +79,6 @@ function Chart() {
 </div>
 </React.Fragment>
   )
-=======
     return (
         <>
             <div>
@@ -138,7 +131,7 @@ function Chart() {
             </div>
         </>
     )
->>>>>>> 7037aacfe9f16950a4896ae6de444fbe34b08881
+
 }
 
 export default Chart
