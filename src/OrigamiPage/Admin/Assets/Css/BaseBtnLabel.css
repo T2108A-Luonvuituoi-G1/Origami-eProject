@@ -1,0 +1,38 @@
+
+
+.button-label{
+    position: relative;
+    width: 70vw;
+    height: 18vw;
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    border-radius: 5px ;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, .2);
+    margin-top: 3vw;
+}
+/* .df-label{
+
+} */
+.pr-label{
+    margin-left: 13.8vw;
+}
+.se-label{
+    margin-left: 27vw;
+}
+.if-label{
+    margin-left: 43vw;
+}
+.sc-label{
+    margin-left: 53vw;
+
+}
+.wm-label{
+    margin-top: 5vw;
+    margin-left: 1vw;
+}
+.dg-label{
+    margin-left: 15.5vw;
+}
+.link-label{
+    margin-left: 29vw;
+}
