@@ -1,7 +1,7 @@
 
 .card-typo{
     width: 70vw;
-    height: 68vw;
+    height: 59vw;
     border: 1px solid wheat;
     background-color: antiquewhite;
     border-radius: 5px ;
@@ -27,6 +27,6 @@
     padding: 3vw;
 }
 .card-header{
-    width: 54.5vw;
+    width: 54.7vw;
     padding: 3vw;
 }
