@@ -1,0 +1,97 @@
+
+.button-icon{
+    width: 70vw;
+    height: 10vw;
+    position: relative;
+    margin-top: 3vw;
+    /* margin-left: 25vw;    */
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, .2);
+    color: #fff;
+    cursor: pointer;
+}
+.df-icon{
+    border-radius: 50%;
+    position: absolute;
+    padding:.75vw;
+    width: 3vw;
+    height: 3vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    background-color: rgb(7, 10, 3);
+}
+.pr-icon{
+    border-radius: 50%;
+    position: absolute;
+    padding:.75vw;
+    width: 3vw;
+    height: 3vw;
+    margin-top: 1vw;
+    margin-left: 6vw;
+    background-color: #1572e8;
+}
+.se-icon{
+    border-radius: 50%;
+    position: absolute;
+    padding:.75vw;
+    margin-top: 1vw;
+    margin-left: 10vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: #6861ce;
+}
+.if-icon{
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 14vw;
+    padding:.75vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: #48abf7
+
+}
+.sc-icon{
+    border-radius: 50%;
+    position: absolute;
+    padding:.75vw;
+    margin-top: 1vw;
+    margin-left: 18vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: #31ce36;
+}
+.wm-icon{
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 22vw;
+    padding:.75vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: #ffad46;
+
+}
+.dg-icon{
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 26vw;
+    padding:.75vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: #f25961;
+
+}
+.link-icon{
+    border-radius: 50%;
+    padding:.75vw;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 30vw;
+    width: 3vw;
+    height: 3vw;
+    color: #1572e8;
+
+}
