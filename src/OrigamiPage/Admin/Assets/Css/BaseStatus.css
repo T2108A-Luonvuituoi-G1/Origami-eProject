@@ -1,16 +1,19 @@
 
 .BA-Status{
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid wheat;
+    background-color: antiquewhite;
     border-radius: 5px;
     width: 70vw;
     height: 15vw;
     margin-top: 3vw;
-    margin-left: 25vw;
+    /* margin-left: 25vw; */
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
     
 }
 .Base-Text{
     margin: 1vw 2vw;
+    font-size: 1.7vw;
+    color: black;
 }
 .BA-Status-images{
     margin-left: 3vw;
@@ -55,4 +58,5 @@
     width: 3vw;
     height: 3vw;
     border-radius: 50%;
+    
 }
