@@ -68,14 +68,7 @@ function Chart() {
         </div>
     </section>
     
-    <div class="footer">
-        <p>Chart with HTML Legends</p>
-        <span>Sometimes you need a very complex legend. In these cases, it makes sense to generate an HTML legend.Charts provide a generateLegend  method on their prototype that returns<br /> an HTML string for the legend.</span>
-        
-    </div>
-    <div class="footer_img">
-        <img src={Chart_html} alt="img" />
-    </div>
+   
 </div>
 </React.Fragment>
   )
