@@ -30,14 +30,13 @@
     width: calc(100% - 20vw);
     margin-left: 20vw;
     padding: 15px;
+    background-color: #faddbb;
   }
 
   .char-box{
     display: flex;
     justify-content: space-between;
-
     width: 100%;
-
     margin-bottom: 30px;
   }
 
