@@ -1,5 +1,5 @@
 .layout-Base{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-left: 25vw;
