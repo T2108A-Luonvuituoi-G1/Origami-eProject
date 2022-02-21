@@ -1,6 +1,12 @@
-.BA-Sizing{
-    margin-top: 10vw;
+.layout-Base{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
     margin-left: 25vw;
+}
+.BA-Sizing{
+    margin-top: 3vw;
+    /* margin-left: 25vw; */
     border: 1px solid wheat;
     background-color: antiquewhite;
     border-radius: 5px;
