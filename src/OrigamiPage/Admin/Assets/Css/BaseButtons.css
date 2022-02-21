@@ -1,0 +1,85 @@
+.layout-base{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25vw;
+    margin-top: 80vw  ;
+
+}
+.button-original{
+    position: relative;
+    width: 70vw;
+    height: 18vw;
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    border-radius: 5px ;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, .2);
+    /* margin-left: 25vw; */
+    /* margin-top: 3vw; */
+
+}
+.bo-btn{
+    position: absolute;
+    top: 6vw;
+    margin-left: 1vw;
+    border-radius: 5px;
+    padding: 1vw 2vw;
+    color: aliceblue;
+    font-size: 1.7vw;
+    cursor: pointer;
+    vertical-align: middle;
+
+}
+.default-btn{
+    background-color: rgb(7, 10, 3);
+}
+.primary-btn{
+    margin-left: 11.5vw;
+    background-color: #1572e8;
+}
+.second-btn {
+    margin-left: 22.5vw;
+    background-color: #6861ce;
+}
+.info-btn   {
+    margin-left: 36vw;
+    background-color: #48abf7
+}
+.success-btn{
+    margin-left: 43.5vw;
+    background-color: #31ce36;
+}
+.warming-btn{
+    margin-left: 55vw;
+    background-color: #ffad46;
+}
+.Danger-btn {
+    margin-top: 5vw;
+    background-color: #f25961;
+}
+.btn-link{
+    color: #1572e8;
+    position: absolute;
+    margin-top: 5vw;
+    margin-left: 12vw;
+}
+.btn-link:hover{
+    text-decoration: underline;
+}
+
+.bo-btn:hover,.bi-btn:hover,.bt-btn:hover{
+    opacity: .7;
+}
+.disabled-button{
+    margin-top: 3vw;
+}
+.disable-btn{
+    opacity: 0.5;
+    cursor: default;
+}
+.disable-btn:hover{
+    opacity: 0.5;
+}
+.disable{
+    color: #999;
+}
