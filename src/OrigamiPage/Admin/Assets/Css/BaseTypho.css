@@ -1,0 +1,32 @@
+
+.card-typo{
+    width: 70vw;
+    height: 59vw;
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    border-radius: 5px ;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, .2);
+    margin-left: 25vw;
+    margin-top: 3vw;
+    flex-direction: column;
+}
+.card-head{
+    padding: 3vw;
+    font-style: italic ;
+    font-weight: 1000;
+}
+.tr{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, .2);
+    font-weight: 400;
+}
+.card-tbody{
+    width: 70vw;
+}
+.card-p{
+    width: 15vw;
+    padding: 3vw;
+}
+.card-header{
+    width: 54.7vw;
+    padding: 3vw;
+}
