@@ -1,0 +1,46 @@
+.button-type{
+    width: 70vw;
+    height: 13vw;
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    border-radius: 5px ;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, .2);
+    /* margin-left: 25vw; */
+    margin-top: 3vw;
+}
+.nomal-btn{
+    
+    margin-left: 2vw;
+    border-radius: 5px;
+    border: 1px solid #48abf7;
+    padding: 1vw 2vw;
+    background-color: #1572e8;
+
+} 
+.border-btn{
+    
+    margin-left: .5vw;
+    border-radius: 5px;
+    border: 1px solid #48abf7;
+    padding: 1vw 2vw;
+}
+.round-btn{
+    border-radius: 25px;
+    background-color: #1572e8;
+    margin-left: .5vw;
+    border: 1px solid #48abf7;
+    padding: 1vw 2vw;
+}
+.round2-btn{
+    border-radius: 25px;
+    margin-left: .5vw;
+    border: 1px solid #48abf7;
+    padding: 1vw 2vw;
+}
+.link-btn{
+    color: #1572e8;
+    padding: 1vw 2vw;
+}
+.link-btn:hover{
+    text-decoration: underline;
+}
