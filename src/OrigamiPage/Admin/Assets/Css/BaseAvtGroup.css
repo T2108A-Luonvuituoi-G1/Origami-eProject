@@ -1,0 +1,46 @@
+.BA-Group{
+    border: 1px solid wheat;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0, .2);
+    width: 70vw;
+    height: 10vw;
+    /* margin-left: 25vw; */
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+.Group-img{
+    position: absolute;
+    margin-top: 1vw;
+}
+.BA-Group-img{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+.Group-img-1{
+    position: absolute;
+    margin-left: 2vw;
+    border: 3px solid #fff;
+}
+.Group-img-2{
+    position: absolute;
+    margin-left: 4vw;
+    border: 3px solid #fff;
+
+}
+.Group-img-3{
+    position: absolute;
+    margin-left: 6vw;
+    border: 3px solid #fff;
+
+}
+.span-img{
+    position: absolute;
+    margin-left: 8vw;
+    background-color: blue;
+    text-align: center; 
+    padding:3px 0;
+    border: 3px solid #fff;
+
+}
