@@ -25,10 +25,9 @@ import ErrorPage from './OrigamiPage/500Page/Components/ErrorPage';
 import PageNotFound from './OrigamiPage/404Page/Components/PageNotFound';
 
 import Chart from './OrigamiPage/Chart/Components/Chart';
-import BaseAvatars from './OrigamiPage/Admin/Components/BaseAvatars';
 import Base from './OrigamiPage/Admin/Components/Base';
-import BaseButtons from './OrigamiPage/Admin/Components/BaseButtons';
-import BaseTyphography from './OrigamiPage/Admin/Components/BaseTyphography';
+import Table from './OrigamiPage/Table/Components/Table';
+
 
 
 
@@ -74,13 +73,15 @@ export default class App extends Component {
 
               {/* Admin Base*/}
               <Route exact path="/admin/base" element={<Base />} />
-              {/* <Route exact path="/admin/base/avt" element={<BaseAvatars />} />
-              <Route exact path="/admin/base/button" element={<BaseButtons />} />
-              <Route exact path="/admin/base/typho" element={<BaseTyphography />} /> */}
+             
 
 
               {/* Admin  Chart */}
+
               <Route exact path="/chart" element={<Chart />}/>
+
+              {/* Admin Table */}
+              <Route exact path="/table" element={<Table />}/>
 
 
             </Routes>
