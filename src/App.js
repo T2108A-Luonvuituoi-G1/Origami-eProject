@@ -26,6 +26,7 @@ import PageNotFound from './OrigamiPage/404Page/Components/PageNotFound';
 
 import Chart from './OrigamiPage/Chart/Components/Chart';
 import BaseAvatars from './OrigamiPage/Admin/Components/BaseAvatars';
+import Table from './OrigamiPage/Table/Components/Table';
 
 
 
@@ -69,11 +70,14 @@ export default class App extends Component {
               <Route exact path="/errorpage" element={<ErrorPage />} />
               <Route exact path="/pagenotfound" element={<PageNotFound />} />
 
-              {/* Admin */}
+              {/* Admin Base*/}
               <Route exact path="/admin/base" element={<BaseAvatars />} />
 
-              {/* Admin Base Chart */}
+              {/* Admin Chart */}
               <Route exact path="/chart" element={<Chart />}/>
+
+              {/* Admin Table */}
+              <Route exact path="/table" element={<Table />}/>
 
 
             </Routes>
