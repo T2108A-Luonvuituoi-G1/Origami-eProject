@@ -17,7 +17,7 @@ function AdminNav() {
                         <p>Chart</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
-                    <Link to="#" className='product-page-nav-btn admin-nav-btn'>
+                    <Link to="/table" className='product-page-nav-btn admin-nav-btn'>
                         <p>Table</p>
                         <BiChevronRight className='product-page-nav-icon' />
                     </Link>
