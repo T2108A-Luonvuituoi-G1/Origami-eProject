@@ -12,20 +12,7 @@
     font-weight: 600;
     text-align: center;
   }
-  .footer span {
-    margin-bottom: 50px;
-    word-break: break-all;
-  }
-  .footer_img {
-    margin-top: 25px;
-  }
-  .footer_img > img{
-    width: 100%;
-  }
-  .footer p{
-     font-weight: 600;    
-  }
-
+  
   .main_content{
     width: calc(100% - 20vw);
     margin-left: 20vw;
