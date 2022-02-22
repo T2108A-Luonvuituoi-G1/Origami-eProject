@@ -49,6 +49,12 @@ function UserProfileContent() {
                     </ul>
                 </div>
             </div>
+
+            <div className='up-setting'>
+                <button className='up-setting-setting'>Settings &amp; privacy</button>
+                <button className='up-setting-avatar'>Help &amp; support</button>
+                <button className='up-setting-sign-out'>Sign out</button>
+            </div>
         </>
     );
 }

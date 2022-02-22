@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../Assets/Css/Contact.css'
+import Map from './Map';
 import { BiMap, BiConversation, BiPhone } from "react-icons/bi";
 import HomeFooter from '../Components/Footer'
 function Contact() {
@@ -135,6 +136,9 @@ function Contact() {
                     </div>
                 </div>
             </div>
+
+            <Map />
+
             <HomeFooter/>
         </div>
     )

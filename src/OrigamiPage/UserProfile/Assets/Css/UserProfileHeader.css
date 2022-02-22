@@ -12,6 +12,15 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
+.up-avatar-change {
+    margin: 16.5vw 16.5vw;
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
 .up-cover-img {
     width: 68vw;
     border-radius: 1.9vw;

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import '../Assets/Css/AdminContent.css'
 import CircleChart1 from '../Assets/Images/circle-chart1.png'
 import CircleChart2 from '../Assets/Images/circle-chart2.png'
@@ -9,6 +10,52 @@ import ChartContent4 from '../Assets/Images/chart4.png'
 import ChartContent4Down from '../Assets/Images/chart4-down.png'
 
 function AdminContent() {
+    const [title, setTitle] = useState('')
+    const [author, setAuthor] = useState('')
+    const [content, setContent] = useState('')
+    const [note, setNote] = useState('')
+    const [border1, setBorder1] = useState('')
+    const [border2, setBorder2] = useState('')
+    const [border3, setBorder3] = useState('')
+    const [border4, setBorder4] = useState('')
+
+    const handleClickCheck = () => {
+        if (title == '') {
+            setBorder1('0.2vw solid #DD4A48')
+        } else {
+            setBorder1('0.2vw solid rgb(63 133 26)')
+        }
+
+        if (author == '') {
+            setBorder2('0.2vw solid #DD4A48')
+        } else {
+            setBorder2('0.2vw solid rgb(63 133 26)')
+        }
+
+        if (content == '') {
+            setBorder3('0.2vw solid #DD4A48')
+        } else {
+            setBorder3('0.2vw solid rgb(63 133 26)')
+        }
+
+        if (note == '') {
+            setBorder4('0.2vw solid #DD4A48')
+        } else {
+            setBorder4('0.2vw solid rgb(63 133 26)')
+        }
+
+        if (title != '' && author != '' && content != '' && note != '') {
+            setTitle('');
+            setAuthor('');
+            setContent('');
+            setNote('');
+            setBorder1('none');
+            setBorder2('none');
+            setBorder3('none');
+            setBorder4('none');
+        }
+    }
+
     return (
         <>
             <div className='admin-content-main'>
@@ -104,6 +151,66 @@ function AdminContent() {
             <div className='admin-main3'>
                 <div className='admin-main3-header'>
                     <p className='admin-main3-title'>Add origamis</p>
+                </div>
+                <div className='admin-main3-content'>
+                    <div className='admin-main3-content-header'>
+                        <input type='text' id='title' className='admin-input-title admin-input-area' placeholder='Title'
+                            value={title}
+                            style={{ border: border1 }}
+                            onChange={e => setTitle(e.target.value)}
+                        />
+                        <input type='text' id='author' className='admin-input-author admin-input-area' placeholder='Author'
+                            value={author}
+                            style={{ border: border2 }}
+                            onChange={e => setAuthor(e.target.value)}
+                        />
+                    </div>
+                    <div className='admin-main3-content-content'>
+                        <textarea id='content' className='admin-input-content admin-input-area' rows="17" cols="140" placeholder='Content'
+                            value={content}
+                            style={{ border: border3 }}
+                            onChange={e => setContent(e.target.value)}
+                        ></textarea>
+                    </div>
+
+                    <div className='admin-input-img admin-input-area'>
+                        <div className='admin-input-img-img'>Photos</div>
+                        <div className='admin-input-img-video'>Videos</div>
+                        <div className='admin-input-img-icon'>Fonts</div>
+                    </div>
+
+                    <div className='admin-main3-content-footer'>
+                        <textarea id='note' className='admin-input-note admin-input-area' rows="17" cols="140" placeholder='Note'
+                            value={note}
+                            style={{ border: border4 }}
+                            onChange={e => setNote(e.target.value)}
+                        ></textarea>
+                        <div className='admin-input-favicon admin-input-area'>
+                            <p className='admin-input-favicon-title'>Avatar</p>
+                        </div>
+                    </div>
+                    <input type='submit' className='admin-input-submit admin-input-area' value='POST'
+                        onClick={handleClickCheck}
+                    />
+                </div>
+            </div>
+
+            <div className='admin-footer-main'>
+                <div className='admin-footer-right'>
+                    <Link className='admin-footer-link' to='/'>
+                        <p>Luonvuituoi</p>
+                    </Link>
+                    <Link className='admin-footer-link' to='/pagenotfound'>
+                        <p>Help</p>
+                    </Link>
+                    <Link className='admin-footer-link' to='/contact'>
+                        <p>Contact</p>
+                    </Link>
+                </div>
+                <div className='admin-footer-left'>
+                    <Link className='admin-footer-link' to='/aboutus'>
+                        <p>Luonvuituoi team</p>
+                    </Link>
                 </div>
             </div>
         </>
