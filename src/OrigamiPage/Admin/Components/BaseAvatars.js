@@ -14,7 +14,7 @@ export default function BaseAvatars() {
             
             <div className='layout-Base'>
                 <div className='BA-Sizing'>
-                    <h4 className='Base-Text'>Sizing</h4><hr />
+                    <p className='Base-Text'>Sizing</p><hr />
                     <div className='BA-avartar'>
                         <img src={Namavt} className='BA-S1' />
                         <img src={Namavt} className='BA-S2' />
@@ -27,7 +27,7 @@ export default function BaseAvatars() {
 
 
                 <div className='BA-Status'>
-                    <h4 className='Base-Text'>Status Indicator</h4><hr />
+                    <p className='Base-Text'>Status Indicator</p><hr />
 
                     <div className='BA-Status-images'>
                         <div className='BA-Status-online '>
@@ -42,12 +42,12 @@ export default function BaseAvatars() {
                     </div>
                 </div>
                 <div className='BA-Shape'>
-                    <h4 className='Base-Text'>Shape</h4><hr/>
+                    <p className='Base-Text'>Shape</p><hr/>
                     <img src={Namavt} className='BA-Shape-img shape-1' />
                     <img src={Namavt} className='BA-Shape-img shape-2' />
                 </div>
                 <div className='BA-Group'>
-                    <h4 className='Base-Text'>Group</h4><hr/>
+                    <p className='Base-Text'>Group</p><hr/>
                     <div className='Group-img'>
                     <img src={Namavt} className='BA-Group-img Group-img-1' />
                     <img src={Namavt} className='BA-Group-img Group-img-2' />
