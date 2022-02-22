@@ -12,6 +12,66 @@ import Mutiple_bar from '../Assets/Img/mutiple_bar.png'
 import Chart_html from '../Assets/Img/chart_with_html.png'
 
 function Chart() {
+  return (
+    <React.Fragment>
+    <div>
+        <AdminNav />
+    </div>
+<div className='main_content'>
+    <div class="header">
+    <p>Chart.js</p>
+    <span>Simple yet flexible JavaScript charting for designers developers. Please checkout their full
+        <b>documentation.</b></span>
+    </div>
+
+    <section className='char-box'>
+        <div class="char_left-1">
+            <p className='char_text'>Line Chart</p>
+            <img src={Line_chart} alt="img" />
+        </div>
+        <div class="char_right-1">
+            <p className='char_text'>Bar chart</p>
+            <img src={Bar_chart} alt="img" />
+        </div>
+    </section>
+
+    <section className='char-box'>
+        <div class="char_left-2">
+            <p className='char_text'>Pie Chart</p>
+            <img src={Pie_chart} alt="img" />
+        </div>
+        <div class="char_right-2">
+            <p className='char_text'>Doughnut chart</p>
+            <img src={Doughnut_chart} alt="img"/>
+        </div>
+    </section>
+
+    <section className='char-box'>
+        <div class="char_left-3">
+            <p className='char_text'>Radar Chart</p>
+            <img src={Radar_chart} alt="img" />
+        </div>
+        <div class="char_right-3">
+            <p className='char_text'>Bubble Chart</p>
+            <img src={Bubble_chart} alt="img" />
+        </div>
+    </section>
+
+    <section className='char-box'>
+        <div class="char_left-4">
+            <p className='char_text'>Multiple Line Chart</p>
+            <img src={Mutiple_line} alt="img" />
+        </div>
+        <div class="char_right-4">
+            <p className='char_text'>Multiple Bar Chart</p>
+            <img src={Mutiple_bar} alt="img" />
+        </div>
+    </section>
+    
+   
+</div>
+</React.Fragment>
+  )
     return (
         <>
             <div>
@@ -64,6 +124,7 @@ function Chart() {
             </div>
         </>
     )
+
 }
 
 export default Chart
