@@ -21,7 +21,7 @@ export default function BaseButtons() {
             {/* <AdminNav/> */}
             <div className='layout-Base'>
                 <div className='button-original'>
-                    <h4 className='Base-Text'>Button Original</h4><hr/>
+                    <p className='Base-Text'>Button Original</p><hr/>
                     <a className='bo-btn default-btn '>Default</a>
                     <a className='bo-btn primary-btn '>Primary</a>
                     <a className='bo-btn second-btn  '>Secondary</a>
@@ -33,7 +33,7 @@ export default function BaseButtons() {
                 </div>
 
                 <div className='button-label'>
-                    <h4 className='Base-Text'>Button with Label</h4><hr/>
+                    <p className='Base-Text'>Button with Label</p><hr/>
                     <a className='bo-btn default-btn df-label '><BsFillArchiveFill/> Default</a>
                     <a className='bo-btn primary-btn pr-label '><BsBookmark/> Primary</a>
                     <a className='bo-btn second-btn  se-label '><TiPlus/> Secondary</a>
@@ -44,7 +44,7 @@ export default function BaseButtons() {
                     <a className='bo-btn btn-link link-label'><FaLink/>Link</a>
                 </div>
                 <div className='button-icon'>
-                    <h4 className='Base-Text'>Button Icon</h4><hr/>
+                    <p className='Base-Text'>Button Icon</p><hr/>
                     <a className='bi-btn df-icon   '><FaAlignLeft/> </a>
                     <a className='bi-btn pr-icon   '><FaTwitter/></a>
                     <a className='bi-btn se-icon   '><BsBookmark/> </a>
@@ -55,7 +55,7 @@ export default function BaseButtons() {
                     <a className='bi-btn link-icon'><FaLink/></a>
                 </div>
                 <div className='button-type'>
-                    <h4 className='Base-Text'>Button Type</h4><hr/><br/>
+                    <p className='Base-Text'>Button Type</p><hr/><br/>
                     <a className='bt-btn  nomal-btn '>Nomal</a>
                     <a className='bt-btn  border-btn'>Border</a>
                     <a className='bt-btn  round-btn '>Round</a>
@@ -63,7 +63,7 @@ export default function BaseButtons() {
                     <a className='bt-btn   link-btn'>Link</a>
                 </div>
                 <div className='button-original disabled-button'>
-                    <h4 className='Base-Text'>Disabled Button </h4><hr/>
+                    <p className='Base-Text'>Disabled Button </p><hr/>
                     <a className='bo-btn default-btn disable-btn'>Default</a>
                     <a className='bo-btn primary-btn disable-btn'>Primary</a>
                     <a className='bo-btn second-btn  disable-btn'>Secondary</a>
