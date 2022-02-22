@@ -15,7 +15,7 @@ function Comment() {
             setBorder('0.2vw solid #DD4A48')
         } else {
             setBorder('')
-            setComments(prev => [...prev, comment])
+            setComments(prev => [comment ,...prev])
             setComment('')
         }
     }

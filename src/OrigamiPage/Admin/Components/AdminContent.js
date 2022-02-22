@@ -100,6 +100,12 @@ function AdminContent() {
                     </div>
                 </div>
             </div>
+
+            <div className='admin-main3'>
+                <div className='admin-main3-header'>
+                    <p className='admin-main3-title'>Add origamis</p>
+                </div>
+            </div>
         </>
     )
 }

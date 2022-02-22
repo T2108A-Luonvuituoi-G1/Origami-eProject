@@ -43,7 +43,7 @@ export default function BaseButtons() {
                     <a className='bo-btn Danger-btn  dg-label '><FaHeart/> Danger</a>
                     <a className='bo-btn btn-link link-label'><FaLink/>Link</a>
                 </div>
-                <div className='button-icon'>
+                {/* <div className='button-icon'>
                     <p className='Base-Text'>Button Icon</p><hr/>
                     <a className='bi-btn df-icon   '><FaAlignLeft/> </a>
                     <a className='bi-btn pr-icon   '><FaTwitter/></a>
@@ -53,7 +53,7 @@ export default function BaseButtons() {
                     <a className='bi-btn wm-icon   '><FaExclamationCircle/> </a>
                     <a className='bi-btn dg-icon   '><FaHeart/> </a>
                     <a className='bi-btn link-icon'><FaLink/></a>
-                </div>
+                </div> */}
                 <div className='button-type'>
                     <p className='Base-Text'>Button Type</p><hr/><br/>
                     <a className='bt-btn  nomal-btn '>Nomal</a>

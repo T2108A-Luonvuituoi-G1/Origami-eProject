@@ -1,6 +1,5 @@
 
 .BA-Status{
-    border: 1px solid wheat;
     background-color:rgb(250, 236, 229);
 
     border-radius: 1.9vw;
@@ -14,7 +13,7 @@
 .Base-Text{
     margin: 1vw 2vw;
     font-size: 1.5vw;
-    color: black;
+    color: rgb(51, 51, 51);
 }
 .BA-Status-images{
     margin-left: 3vw;

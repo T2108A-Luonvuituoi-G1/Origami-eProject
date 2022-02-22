@@ -1,7 +1,6 @@
 .button-type{
     width: 70vw;
     height: 13vw;
-    border: 1px solid wheat;
     background-color:rgb(250, 236, 229);
 
     border-radius: 1.9vw ;
@@ -12,38 +11,63 @@
     margin-top: 3vw;
 }
 .nomal-btn{
-    
+    color: #fff;
+    cursor: pointer;
     margin-left: 2vw;
-    border-radius: 5px;
-    border: 1px solid #48abf7;
+    border-radius: 1.9vw;
     padding: 1vw 2vw;
-    background-color: #1572e8;
+    transition: 0.25s;
+    background-color: #c56e17;
 
 } 
 .border-btn{
-    
+    color: #fff;
+    cursor: pointer;
     margin-left: .5vw;
-    border-radius: 5px;
-    border: 1px solid #48abf7;
-    padding: 1vw 2vw;
+    border-radius: 1.9vw;
+    border: 0.15vw solid #fff;
+    transition: 0.25s;
+    padding: 0.9vw 2vw;
 }
 .round-btn{
-    border-radius: 25px;
-    background-color: #1572e8;
+    color: #fff;
+    border-radius: 1.9vw;
+    background-color: #c56e17;
     margin-left: .5vw;
-    border: 1px solid #48abf7;
     padding: 1vw 2vw;
+    transition: 0.25s;
+    cursor: pointer;
 }
 .round2-btn{
-    border-radius: 25px;
+    color: #fff;
+    border-radius: 1.9vw;
     margin-left: .5vw;
-    border: 1px solid #48abf7;
-    padding: 1vw 2vw;
+    border: 0.15vw solid #fff;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 0.9vw 2vw;
 }
+
+.border-btn:hover,
+.round2-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.25s;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+
+.nomal-btn:hover,
+.round-btn:hover {
+    transition: 0.25s;
+    background-color: #e47d16;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+
 .link-btn{
-    color: #1572e8;
+    color: #c56e17;
     padding: 1vw 2vw;
 }
 .link-btn:hover{
     text-decoration: underline;
+    cursor: pointer;
 }

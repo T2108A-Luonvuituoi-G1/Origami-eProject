@@ -276,3 +276,25 @@
     margin: 8.9vw 0 0 -2.2vw;
     border-radius: 0 0 1.9vw 1.9vw;
 }
+
+.admin-main3 {
+    position: relative;
+    left: 22vw;
+    top: 18vw;
+    width: 74.7vw;
+    height: 37vw;
+    background-color: rgb(250, 236, 229);
+    border-radius: 1.9vw;
+    padding: 2vw;
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 20%);
+}
+
+.admin-main3-header {
+    position: absolute;
+    width: 94.6%;
+}
+
+.admin-main3-title {
+    font-size: 1.5vw;
+    color: rgb(51, 51, 51);
+}

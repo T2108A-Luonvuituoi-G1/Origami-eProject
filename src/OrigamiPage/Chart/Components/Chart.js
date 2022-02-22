@@ -18,52 +18,38 @@ function Chart() {
         <AdminNav />
     </div>
 <div className='main_content'>
-    <div class="header">
-    <p>Chart.js</p>
-    <span>Simple yet flexible JavaScript charting for designers developers. Please checkout their full
-        <b>documentation.</b></span>
+    <div className="header">
     </div>
 
     <section className='char-box'>
-        <div class="char_left-1">
-            <p className='char_text'>Line Chart</p>
+        <div className="char_left-1 chart-page">
+            <p className='char_text'>Active Users</p>
             <img src={Line_chart} alt="img" />
         </div>
-        <div class="char_right-1">
-            <p className='char_text'>Bar chart</p>
+        <div className="char_right-1 chart-page">
+            <p className='char_text'>Sales</p>
             <img src={Bar_chart} alt="img" />
         </div>
     </section>
 
     <section className='char-box'>
-        <div class="char_left-2">
-            <p className='char_text'>Pie Chart</p>
+        <div className="char_left-2 chart-page">
+            <p className='char_text'>User Statistics</p>
             <img src={Pie_chart} alt="img" />
         </div>
-        <div class="char_right-2">
-            <p className='char_text'>Doughnut chart</p>
+        <div className="char_right-2 chart-page">
+            <p className='char_text'>Origamis</p>
             <img src={Doughnut_chart} alt="img"/>
         </div>
     </section>
 
     <section className='char-box'>
-        <div class="char_left-3">
-            <p className='char_text'>Radar Chart</p>
-            <img src={Radar_chart} alt="img" />
-        </div>
-        <div class="char_right-3">
-            <p className='char_text'>Bubble Chart</p>
-            <img src={Bubble_chart} alt="img" />
-        </div>
-    </section>
-
-    <section className='char-box'>
-        <div class="char_left-4">
-            <p className='char_text'>Multiple Line Chart</p>
+        <div className="char_left-4 chart-page">
+            <p className='char_text'>Programing language</p>
             <img src={Mutiple_line} alt="img" />
         </div>
-        <div class="char_right-4">
-            <p className='char_text'>Multiple Bar Chart</p>
+        <div className="char_right-4 chart-page">
+            <p className='char_text'>Traffic Stats</p>
             <img src={Mutiple_bar} alt="img" />
         </div>
     </section>
