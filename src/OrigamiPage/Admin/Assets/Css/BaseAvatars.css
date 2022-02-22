@@ -8,7 +8,8 @@
     margin-top: 3vw;
     /* margin-left: 25vw; */
     border: 1px solid wheat;
-    background-color: antiquewhite;
+    background-color:rgb(250, 236, 229);
+
     border-radius: 1.9vw;
     width: 70vw;
     height: 20vw;
@@ -24,6 +25,7 @@
     border-radius: 50%;
     vertical-align: middle;
     margin-left: .3vw;
+    cursor: pointer;
 }
 .BA-S1{  
     width: 7vw;
