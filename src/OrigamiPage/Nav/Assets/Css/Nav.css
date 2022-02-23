@@ -77,13 +77,13 @@
 .nav-link-page {
     width: 50vw;
     position: absolute;
-    margin: 0.5vw 24.5vw;
+    margin: 0.5vw 26vw;
 }
 
 .nav-link {
     font-size: 1.33vw;
     border-radius: 1.8vw;
-    margin: 0 0.2vw;
+    margin: 0 0.9vw;
     padding: 1vw 1.6vw;
     text-transform: uppercase;
     text-decoration: none;

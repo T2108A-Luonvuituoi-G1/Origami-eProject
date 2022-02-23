@@ -22,7 +22,6 @@ function Nav() {
                         <Link className='nav-link' to="/products">Origami</Link>
                         <Link className='nav-link' to="/aboutus">About Us</Link>
                         <Link className='nav-link' to="/contact">Contact</Link>
-                        <Link className='nav-link' to="/admin">Admin</Link>
                     </div>
                     <div className='home-clock'>
                         <NavClock />
