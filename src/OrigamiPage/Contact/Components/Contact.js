@@ -137,7 +137,6 @@ function Contact() {
                 </div>
             </div>
 
-            <Map />
 
             <HomeFooter/>
         </div>
