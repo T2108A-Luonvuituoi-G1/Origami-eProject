@@ -2,9 +2,9 @@ import React from 'react'
 import AdminNav from '../../Admin/Components/AdminNav'
 import { Link } from 'react-router-dom';
 import '../Assets/Css/Table.css'
+import { AiFillDelete } from "react-icons/ai";
 
 function Table() {
-
     return (
         <>
             <div>
@@ -123,6 +123,146 @@ function Table() {
                 </div>
 
             </div>
+
+            <div className='table-basic table-basic-origami'>
+                <div className='table-basic-header'>
+                    <div className='table-basic-header-title'>
+                        <p className='table-basic-title'>Origamis data</p>
+                        <p className='table-basic-title-sub'>Daily information about statistics in system</p>
+                    </div>
+                    <div className='table-basic-header-btn'>
+                        <p className='table-basic-header-btn-search'>Search</p>
+                        <input type='text' className='table-basic-header-btn-search-input' placeholder='Search' />
+                    </div>
+                </div>
+                <div className='table-basic-content'>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>Name</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Category</div>
+                        <div className='table-basic-content-header-age table-content-fff'>Delete</div>
+                        <div className='table-basic-content-header-address table-content-fff'>Adder</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name'>Fox</div>
+                        <div className='table-basic-content-header-email'>Animal</div>
+                        <div className='table-basic-content-header-age'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address'>Nam</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>Boar</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Animal</div>
+                        <div className='table-basic-content-header-age table-content-fff'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address table-content-fff'>Viet</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name'>Butterfly</div>
+                        <div className='table-basic-content-header-email'>Animal</div>
+                        <div className='table-basic-content-header-age'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address'>Viet Anh</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>Crab</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Animal</div>
+                        <div className='table-basic-content-header-age table-content-fff'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address table-content-fff'>Minh</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name'>Parrot</div>
+                        <div className='table-basic-content-header-email'>Animal</div>
+                        <div className='table-basic-content-header-age'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address'>Duc</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>Lotus</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Plant</div>
+                        <div className='table-basic-content-header-age table-content-fff'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address table-content-fff'>Minh</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name'>Frame</div>
+                        <div className='table-basic-content-header-email'>Item</div>
+                        <div className='table-basic-content-header-age'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address'>Nam</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>FLag</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Flag</div>
+                        <div className='table-basic-content-header-age table-content-fff'><AiFillDelete id="table-delete" /></div>
+                        <div className='table-basic-content-header-address table-content-fff'>Viet</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div id='table-basic-admin' className='table-basic table-basic-origami'>
+                <div className='table-basic-header'>
+                    <div className='table-basic-header-title'>
+                        <p className='table-basic-title'>Admin member</p>
+                        <p className='table-basic-title-sub'>Daily information about statistics in system</p>
+                    </div>
+                    <div className='table-basic-header-btn'>
+                        <p className='table-basic-header-btn-search'>Search</p>
+                        <input type='text' className='table-basic-header-btn-search-input' placeholder='Search' />
+                    </div>
+                </div>
+                <div id='table-basic-content-admin' className='table-basic-content'>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>Name</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Email</div>
+                        <div className='table-basic-content-header-age table-content-fff'>Age</div>
+                        <div className='table-basic-content-header-address table-content-fff'>Salary</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name'>Vo Van Viet</div>
+                        <div className='table-basic-content-header-email'>viet1234@gmail.com</div>
+                        <div className='table-basic-content-header-age'>18</div>
+                        <div className='table-basic-content-header-address'>2000$</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>Dao Thanh Nam</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Nam1234@gmail.com</div>
+                        <div className='table-basic-content-header-age table-content-fff'>19</div>
+                        <div className='table-basic-content-header-address table-content-fff'>1950$</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name'>Le Nhu Viet Anh</div>
+                        <div className='table-basic-content-header-email'>Vanh1234@gmail.com</div>
+                        <div className='table-basic-content-header-age'>19</div>
+                        <div className='table-basic-content-header-address'>1500$</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name table-content-fff'>Tran Minh Duc</div>
+                        <div className='table-basic-content-header-email table-content-fff'>Duc1234@gmail.com</div>
+                        <div className='table-basic-content-header-age table-content-fff'>19</div>
+                        <div className='table-basic-content-header-address table-content-fff'>2000$</div>
+                    </div>
+
+                    <div className='table-basic-content-header'>
+                        <div className='table-basic-content-header-name'>Ta Quang Minh</div>
+                        <div className='table-basic-content-header-email'>Minh1234@gmail.com</div>
+                        <div className='table-basic-content-header-age'>19</div>
+                        <div className='table-basic-content-header-address'>1800$</div>
+                    </div>
+                </div>
+
+            </div>
+
             <div className='admin-footer-main admin-table-footer'>
                 <div className='admin-footer-right'>
                     <Link className='admin-footer-link' to='/'>

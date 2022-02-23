@@ -176,7 +176,7 @@ function AdminContent() {
                     <div className='admin-input-img admin-input-area'>
                         <div className='admin-input-img-img'>Photos</div>
                         <div className='admin-input-img-video'>Videos</div>
-                        <div className='admin-input-img-icon'>Fonts</div>
+                        <div className='admin-input-img-icon'>Category</div>
                     </div>
 
                     <div className='admin-main3-content-footer'>

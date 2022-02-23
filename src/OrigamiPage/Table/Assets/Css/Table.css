@@ -220,5 +220,23 @@
 }
 
 .admin-table-footer {
-    margin: 8vw 20vw 0 20vw;
+    margin: 22vw 20vw 0 20vw;
+}
+
+.table-basic-origami {
+    top: 7.5vw;
+}
+
+#table-delete {
+    color: red;
+    cursor: pointer;
+}
+
+#table-basic-admin {
+    top: 15vw;
+    height: 56vw;
+}
+
+#table-basic-content-admin {
+    height: 44.5vw;
 }
