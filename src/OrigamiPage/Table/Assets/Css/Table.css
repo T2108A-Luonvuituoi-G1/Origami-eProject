@@ -1,0 +1,21 @@
+.table_2{
+    background: rgb(247, 129, 247);
+}
+#basic-datatables-wrapper{
+    margin: 0px 0px 0px 20vw;
+    list-style: decimal;
+    line-height:50px;
+}
+#basic-datatables-length{
+    margin: 0vw 0vw 0vw 0vw;
+}
+.datatables-col{
+    height: 34.5vw;
+}
+#basic-datatables-btc{
+    outline-style: double;
+    cursor: pointer;
+    display: inline;
+    empty-cells: hide;
+    word-wrap: break-word;
+}
