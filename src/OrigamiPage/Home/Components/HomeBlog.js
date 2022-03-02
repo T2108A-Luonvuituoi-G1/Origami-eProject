@@ -18,7 +18,7 @@ export default class HomeBlog extends Component {
             <div className='home-blog'>
                 <div className='home-blog-page'>
                     <div className='home-blog-header'>
-                        TOP PRODUCTS
+                        TOP ORIGAMIS
                         <Link className='home-blog-header-btn' to="/products">
                             <p className='home-blog-header-p'>SEE ALL</p>
                             <BiChevronRight className='home-blog-icon' />
